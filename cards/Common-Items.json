@@ -1,0 +1,1602 @@
+[
+  {
+    "name": "Padded Armor",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A simple quilted jacket made of thick, padded cloth. It offers minimal protection but is quiet and flexible. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Lightweight</h3><p><strong>(Passive)</strong></p><p><em>This armor does not impose disadvantage on DEX rolls for stealth or acrobatics. When you use the Disengage action, you may move an additional square.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "header_image": "Padded_Armor.png"
+  },
+  {
+    "name": "Scout's Jerkin",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A simple sleeveless jacket of tough, boiled leather, designed for mobility above all else. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Swift Traveler</h3><p><strong>(Passive)</strong></p><p><em>This armor does not count towards your Load. Your base SPEED is increased by 1.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "header_image": "Scouts_Jerkin.png"
+  },
+  {
+    "name": "Ornate Noble's Garb",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A lavish, fashionable outfit made of fine silks and velvets. It offers no real protection but makes a powerful social statement. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>First Impression</h3><p><strong>(Passive)</strong></p><p><em>When you first meet someone in a civilized setting, you have advantage on your initial CHA roll to interact with them.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "80"
+      }
+    ],
+    "header_image": "Ornate_Nobles_Garb.png"
+  },
+  {
+    "name": "Studded Leather Armor",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>Boiled leather reinforced with metal studs, offering a balance of protection and flexibility. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Acrobat's Leathers</h3><p><strong>(Passive)</strong></p><p><em>This armor does not impose disadvantage on DEX rolls for stealth or acrobatics. When you successfully Defy Danger using DEX to avoid an attack, you may immediately <strong>Shift 1</strong> square.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "45"
+      }
+    ],
+    "header_image": "Studded_Leather_Armor.png"
+  },
+  {
+    "name": "Hide Armor",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>Crude armor made from the thick hides of beasts. It's heavy and cumbersome, but offers decent protection. It provides <strong>+1 Armor</strong> and is clumsy.</p><p></p><hr><h3>Primal Resilience</h3><p><strong>(Reaction)</strong> When you take damage that would reduce you to 0 HP, you can spend your reaction to roll+CON.</p><ul><li><strong>On a 16+:</strong> You endure the blow and are left with 1d6 HP instead.</li><li><strong>On a 9-15:</strong> You are left with 1 HP.</li><li><strong>On a 1-8:</strong> You fall to 0 HP as normal, but you gain advantage on your Last Breath roll.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "6"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Hide_Armor.png"
+  },
+  {
+    "name": "Bolas",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A throwing weapon made of weights on the ends of interconnected cords, designed to wrap around and entangle a target's legs. <strong>Range:</strong> Ranged (5 squares).</p><p></p><hr><h3>Tangle</h3><p>When you use your action to throw the bolas at a target, spend 1 HP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> You perfectly entangle the target. They are <strong>Immobilized</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The target is entangled but can still move carefully. They are <strong>Slowed</strong> for 2 rounds.</li><li><strong>On a 1-8:</strong> You miss, but the bolas clatter on the ground, creating a 1-square area of difficult terrain.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "header_image": "Bolas.png"
+  },
+  {
+    "name": "Javelin",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A light spear designed for throwing. Can also be used in melee. <strong>Range:</strong> Melee (1 square) or Ranged (8 squares).</p><p></p><hr><h3>Piercing Throw</h3><p>When you make a Volley attack with this weapon, you can spend 1 HP (stamina) to throw with extra force. If the attack hits, it ignores 1 point of the target's Armor. On a High Hit (16+), it ignores 2 points of Armor instead.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "header_image": "Javelin.png"
+  },
+  {
+    "name": "Throwing Hammer",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A set of three light hammers, perfectly balanced for throwing. Favored by dwarven skirmishers. <strong>Range:</strong> Ranged (4 squares).</p><p></p><hr><h3>Stunning Throw</h3><p>When you make a Volley attack, you can spend 1 HP (stamina) to throw with concussive force. Roll+STR instead of DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD. If the target's COS is less than your STR, they are also <strong>Stunned</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You deal your HD.</li><li><strong>On a 1-8:</strong> You deal half your HD, but the throw is awkward and you cannot easily retrieve the hammer.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "header_image": "Throwing_Hammer.png"
+  },
+  {
+    "name": "Cutlass",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A short, broad saber or slashing sword, with a straight or slightly curved blade sharpened on the cutting edge, and a hilt often featuring a solid cupped or basket-shaped guard. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Flourish</h3><p>When you use your action to perform a dazzling flourish, spend 1 SP and roll+CHA.</p><ul><li><strong>On a 16+:</strong> Your display is breathtaking. You and all allies gain advantage on your next roll.</li><li><strong>On a 9-15:</strong> Your display is impressive. You gain advantage on your next roll.</li><li><strong>On a 1-8:</strong> You look foolish. You are <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "header_image": "Cutlass.png"
+  },
+  {
+    "name": "Spear",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A simple pole weapon with a pointed tip, one of the most ancient and reliable tools of war and hunting. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Set for Charge</h3><p>When you use your action to set your spear against a charging enemy, roll+STR.</p><ul><li><strong>On a 16+:</strong> You perfectly time your brace. The enemy's movement ends when they enter your reach, and they take double the damage from your Attack of Opportunity.</li><li><strong>On a 9-15:</strong> You brace, but not perfectly. The enemy's movement ends, and your Attack of Opportunity deals normal damage.</li><li><strong>On a 1-8:</strong> You are too slow. The enemy completes their charge, and their attack against you has advantage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "header_image": "Spear.png"
+  },
+  {
+    "name": "Shortbow",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A small, lightweight bow, easier to use in close quarters or from horseback than its larger cousins. <strong>Range:</strong> Ranged (10 squares).</p><p></p><hr><h3>Rapid Shot</h3><p>When you make a Volley attack, you can spend 1 HP (stamina) to quickly fire two arrows instead of one. Make a second, separate attack roll against the same target.</p><ul><li><strong>On any hit:</strong> The arrows deal half your HD each.</li><li><strong>On a 1-8 on either roll:</strong> One of your arrows flies wide and hits the nearest creature to your target (friend or foe) for 1d4 damage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "header_image": "Shortbow.png"
+  },
+  {
+    "name": "Throwing Axes",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A set of three light, balanced axes designed to be thrown. <strong>Range:</strong> Ranged (4 squares).</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Whirling Axes</h3><p>When you use your action to throw an axe, you can spend 2 HP (stamina) to throw two at once. Make a separate Volley attack roll against two different targets within 2 squares of each other.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "header_image": "Throwing_Axes.png"
+  },
+  {
+    "name": "Blowgun",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A long, narrow tube for firing light darts over short distances. It is nearly silent but lacks the power to penetrate armor. <strong>Range:</strong> Ranged (4 squares).</p><p></p><hr><h3>Venom Dart</h3><p>When you make a Volley attack with a poisoned dart, roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal no damage, but the target is <strong>Poisoned</strong> for 3 rounds, taking 1d4 damage each round. If their CON is less than your DEX, they are also <strong>Slowed</strong> for the duration.</li><li><strong>On a 9-15:</strong> The target is <strong>Poisoned</strong> for 2 rounds.</li><li><strong>On a 1-8:</strong> The dart hits but only delivers a partial dose; the target is <strong>Poisoned</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "header_image": "Blowgun.png"
+  },
+  {
+    "name": "Improvised Caber",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A heavy log, a small tree, or a stone pillar you've ripped from the ground. It's clumsy but devastating. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Unwieldy Swing</h3><p>When you make a Hack & Slash attack with this weapon, spend 2 HP. You have disadvantage on your roll.</p><ul><li><strong>On any hit:</strong> You deal your HD + 5 and may <strong>Push 2</strong> your target.</li><li><strong>On a Low Hit (1-8):</strong> You also lose your balance and are <strong>Stunned</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "0"
+      }
+    ],
+    "header_image": "Caber.png"
+  },
+  {
+    "name": "Boomerang",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A curved piece of hardwood designed to return to the thrower when thrown correctly. <strong>Range:</strong> Ranged (5 squares).</p><p></p><hr><h3>Returning Throw</h3><p>When you make a Volley attack with this weapon, roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD, and the boomerang returns perfectly to your hand.</li><li><strong>On a 9-15:</strong> You deal your HD, but the boomerang clatters to the ground in the target's square.</li><li><strong>On a 1-8:</strong> You deal half your HD, but the boomerang flies off in a random direction 1d4 squares away from the target.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "header_image": "Boomerang.png"
+  },
+  {
+    "name": "Weighted Net",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A heavy rope net with lead weights on the edges, designed to entangle and immobilize a target. <strong>Range:</strong> Ranged (3 squares).</p><p></p><hr><h3>Ensnare</h3><p>When you use your action to throw the net at a creature, spend 1 HP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> The target is <strong>Immobilized</strong> for 2 rounds or until they or an ally spend an action to untangle them.</li><li><strong>On a 9-15:</strong> The target is <strong>Immobilized</strong> for 1 round.</li><li><strong>On a 1-8:</strong> You get tangled in your own net and are <strong>Immobilized</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "header_image": "Weighted_Net.png"
+  },
+  {
+    "name": "Warhammer",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A one-handed hammer with a heavy, dense head for crushing blows and a sharp spike for piercing armor. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Staggering Blow</h3><p>When you make a Hack & Slash attack, you can spend 1 HP (stamina). On a hit, if the target's COS is less than your STR, they are <strong>Weakened</strong> for 1 round.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "header_image": "Warhammer.png"
+  },
+  {
+    "name": "Sling",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A simple leather strap used to hurl small stones or lead bullets. Ammunition is plentiful, but it requires great skill to use effectively. <strong>Range:</strong> Ranged (8 squares).</p><p></p><hr><h3>Ricochet Shot</h3><p>When you make a Volley attack, you can choose to target a hard surface near an enemy instead of the enemy directly. Roll+DEX with disadvantage.</p><ul><li><strong>On a 16+:</strong> You deal your HD. The target cannot use a shield against this attack, and it ignores 1 point of armor.</li><li><strong>On a 9-15:</strong> You deal your HD, but the ricochet is wild.</li><li><strong>On a 1-8:</strong> The shot goes wide and gives away your position.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1 coin"
+      }
+    ],
+    "header_image": "Sling.png"
+  },
+  {
+    "name": "Scythe",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A farmer's tool with a long, curving blade, repurposed for war. Its wide, sweeping arc is terrifying to face. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Reap</h3><p>When you make a Hack & Slash attack, you can spend 2 HP to sweep the scythe in a wide arc. You may target up to two adjacent enemies in your reach, making a separate attack roll against each.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Scythe.png"
+  },
+  {
+    "name": "Pitchfork",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A common farming implement with long tines, surprisingly effective at keeping foes at a distance. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Keep Away!</h3><p>When you use the Defend action with this weapon, you may spend hold 1-for-1. On your turn, instead of a normal choice, you can spend 1 hold to <strong>Push 1</strong> an adjacent enemy.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "2"
+      }
+    ],
+    "header_image": "Pitchfork.png"
+  },
+  {
+    "name": "Battleaxe",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A heavy, single-bladed axe designed for warfare. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Armor Breaker</h3><p>When you attack a target wearing heavy armor (like mail or plate), roll+STR.</p><ul><li><strong>On a 16+:</strong> You deal your HD, and the target's armor is permanently reduced by 1.</li><li><strong>On a 9-15:</strong> You deal your HD, but only reduce their armor by 1 for the next attack.</li><li><strong>On a 1-8:</strong> You deal half your HD, but your axe gets stuck, leaving you <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "header_image": "Battleaxe.png"
+  },
+  {
+    "name": "Longsword",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A versatile and balanced blade, favored by knights and soldiers. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Riposte</h3><p><strong>(Reaction)</strong> When an enemy rolls a Low Hit (1-8) on a melee attack against you, you can spend your reaction to counter. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your full HD.</li><li><strong>On a 9-15:</strong> You deal half your HD.</li><li><strong>On a 1-8:</strong> Your counter is clumsy and you become <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "header_image": "Longsword.png"
+  },
+  {
+    "name": "Simple Bow",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A standard wooden bow used by hunters and militia. <strong>Range:</strong> Ranged (12 squares).</p><p></p><hr><h3>Distracting Shot</h3><p>When you use your action to fire an arrow to create a diversion, choose a point within 10 squares and roll+DEX.</p><ul><li><strong>On a 16+:</strong> Your arrow strikes a surface with a loud noise. All enemies near that point are distracted and turn to face it, becoming <strong>Weakened</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You create a minor distraction. One enemy is distracted and becomes <strong>Weakened</strong>.</li><li><strong>On a 1-8:</strong> Your shot gives away your position.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "header_image": "Simple Bow.png"
+  },
+  {
+    "name": "Dagger",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "common"
+    ],
+    "description": "<p>A small, easily concealed blade. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Precise Strike</h3><p>When you attack an enemy that is unaware of you or flanked, your attack has the Brutal property (roll damage twice, take the best result).</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Dagger.png"
+  },
+  {
+    "name": "Gambeson Armor",
+    "crystals": {
+      "requires": [
+        "red",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A thick, padded cloth armor that offers basic protection and mobility. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Cushioning</h3><p><strong>(Reaction)</strong> When you take HD from a blunt weapon (like a mace or hammer) or from falling, you can spend your reaction to roll+CON.</p><ul><li><strong>On a 16-19:</strong> You reduce the damage to zero.</li><li><strong>On a 9-15:</strong> You reduce the damage by half (rounded down).</li><li><strong>On a Miss:</strong> You take the full damage.</li></ul><hr><h3>Stealthy Padding</h3><p><strong>Effect Type:</strong> Passive</p><p><em>The padded cloth muffles your movements. You do not have disadvantage on rolls to be stealthy while wearing this armor.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Gambeson armor.png"
+  },
+  {
+    "name": "Round Shield",
+    "crystals": {
+      "requires": [
+        "red",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A simple, versatile shield held in one hand. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Shield Bash</h3><p>When you attack an enemy in melee with your shield instead of a weapon, roll+STR.</p><ul><li><strong>On a 16-19:</strong> You deal 1d6 HD and the target is <strong>Stunned</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You deal 1d6 HD.</li><li><strong>On a Miss:</strong> You overextend, leaving you <strong>Weakened</strong> for 1 round.</li></ul><hr><h3>Final Stand</h3><p><strong>(Reaction)</strong> When an attack would reduce you to 0 HP, you can shatter your shield. The shield is destroyed, but you ignore all damage from the attack.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Round Shield.png"
+  },
+  {
+    "name": "Kite Shield",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A long, teardrop-shaped shield offering excellent protection, especially for cavalry. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Cover from Fire</h3><p><strong>(Reaction)</strong> When you or an adjacent ally are targeted by a ranged attack, you can spend your reaction to Defend. Roll+CON.</p><ul><li><strong>On a 16-19:</strong> The attack is completely blocked.</li><li><strong>On a 9-15:</strong> The attack's damage is halved.</li><li><strong>On a Miss:</strong> You get in the way, and the attack deals full damage to you instead of the intended target.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "35"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Kite Shield.png"
+  },
+  {
+    "name": "Buckler",
+    "crystals": {
+      "requires": [
+        "red",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "common"
+    ],
+    "description": "<p>A small, agile shield strapped to the forearm, used for parrying. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Quick Parry</h3><p><strong>(Reaction)</strong> When an enemy hits you with a melee attack, you can spend your reaction to roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You parry the blow, taking no damage, and create an opening, granting you advantage on your next melee attack against that enemy.</li><li><strong>On a 9-15:</strong> You parry the blow, taking no damage.</li><li><strong>On a Miss:</strong> Your parry fails and you take the full damage.</li></ul><hr><h3>Dodge and Weave</h3><p>When you Defend, you may roll+DEX instead of+CON. If you do, you cannot use the 'Redirect an attack' option, but you can choose to 'move 1 square' when you spend hold.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Buckler.png"
+  },
+  {
+    "name": "Adventuring Gear",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A pack filled with miscellaneous but useful adventuring supplies: rope, torches, chalk, flint & steel, etc. It has 5 uses.</p><p><em>In a timed scene, you can 'Find What You Need'.</em></p><hr><h3>Find What You Need</h3><p>When you spend an action to rummage through your gear for a specific mundane item, mark off one use and roll+INT.</p><ul><li><strong>On a 16-19:</strong> You have just the thing! You can use the item as a free action this turn.</li><li><strong>On a 9-15:</strong> You have something close enough, but it takes your whole turn to find and use it.</li><li><strong>On a Miss:</strong> You pull out the wrong thing or drop everything, making a mess and leaving yourself open.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Adventuring Gear.png"
+  },
+  {
+    "name": "Bag of Books",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A satchel containing a handful of scholarly texts and reference guides. Has 3 uses.</p><p><em>In a timed scene, you can 'Cite a Source'.</em></p><hr><h3>Cite a Source</h3><p>When you spend an action to consult a book about a creature you are fighting, mark off a use and roll+INT.</p><ul><li><strong>On a 16-19:</strong> You find a key weakness. You and your allies gain +3 forward against the creature for 1 round.</li><li><strong>On a 9-15:</strong> You find a minor detail. You gain +3 forward against the creature.</li><li><strong>On a Miss:</strong> You find conflicting or incorrect information, and are <strong>Confused</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Bag of Books.png"
+  },
+  {
+    "name": "Pipeleaf",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A pouch of fine, aromatic herbs from the Southfarthing, beloved by gnomes. Has 5 uses.</p><p><em>In a tense social situation, you can 'Share a Smoke'.</em></p><hr><h3>Share a Smoke</h3><p>When you offer to share your pipeleaf with an NPC, spend 2 uses and roll+CHA.</p><ul><li><strong>On a 16-19:</strong> They relax and become friendly, giving you advantage on your next social roll against them.</li><li><strong>On a 9-15:</strong> They accept, but are not so easily swayed. You gain +3 forward on your next social roll.</li><li><strong>On a Miss:</strong> They are offended by the offer or dislike the smoke. You have disadvantage on your next social roll against them.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.25"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Halfling Pipeleaf.png"
+  },
+  {
+    "name": "Bandages",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A roll of clean linen bandages for treating wounds. Has 3 uses.</p><p><em>In a timed scene, you can 'Patch Up' an ally.</em></p><hr><h3>Patch Up</h3><p>When you spend an action to apply a bandage to an adjacent creature, mark off one use and roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The target heals 1d8+1 HP.</li><li><strong>On a 9-15:</strong> The target heals 1d8 HP.</li><li><strong>On a Miss:</strong> You apply the bandage incorrectly, and it has no effect.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Bandages.png"
+  },
+  {
+    "name": "Oil",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "common"
+    ],
+    "description": "<p>A flask of flammable oil. Can be used to light a lantern, or as a weapon in a pinch. Single use.</p><p><em>In a timed scene, you can 'Throw Oil'.</em></p><hr><h3>Throw Oil</h3><p>When you spend an action to throw the flask at a square within 4 squares, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You hit the square and the 4 adjacent squares are now covered in oil, becoming difficult terrain. If this area is hit with fire, it erupts in flames, dealing 1d6 MD (fire) to anyone in it.</li><li><strong>On a 9-15:</strong> You only cover a 2x2 area.</li><li><strong>On a Miss:</strong> You drop the flask at your feet, covering your square in oil.</li></ul><p><em>This item is consumed on use.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Oil.png"
+  },
+  {
+    "name": "Throwing Knives",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A set of balanced, light knives designed to be thrown. This card represents a bundle of 3 knives.</p><p><em>In a timed scene, you can 'Throw Knife'.</em></p><hr><h3>Throw Knife</h3><p>When you throw a knife at an enemy within 4 squares, mark off one knife and roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You deal 1d4 HD.</li><li><strong>On a 9-15:</strong> You deal 1d4 HD, but your throw leaves you exposed.</li><li><strong>On a Miss:</strong> Your throw misses completely.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Throwing Knives.png"
+  },
+  {
+    "name": "Torch",
+    "crystals": {
+      "requires": [
+        "orange",
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A wooden stick tipped with cloth soaked in pitch. Provides light in a 3-square radius for about an hour.</p><p></p><hr><h3>Torch Bearer</h3><p>When you use the torch as an improvised melee weapon (1d4 HD), roll+STR.</p><ul><li><strong>On a 16-19:</strong> You deal your HD and the target is <strong>Blinded</strong> by the flame for 1 round.</li><li><strong>On a 9-15:</strong> You deal your HD, but the torch is extinguished.</li><li><strong>On a Miss:</strong> You drop the torch at your feet, setting your own square on fire.</li></ul><hr><h3>The Torch Reveals</h3><p>When you use your torch to investigate a dark area, roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The flickering light reveals a hidden detail; ask the GM one question from the Discern Realities list.</li><li><strong>On a 9-15:</strong> You notice something, but the shadows play tricks on your eyes.</li><li><strong>On a Miss:</strong> The shadows seem to writhe, and you lose 1d4 SP.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1 coin"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Torch.png"
+  },
+  {
+    "name": "Healing Poultice",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "common"
+    ],
+    "description": "<p>A single-use bundle of crushed herbs that can be applied to a wound to promote rapid healing.</p><p><em>In a timed scene, you 'Apply Poultice'.</em></p><hr><h3>Apply Poultice</h3><p>When you spend an action to apply this to yourself or an adjacent creature, roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The target heals 1d8+3 HP.</li><li><strong>On a 9-15:</strong> The target heals 1d8 HP.</li><li><strong>On a Miss:</strong> You apply it poorly; it only heals 1d4 HP.</li></ul><p><em>This item is consumed on use.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Healing Poultice.png"
+  },
+  {
+    "name": "Dwarven Hardtack Ration",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "common"
+    ],
+    "description": "<p>A single ration of incredibly dense, dry bread that can last for years. It's tough and bland, but filling.</p><p><em>In a timed scene, you can 'Chomp on Hardtack'.</em></p><hr><h3>Chomp on Hardtack</h3><p>When you spend an action to eat this ration, roll+CON.</p><ul><li><strong>On a 16-19:</strong> You power through. You heal 1d4 HP and gain +3 forward on your next STR or CON roll.</li><li><strong>On a 9-15:</strong> You heal 1d4 HP.</li><li><strong>On a Miss:</strong> You almost break a tooth and waste your action.</li></ul><p><em>This item is consumed on use.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Dwarven Hardtack Ration.png"
+  },
+  {
+    "name": "Riding Horse",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "common"
+    ],
+    "description": "<p>A sturdy horse trained for riding, not for battle. It can carry one rider and their gear across long distances much faster than walking.</p><p><em>In a timed scene, you can use 'Gallop'.</em></p><hr><h3>Gallop</h3><p>As an action, you can command your horse to gallop. Roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You move up to three times your normal SPEED.</li><li><strong>On a 9-15:</strong> You move up to double your SPEED, but the horse is winded and cannot gallop next turn.</li><li><strong>On a Miss:</strong> The horse is spooked and bolts 1d6 squares in a random direction.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "15"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "12"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Riding_Horse.png"
+  },
+  {
+    "name": "Mastiff",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "common"
+    ],
+    "description": "<p>A large, loyal dog known for its guarding instincts. It can track scents and will defend its master fiercely.</p><p><em>In a timed scene, you can command it to 'Pin Down'.</em></p><hr><h3>Pin Down</h3><p>When you command your mastiff to attack a target within its SPEED, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The mastiff deals 1d6 HD and the target is <strong>Immobilized</strong> as long as the dog continues to use its action to pin them.</li><li><strong>On a 9-15:</strong> The mastiff deals 1d6 HD, but fails to pin the target.</li><li><strong>On a Miss:</strong> The target kicks the dog away; the mastiff takes 1d6 HD.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "12"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Mastiff.png"
+  },
+  {
+    "name": "Mule",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "common"
+    ],
+    "description": "<p>A stubborn but incredibly sturdy pack animal. A mule can carry an immense amount of gear (doubles your character's Load capacity) but is unwilling to charge headfirst into danger.</p><p><em>In a timed scene, it can be coaxed into a 'Stubborn Shove'.</em></p><hr><h3>Stubborn Shove</h3><p>When you spend an action to convince your mule to shove an adjacent creature, roll+CHA.</p><ul><li><strong>On a 16-19:</strong> The mule begrudgingly shoves the target with its full weight, inflicting <strong>Push 2</strong> and knocking them prone.</li><li><strong>On a 9-15:</strong> The mule gives a half-hearted shove, inflicting <strong>Push 1</strong>.</li><li><strong>On a Miss:</strong> The mule refuses and brays loudly, attracting unwanted attention.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "18"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Mule.png"
+  },
+  {
+    "name": "Ferret",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "common"
+    ],
+    "description": "<p>A sly and nimble creature, small enough to fit in a pocket. It is naturally curious and can be trained to fetch small items or navigate tight spaces inaccessible to humanoids.</p><p><em>In a timed scene, you can command it to 'Distracting Scurry'.</em></p><hr><h3>Distracting Scurry</h3><p>When you command your ferret to harry a target within its SPEED, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The ferret zips around the target's feet, making them <strong>Weakened</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The target is <strong>Weakened</strong> for 1 round.</li><li><strong>On a Miss:</strong> The ferret gets scared and scurries back to you, unable to be commanded for the rest of the combat.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Ferret.png"
+  },
+  {
+    "name": "Hedge Knight",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "common"
+    ],
+    "description": "<p>A wandering knight of no renown, pledging their sword for coin and a cause. Their loyalty is firm, so long as their pay is on time. Their basic attack deals <strong>1d8 HD</strong>.</p><p>You can devote crystals to this hireling to command them in special ways.</p><hr><h3>Protect the Patron</h3><p><strong>(Reaction)</strong> When an enemy attacks you, you can command your Hedge Knight to intercept the blow. They roll+CON.</p><ul><li><strong>On a 16-19:</strong> The Knight flawlessly intercepts the attack, becoming the new target and taking only half damage.</li><li><strong>On a 9-15:</strong> The Knight intercepts, but takes the full brunt of the attack for you.</li><li><strong>On a Miss:</strong> The Knight stumbles, failing to intercept, and the attack against you has advantage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "20"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Hedge_Knight.png"
+  },
+  {
+    "name": "Crossbow Mercenary",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "common"
+    ],
+    "description": "<p>A grim professional with a heavy crossbow and a steady hand. They care little for morality, but their aim is true as long as they are paid. Their basic ranged attack deals <strong>1d8 HD</strong>.</p><p>You can devote crystals to this hireling to command them in special ways.</p><hr><h3>Crippling Shot</h3><p>When you command the mercenary to fire a debilitating shot, they roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The bolt hits a leg or joint. The mercenary deals their damage and the target is <strong>Immobilized</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The shot is a glancing blow. The mercenary deals their damage, and the target is only <strong>Slowed</strong> for 1 round.</li><li><strong>On a Miss:</strong> The shot goes wide, alerting other enemies to your position.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "12"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Crossbow_Mercenary.png"
+  },
+  {
+    "name": "Sellsword Brawler",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "common"
+    ],
+    "description": "<p>A tavern tough who solves problems with their fists and a lack of subtlety. Likes drinking, getting paid, and starting fights. Their basic unarmed attack deals <strong>1d6 HD</strong>.</p><p>You can devote crystals to this hireling to command them in special ways.</p><hr><h3>Pummel</h3><p>When you command the brawler to pummel an adjacent target, they roll+STR.</p><ul><li><strong>On a 16-19:</strong> The brawler deals their HD and the target is both <strong>Weakened</strong> and <strong>Stunned</strong> for 1 round.</li><li><strong>On a 9-15:</strong> The brawler deals their HD and the target is only <strong>Weakened</strong>.</li><li><strong>On a Miss:</strong> The brawler swings wide, leaving themselves open and becoming <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "22"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Sellsword_Brawler.png"
+  },
+  {
+    "name": "Kobold 'Trap Expert'",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "common"
+    ],
+    "description": "<p>A yipping, cowardly kobold who has sworn allegiance to you for protection. Surprisingly adept at creating makeshift, annoying traps. Their basic dagger attack deals <strong>1d4 HD</strong>.</p><p>You can devote crystals to this hireling to command them in special ways.</p><hr><h3>Cobble-a-Trap!</h3><p>When you command the kobold to rig a trap in an adjacent empty square, they roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The kobold creates a clever trap. The first enemy to enter the square is either <strong>Immobilized</strong> for 1 round or takes 1d8 HD (your choice).</li><li><strong>On a 9-15:</strong> The trap is simpler. It deals 1d8 HD but has no other effect.</li><li><strong>On a Miss:</strong> The kobold accidentally triggers their own trap and becomes <strong>Immobilized</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "8"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Kobold_Trap_Expert.png"
+  },
+  {
+    "name": "Disgruntled Farmer",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "common"
+    ],
+    "description": "<p>A stout farmer armed with a pitchfork and a lifetime of grievances. They're not a warrior, but they know how to handle unruly livestock—and people. Their basic pitchfork attack deals <strong>1d6 HD</strong> with Reach.</p><p>You can devote crystals to this hireling to command them in special ways.</p><hr><h3>Get Off My Land!</h3><p>When you command the farmer to drive an enemy back, they roll+STR.</p><ul><li><strong>On a 16-19:</strong> They jab with their pitchfork, dealing their damage and inflicting <strong>Push 2</strong>.</li><li><strong>On a 9-15:</strong> They inflict <strong>Push 2</strong> but deal no damage.</li><li><strong>On a Miss:</strong> They get their pitchfork stuck and are <strong>Disarmed</strong> until they can retrieve it.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "15"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Disgruntled_Farmer.png"
+  },
+  {
+    "name": "Rat Catcher & 'Terrier'",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "common"
+    ],
+    "description": "<p>A wiry slum-dweller accompanied by a vicious-looking dog of questionable breed. An expert on sewers, alleyways, and vermin of all sizes. Their basic attack is a club for <strong>1d4 HD</strong>.</p><p>You can devote crystals to this hireling to command them in special ways.</p><hr><h3>Sic 'Em!</h3><p>When you command the rat catcher to release their dog on an enemy within 4 squares, they roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The dog latches on, dealing 1d6 HD and making the target <strong>Immobilized</strong> and <strong>Weakened</strong> for 1 round.</li><li><strong>On a 9-15:</strong> The dog bites for 1d6 HD but does not latch on.</li><li><strong>On a Miss:</strong> The dog gets confused and runs back to the rat catcher, refusing to attack for the rest of the combat.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "7"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Rat_Catcher.png"
+  },
+  {
+    "name": "Simple Cart",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "vehicle",
+      "common"
+    ],
+    "description": "<p>A two-wheeled cart pulled by a stubborn donkey or pony. Slow and humble, but better than walking. It can carry a driver and a hefty load of goods.</p><p>You can devote crystals to this vehicle to unlock its special abilities.</p><hr><h3>Heave-ho!</h3><p>When you command the donkey to make a stubborn push, roll+CHA.</p><ul><li><strong>On a 16-19:</strong> The donkey shoves forward with surprising force. You can <strong>Push 2</strong> an object or creature in front of the cart.</li><li><strong>On a 9-15:</strong> The donkey manages a shove for <strong>Push 1</strong>.</li><li><strong>On a Miss:</strong> The donkey refuses to move and brays loudly, attracting unwanted attention.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "20"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "5"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Simple_Cart.png"
+  },
+  {
+    "name": "Alpinist's Pitons & Hammer",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A set of 10 hardened steel spikes (pitons) and a weighted hammer. Used to create temporary anchor points in rock fissures for securing ropes. Each use requires several minutes of careful work outside of combat.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Set Anchor</h3><p>When you spend an action to quickly hammer a piton into a stone surface in your square, roll+STR.</p><ul><li><strong>On a 16+:</strong> You set a solid anchor. You or an ally using the anchor cannot be unwillingly moved by <strong>Push</strong> or <strong>Pull</strong> effects for 2 rounds.</li><li><strong>On a 9-15:</strong> The anchor is set, but it's temporary. It works against the next <strong>Push</strong> or <strong>Pull</strong> effect, then breaks.</li><li><strong>On a 1-8:</strong> The rock fractures. The piton fails to hold, and the square becomes difficult terrain.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "header_image": "Pitons_and_Hammer.png"
+  },
+  {
+    "name": "Explorer's Bedroll",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A well-made, weatherproof bedroll made from oiled canvas and packed wool. It ensures a relatively dry and warm rest even in harsh conditions, which is crucial for maintaining morale and recovering from exhaustion.</p><p><em>Using this item enhances the Take a Rest move.</em></p><hr><h3>A Good Night's Sleep</h3><p><strong>(Passive)</strong></p><p><em>When you Take a Rest using this bedroll, you may choose one additional benefit from the list, even if the rest was not comfortable or peaceful.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Bedroll.png"
+  },
+  {
+    "name": "Alchemical Purifier Vial",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "common"
+    ],
+    "description": "<p>A single-use vial containing two reactive agents separated by a thin membrane. Breaking the membrane and shaking the vial primes it. When poured into up to five gallons of liquid, it neutralizes common poisons and purifies stagnant water in seconds.</p><p><em>In a timed scene, you can use it to 'Neutralize Toxin'.</em></p><hr><h3>Neutralize Toxin</h3><p>When you use your action to apply the purifier to a creature, roll+INT.</p><ul><li><strong>On a 16+:</strong> You successfully cure one <strong>Poisoned</strong> condition affecting the target.</li><li><strong>On a 9-15:</strong> You suppress the effects of a <strong>Poisoned</strong> condition for 3 rounds.</li><li><strong>On a 1-8:</strong> The alchemical reaction is volatile, dealing 1d4 acid damage to both you and the target.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Antitoxin.png"
+  },
+  {
+    "name": "Sunrod",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "common"
+    ],
+    "description": "<p>A 1-foot-long alchemical rod with a capped end. When you strike the cap, the rod instantly produces bright, unwavering light in a 5-square radius for one hour. It is a single-use item.</p><p><em>In a timed scene, you can 'Strike to Flare'.</em></p><hr><h3>Strike to Flare</h3><p>When you spend an action to strike the sunrod, roll+DEX.</p><ul><li><strong>On a 16+:</strong> The rod flares brilliantly. All creatures within a 2-square radius are <strong>Blinded</strong> for 1 round. The rod then sheds its normal light.</li><li><strong>On a 9-15:</strong> The flare is less intense. All creatures in the radius are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The rod is a dud. It sputters and produces only dim light in its square for one hour.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "header_image": "Sunrod.png"
+  },
+  {
+    "name": "Climber's Harness",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A harness of thick leather straps and metal buckles that distributes weight, making climbing safer and allowing a climber to anchor themselves to a rope. It must be worn to be effective.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Belay</h3><p><strong>(Reaction)</strong> When you are anchored and an adjacent, roped ally would fall, you can spend your reaction to arrest their fall. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You expertly catch them, stopping their fall completely.</li><li><strong>On a 9-15:</strong> You stop their fall, but the sudden jolt strains your anchor point or throws you off balance. You are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The rope slips. You only slow their fall (they take half damage), and you are pulled prone.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "header_image": "Climbers_Harness.png"
+  },
+  {
+    "name": "Spyglass",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A tube of polished brass with finely ground glass lenses. It allows the user to see objects at a great distance in clear detail, perfect for scouting from a high vantage point.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Spot Weakness</h3><p>When you spend your action in a timed scene to observe a distant enemy through the spyglass, roll+WIS.</p><ul><li><strong>On a 16+:</strong> You spot a significant flaw in their armor or positioning. You and all allies gain advantage on your next ranged attack against that target.</li><li><strong>On a 9-15:</strong> You spot a minor flaw. You gain advantage on your next ranged attack against that target.</li><li><strong>On a 1-8:</strong> The sun glints off your lens, revealing your position to the enemy.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "100"
+      }
+    ],
+    "header_image": "Spyglass.png"
+  },
+  {
+    "name": "Caltrops",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A small leather bag containing two dozen four-pointed iron spikes. When scattered on the ground, they are designed to impede movement by injuring the feet of pursuers or charging enemies. This bag has 3 uses.</p><p><em>In a timed scene, you can 'Scatter Caltrops'.</em></p><hr><h3>Scatter Caltrops</h3><p>When you use your action to scatter caltrops, choose a 2x2 square area adjacent to you. Mark off one use. That area becomes difficult terrain.</p><ul><li>Any creature that enters the area must roll+DEX. On a 9-15, their SPEED is halved for 1 round. On a 1-8, their SPEED is halved and they take 1d4 damage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "5"
+      }
+    ],
+    "header_image": "Caltrops.png"
+  },
+  {
+    "name": "Manacles",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "common"
+    ],
+    "description": "<p>A set of heavy iron shackles with a complex lock, designed to restrain a humanoid prisoner. Applying them to an unwilling target is difficult, but they are very hard to escape from.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Shackle</h3><p>When you attempt to apply the manacles to an adjacent creature that is <strong>Stunned</strong>, <strong>Immobilized</strong>, or willing, roll+STR.</p><ul><li><strong>On a 16+:</strong> The manacles are secured perfectly. The creature is bound and cannot break free without the key or a successful Pick Lock roll at a disadvantage.</li><li><strong>On a 9-15:</strong> The manacles are on, but not perfectly. The creature can attempt to break free by making a Defy Danger (STR) roll at a disadvantage.</li><li><strong>On a 1-8:</strong> You fumble with the lock. The target is not bound and can make a free Attack of Opportunity against you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Manacles.png"
+  },
+  {
+    "name": "Flask of Oil",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "common"
+    ],
+    "description": "<p>A simple clay flask containing one pint of flammable oil. Can be used to light a lantern, create a slippery surface, or as an improvised incendiary weapon. Single use.</p><p><em>In a timed scene, you can 'Create Oil Slick'.</em></p><hr><h3>Create Oil Slick</h3><p>When you use your action to pour the oil onto the ground, choose a 2x2 square area adjacent to you. That area becomes difficult terrain.</p><ul><li>Any creature that enters the area must roll+DEX. On a 9-15, their SPEED is halved for 1 round. On a 1-8, they fall prone. If the area is hit with fire, it becomes <strong>Ablaze</strong> for 2 rounds.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "2"
+      }
+    ],
+    "header_image": "Oil.png"
+  }
+]

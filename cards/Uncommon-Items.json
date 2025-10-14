@@ -1,0 +1,2232 @@
+[
+  {
+    "name": "Mageweave Robes",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>Simple cloth robes with threads of raw mana woven directly into the fabric, acting as a reservoir for arcane power. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>Mana Font</h3><p><strong>(Passive)</strong></p><p><em>Your maximum MP is increased by 5.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "100"
+      }
+    ],
+    "header_image": "Mageweave_Robes.png"
+  },
+  {
+    "name": "Vestments of Faith",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>Blessed robes worn by priests and priestesses, offering protection from unholy magic and bolstering their connection to the divine. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>Faith's Shield</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to resist spells cast by Undead or Demonic creatures.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "150"
+      }
+    ],
+    "header_image": "Vestments_of_Faith.png"
+  },
+  {
+    "name": "Scale Mail",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon"
+    ],
+    "description": "<p>A coat of overlapping metal scales, offering protection superior to chainmail against piercing attacks. It provides <strong>+2 Armor</strong> and is clumsy.</p><p></p><hr><h3>Deflecting Scales</h3><p><strong>(Passive)</strong></p><p><em>When an enemy makes a Volley attack against you, they suffer a -2 penalty to their roll.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "7"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "90"
+      }
+    ],
+    "header_image": "Scale_Mail.png"
+  },
+  {
+    "name": "Splint Armor",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon"
+    ],
+    "description": "<p>Heavy armor made of metal strips (splints) riveted to a leather backing. A precursor to full plate. It provides <strong>+2 Armor</strong> and is clumsy.</p><p></p><hr><h3>Unmovable</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to resist being moved by a <strong>Push</strong>, <strong>Pull</strong>, or <strong>Crush</strong> effect.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "8"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "100"
+      }
+    ],
+    "header_image": "Splint_Armor.png"
+  },
+  {
+    "name": "Arcanist Robes",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>Elegant robes woven with threads of mana. They offer no physical protection but can absorb and redirect magical energy. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>Mana Shield</h3><p><strong>(Reaction)</strong> When you take damage from any source, you can spend your reaction and 2 MP to reduce the damage by an amount equal to your MD.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "120"
+      }
+    ],
+    "header_image": "Arcanist_Robes.png"
+  },
+  {
+    "name": "Mooncloth Robes",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>Robes crafted from cloth created under the light of a full moon, imbued with a gentle, healing energy. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>Restorative Weave</h3><p><strong>(Passive)</strong></p><p><em>When you cast a spell that heals a target, the target heals an additional +2 HP.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "120"
+      }
+    ],
+    "header_image": "Mooncloth_Robes.png"
+  },
+  {
+    "name": "Shadow-Weave Robes",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>Eerie robes woven from shadowstuff and fear. They offer no physical protection but cling to the darkness and muffle sound. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>One with the Shadows</h3><p><strong>(Passive)</strong></p><p><em>When you use the Hide action in dim light or darkness, you have advantage on your roll.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "120"
+      }
+    ],
+    "header_image": "Shadow-Weave_Robes.png"
+  },
+  {
+    "name": "Tinker's Overalls",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>Sturdy canvas overalls covered in pockets, loops, and reinforced patches. It's less armor and more a wearable toolkit. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>Emergency Contraption</h3><p><strong>(Reaction)</strong> Once per combat, when you or an adjacent ally are hit by an attack, you can spend your reaction to activate a random gizmo. Roll+INT.</p><ul><li><strong>On a 16+:</strong> A small force-shield deploys! The damage is completely negated.</li><li><strong>On a 9-15:</strong> A distracting noisemaker goes off! The attacker is <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> A grease spray activates! Your square and all adjacent squares become difficult terrain.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "80"
+      }
+    ],
+    "header_image": "Tinkers_Overalls.png"
+  },
+  {
+    "name": "Bastard Sword",
+    "crystals": {
+      "requires": [
+        "red",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A versatile longsword with an extended grip, allowing it to be wielded with one or two hands. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Versatile Grip</h3><p><strong>(Passive)</strong></p><p><em>You can switch between a one-handed and two-handed grip as a free action at the start of your turn. While two-handing, your Hack & Slash attacks are Brutal (roll damage twice, take the best). While one-handing, you can use a shield.</em></p><hr><h3>Blade Ward</h3><p><strong>(Reaction)</strong> When an enemy hits you with a melee attack, you can spend your reaction to parry. Roll+STR.</p><ul><li><strong>On a 16+:</strong> You take no damage.</li><li><strong>On a 9-15:</strong> You take half damage.</li><li><strong>On a 1-8:</strong> You take full damage, but the force of the block makes your attacker <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "45"
+      }
+    ],
+    "header_image": "Bastard_Sword.png"
+  },
+  {
+    "name": "Crescent Blade",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A circular throwing weapon with a sharpened outer edge, designed to slice through multiple foes before returning. <strong>Range:</strong> Ranged (6 squares).</p><p></p><hr><h3>Bouncing Blade</h3><p>When you make a Volley attack, you can spend 1 HP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD to your primary target. The blade then bounces to a second enemy within 3 squares, dealing half your HD to them before returning to your hand.</li><li><strong>On a 9-15:</strong> You deal your HD to your primary target, but the blade falls to the ground in their square.</li><li><strong>On a 1-8:</strong> You deal half HD to your primary target, and the blade returns to you but is damaged and cannot be used again this combat.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "60"
+      }
+    ],
+    "header_image": "Crescent_Blade.png"
+  },
+  {
+    "name": "Chain Whip",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A segmented metal whip that can be used to disarm, entangle, and strike foes from a distance. <strong>Range:</strong> Melee (3 squares, Reach).</p><p></p><hr><h3>Snare</h3><p>When you use your action to lash out at a foe, spend 1 SP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> Choose one: <strong>Disarm</strong> the target, or <strong>Pull 2</strong> them towards you.</li><li><strong>On a 9-15:</strong> You may <strong>Pull 1</strong> the target.</li><li><strong>On a 1-8:</strong> The chain gets tangled. You must spend your next action to ready the weapon before you can attack with it again.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Chain_Whip.png"
+  },
+  {
+    "name": "Anchor",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A massive ship's anchor, repurposed as a crude but devastating weapon. Wielding it requires immense strength (requires STR 2+). <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Heave</h3><p>When you use your action to swing the anchor in a wide arc, spend 2 HP and roll+STR.</p><ul><li><strong>On a 16+:</strong> You deal your HD to all creatures (friend or foe) in a 2-square arc and may <strong>Push 2</strong> them.</li><li><strong>On a 9-15:</strong> You deal your HD to all creatures in the arc.</li><li><strong>On a 1-8:</strong> You deal half your HD to all creatures in the arc, but you lose your balance and are knocked prone.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "12"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "header_image": "Anchor.png"
+  },
+  {
+    "name": "War Fans",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A pair of ornate but deadly fans, constructed with sharpened steel ribs. They can be used for quick, slicing attacks or powerful defensive gusts. <strong>Range:</strong> Melee (1 square).</p><p>You can devote crystals to this weapon to unlock their hidden potential.</p><hr><h3>Deflecting Gale</h3><p><strong>(Reaction)</strong> When you are targeted by a ranged Volley attack, you can spend your reaction and 1 MP to deflect it with a gust of wind. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You completely negate the attack.</li><li><strong>On a 9-15:</strong> You only take half damage from the attack.</li><li><strong>On a 1-8:</strong> You fail to block in time, and the attack deals +2 damage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "header_image": "War_Fans.png"
+  },
+  {
+    "name": "Meteor Hammer",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>An exotic and difficult weapon consisting of a heavy weight connected to a long chain or rope. It is used to trip, ensnare, and deliver powerful crushing blows from a distance. <strong>Range:</strong> Melee (3 squares, Reach).</p><p></p><hr><h3>Whirling Chain</h3><p>When you use your action to swing the hammer in a wide circle, spend 1 HP and roll+STR.</p><ul><li><strong>On a 16+:</strong> You deal your HD to all enemies within 2 squares of you.</li><li><strong>On a 9-15:</strong> You deal your HD to a single enemy within 2 squares.</li><li><strong>On a 1-8:</strong> You lose control of the weapon and hit yourself for half your HD.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Meteor_Hammer.png"
+  },
+  {
+    "name": "Libram of Judgment",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>A heavy, iron-bound book that can be chained to a belt. It is not used for direct attacks, but as a holy focus to channel divine power. Holding this allows you to perform basic attacks with your SD instead of HD.</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Recite Litanies</h3><p>When you use your action to read a passage of judgment, spend 1 MP and roll+CHA.</p><ul><li><strong>On a 16+:</strong> Choose one ally. Their next successful attack deals an additional 1d8 magical damage.</li><li><strong>On a 9-15:</strong> The ally's next attack deals an additional 1d6 magical damage.</li><li><strong>On a 1-8:</strong> You stumble on the words, taking 1d4 social damage from embarrassment.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "100"
+      }
+    ],
+    "header_image": "Libram_of_Judgment.png"
+  },
+  {
+    "name": "Spiked Chain",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A long chain lined with cruel barbs and spikes. It is a flexible and intimidating weapon used to ensnare and wound from a distance. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Chain Snare</h3><p>When you use your action to ensnare a target, spend 1 HP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> The chain wraps around the target. You may immediately <strong>Pull 2</strong> them, and they are <strong>Immobilized</strong> until they use an action to escape.</li><li><strong>On a 9-15:</strong> You snag the target and may <strong>Pull 1</strong> them.</li><li><strong>On a 1-8:</strong> You tangle the chain around your own legs, becoming <strong>Immobilized</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "45"
+      }
+    ],
+    "header_image": "Spiked_Chain.png"
+  },
+  {
+    "name": "Flanged Mace",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A mace with sharp flanges on its head, designed to concentrate force and sunder armor. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Disorienting Blow</h3><p>When you make a Hack & Slash attack, you can spend 1 HP to aim for the head. On a hit, if the target's CON is less than your STR, they are <strong>Confused</strong> for 1 round in addition to the normal damage.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Flanged_Mace.png"
+  },
+  {
+    "name": "Hand Crossbow",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A small crossbow that can be fired with one hand, perfect for a surprise shot. <strong>Range:</strong> Ranged (6 squares). Requires an action to reload.</p><p></p><hr><h3>Sucker Punch</h3><p>When an enemy provokes an Attack of Opportunity from you, you can fire the Hand Crossbow as your reaction instead of making a melee attack. The attack deals your HD, and if the target's DEX is less than your DEX, they are <strong>Stunned</strong> for 1 round.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "60"
+      }
+    ],
+    "header_image": "Hand_Crossbow.png"
+  },
+  {
+    "name": "Crystal-Tipped Wand",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>A short, slender piece of wood tipped with a focusing crystal. It cannot be used for physical attacks, but is an excellent conduit for simple magic. <strong>Range:</strong> Ranged (10 squares).</p><p></p><hr><h3>Mana Bolt</h3><p>Instead of a normal Volley, you can use your action to fire a bolt of pure magic. Spend 1 MP and roll+INT.</p><ul><li><strong>On a 16+:</strong> You deal your MD + 3 as magical damage.</li><li><strong>On a 9-15:</strong> You deal your MD.</li><li><strong>On a 1-8:</strong> The bolt is weak and only deals 1d4 magical damage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "90"
+      }
+    ],
+    "header_image": "Crystal_Wand.png"
+  },
+  {
+    "name": "Gnarled Staff",
+    "crystals": {
+      "requires": [
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>A staff made from the branch of an ancient, living tree. It feels warm to the touch and occasionally sprouts small leaves. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Grasping Roots</h3><p>When you use your action to strike the ground with the staff, spend 1 MP and roll+WIS.</p><ul><li><strong>On a 16+:</strong> Roots erupt from the ground in a 2-square radius around you. The area is difficult terrain, and any enemy starting their turn there is <strong>Immobilized</strong> for 1 round.</li><li><strong>On a 9-15:</strong> The area becomes difficult terrain for 2 rounds.</li><li><strong>On a 1-8:</strong> The roots are weak and only make your own square difficult terrain.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "110"
+      }
+    ],
+    "header_image": "Gnarled_Staff.png"
+  },
+  {
+    "name": "Arbalest",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A massive, heavy crossbow with a powerful steel prod, requiring a winch to reload. It is more of a mobile siege weapon than a personal armament. <strong>Range:</strong> Ranged (25 squares). Requires 3 actions to reload.</p><p></p><hr><h3>Siege Bolt</h3><p>When you fire the arbalest, you can spend 2 HP (stamina) to brace yourself. Roll+STR instead of DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD + 5, this attack ignores armor, and you may <strong>Crush 2</strong> the target if they are pushed into a surface.</li><li><strong>On a 9-15:</strong> You deal your HD + 5 and the attack ignores armor.</li><li><strong>On a 1-8:</strong> You deal your HD, but the recoil knocks you prone and you are <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "8"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "120"
+      }
+    ],
+    "header_image": "Arbalest.png"
+  },
+  {
+    "name": "War Scythe",
+    "crystals": {
+      "requires": [
+        "black",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A terrifying agricultural tool adapted for war, with a long handle and a large, inwardly curved blade. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Reaping Swing</h3><p>When you make a Hack & Slash attack, you can spend 1 HP (stamina) to swing in a wide, intimidating arc. You may target up to three enemies in a 3-square horizontal line in front of you. Make one attack roll and apply the result to all targets.</p><hr><h3>Terrifying Presence</h3><p><strong>(Passive)</strong> When you defeat an enemy with this weapon, all other enemies who can see it happen must roll+WIS or become <strong>Frightened</strong> for 1 round.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "War_Scythe.png"
+  },
+  {
+    "name": "Glaive",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A polearm consisting of a single-edged blade on the end of a long pole. It is favored by sentinels and guards for its defensive capabilities. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Defensive Sweep</h3><p>When you use the Defend action with this weapon, you may spend hold 1-for-1. On an enemy's turn, instead of a normal choice, you can spend 1 hold to force an enemy moving into your reach to stop their movement immediately.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "45"
+      }
+    ],
+    "header_image": "Glaive.png"
+  },
+  {
+    "name": "Main Gauche",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A parrying dagger with a large, ornate guard, designed to be held in the off-hand. It is not meant for attack, but for defense and creating openings. <strong>Range:</strong> Melee (1 square).</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Off-Hand Parry</h3><p><strong>(Passive)</strong> When you are wielding a one-handed weapon and this dagger, you gain +1 Armor. Once per combat, when an enemy rolls a High Hit (16+) against you with a melee attack, you can force them to reroll their attack.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "header_image": "Main_Gauche.png"
+  },
+  {
+    "name": "Flail",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A bludgeoning weapon with a spiked head attached to a handle by a chain, making it difficult to block. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Shield Breaker</h3><p>When you make a Hack & Slash attack against an enemy with a shield, you can spend 1 HP (stamina) to wrap your flail around their defense. If you do, your attack ignores the Armor bonus from their shield. If your attack is a High Hit (16+), you may also choose to destroy their shield, rendering it useless.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Flail.png"
+  },
+  {
+    "name": "Maul",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A colossal two-handed hammer designed to deliver devastating, crushing blows. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Earthshaker</h3><p>When you use your action to slam the maul into the ground, spend 2 HP and roll+STR.</p><ul><li><strong>On a 16+:</strong> All other creatures (allies and enemies) on the ground within 2 squares are knocked prone.</li><li><strong>On a 9-15:</strong> All other creatures on the ground in adjacent squares are knocked prone.</li><li><strong>On a 1-8:</strong> You slam the ground so hard that you are knocked prone as well.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "55"
+      }
+    ],
+    "header_image": "Maul.png"
+  },
+  {
+    "name": "Cestus",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>An armored battle-glove, often covered in metal studs or spikes, that turns your fist into a deadly weapon while leaving your fingers free. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Pummel</h3><p>When you make an unarmed Hack & Slash attack while wearing this cestus, on a hit you can spend 1 HP. If you do, the target is <strong>Weakened</strong> for 1 round in addition to the normal damage. On a High Hit (16+), you may also <strong>Push 1</strong> the target.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "header_image": "Cestus.png"
+  },
+  {
+    "name": "Runic Hammer",
+    "crystals": {
+      "requires": [
+        "orange",
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>A stone hammer covered in elemental runes that hum with latent power. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Rockbiter</h3><p>When you use your action to imbue your hammer, spend 1 MP. For the next 3 rounds, your melee attacks deal +3 damage and, on a High Hit (16+), you may <strong>Push 1</strong> the target.</p><hr><h3>Flametongue</h3><p>When you use your action to imbue your hammer, spend 1 MP. For the next 3 rounds, your melee attacks deal an additional 1d6 fire damage.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "120"
+      }
+    ],
+    "header_image": "Runic_Hammer.png"
+  },
+  {
+    "name": "Morningstar",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A wicked evolution of the mace, featuring a spiked head that can both crush and pierce. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Armor Tear</h3><p>When you get a High Hit (16+) on a Hack & Slash attack, you can choose to forgo the extra benefit of the hit. If you do, the target's Armor is permanently reduced by 1 as the spikes tear their defense asunder.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Morningstar.png"
+  },
+  {
+    "name": "Rapier",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A thin, light sword designed for quick, precise thrusts and agile defense. Favored by duelists and swashbucklers. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Feint</h3><p>When you use your action to feint, spend 1 SP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> Your feint is perfect. Your next Hack & Slash attack against the target before your next turn is a guaranteed High Hit (16+).</li><li><strong>On a 9-15:</strong> Your feint creates an opening. You gain advantage on your next Hack & Slash roll against the target.</li><li><strong>On a 1-8:</strong> Your feint is obvious. The target reads your move and gains +3 forward against you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "45"
+      }
+    ],
+    "header_image": "Rapier.png"
+  },
+  {
+    "name": "Trident",
+    "crystals": {
+      "requires": [
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A three-pronged spear, equally adept at combat on land or in the water. It can be used to spear fish or foes. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Reel In</h3><p>When you use your action to snag a foe with your trident, spend 1 HP and roll+STR.</p><ul><li><strong>On a 16+:</strong> You deal no damage, but you successfully hook the target. You may immediately <strong>Pull 2</strong> them.</li><li><strong>On a 9-15:</strong> You hook the target and may <strong>Pull 1</strong> them.</li><li><strong>On a 1-8:</strong> You fail to snag them and your weapon is knocked from your grip, landing in their square.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "35"
+      }
+    ],
+    "header_image": "Trident.png"
+  },
+  {
+    "name": "Whip",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A long strip of braided leather, used to command beasts or disarm foes with a sharp crack. <strong>Range:</strong> Melee (3 squares, Reach).</p><p></p><hr><h3>Whip Crack</h3><p>When you use your action to crack the whip menacingly, roll+CHA.</p><ul><li><strong>On a 16+:</strong> The sound is terrifying. Choose one target in range. If their WIS is less than your CHA, they are <strong>Frightened</strong> for 1 round. Otherwise, they are <strong>Weakened</strong>.</li><li><strong>On a 9-15:</strong> Your chosen target is <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The whip wraps around your own leg, making you <strong>Immobilized</strong> until you use an action to untangle it.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "header_image": "Whip.png"
+  },
+  {
+    "name": "Gauntlet",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A heavy, armored glove, often reinforced with lead or iron plates. It protects the hand and turns a fist into a formidable weapon. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Haymaker</h3><p>When you make an unarmed Hack & Slash attack while wearing this gauntlet, you can spend 2 HP to put all your weight into it. On a hit, if the target's COS is less than your STR, they are <strong>Stunned</strong> for 1 round in addition to the normal damage.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "10"
+      }
+    ],
+    "header_image": "Gauntlet.png"
+  },
+  {
+    "name": "Greatsword",
+    "crystals": {
+      "requires": [
+        "red",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A massive two-handed sword that can cleave through multiple foes. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Cleave</h3><p>When you make a Hack & Slash attack, you can spend 1 HP (stamina) to strike an additional adjacent enemy. Roll your attack with disadvantage.</p><ul><li><strong>On a 16+:</strong> You deal your full HD to both targets.</li><li><strong>On a 9-15:</strong> You deal your full HD to the primary target, and half to the secondary.</li><li><strong>On a 1-8:</strong> Your swing is clumsy; you deal half HD to your primary target and are <strong>Weakened</strong> for 1 round.</li></ul><hr><h3>Horde Breaker</h3><p><strong>(Passive)</strong> When you are adjacent to 3 or more enemies, you gain +1 Armor.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "header_image": "Greatsword.png"
+  },
+  {
+    "name": "Heavy Crossbow",
+    "crystals": {
+      "requires": [
+        "red",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A large, powerful crossbow that requires immense strength to wield. <strong>Range:</strong> Ranged (20 squares). Requires 2 actions to reload.</p><p></p><hr><h3>Crushing Bolt</h3><p>When you fire a heavy bolt, you can spend 2 HP (stamina). Roll+STR instead of DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD. If the target's COS is less than your STR, they are knocked prone and <strong>Stunned</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You deal your HD and the target is knocked prone.</li><li><strong>On a 1-8:</strong> You deal half your HD, and the recoil knocks you prone.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "75"
+      }
+    ],
+    "header_image": "Heavy Crossbow.png"
+  },
+  {
+    "name": "Halberd",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A versatile polearm with an axe blade and a hook. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Hook and Trip</h3><p>When you use your action to trip an enemy within 2 squares, spend 1 HP and roll+STR.</p><ul><li><strong>On a 16+:</strong> The target is knocked prone and you may <strong>Pull 1</strong> them.</li><li><strong>On a 9-15:</strong> The target is knocked prone.</li><li><strong>On a 1-8:</strong> You get tangled and are knocked prone instead.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "60"
+      }
+    ],
+    "header_image": "Halberd.png"
+  },
+  {
+    "name": "Greathammer",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A massive two-handed hammer designed to crush armor and bone. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Bonecrusher</h3><p>When you make a Hack & Slash attack, you can spend 2 HP to make a mighty blow. On a hit, if the target's COS is less than your STR, they are <strong>Stunned</strong> for 1 round in addition to the normal effects of the attack.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "header_image": "Greathammer.png"
+  },
+  {
+    "name": "Chainmail Armor",
+    "crystals": {
+      "requires": [
+        "red",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon"
+    ],
+    "description": "<p>A suit of interlocking metal rings that provides good protection against slashing weapons. It provides <strong>+2 Armor</strong> and is clumsy (disadvantage on stealth rolls).</p><p></p><hr><h3>Dissipate</h3><p><strong>(Reaction)</strong> When you take MD from fire or lightning, you can spend your reaction to roll+CON.</p><ul><li><strong>On a 16-19:</strong> The metal rings dissipate the energy. You take no damage.</li><li><strong>On a 9-15:</strong> You take half damage.</li><li><strong>On a Miss:</strong> The metal conducts the energy, and you take full damage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "80"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Chainmail armor.png"
+  },
+  {
+    "name": "Pavise Shield",
+    "crystals": {
+      "requires": [
+        "red",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "uncommon"
+    ],
+    "description": "<p>A massive, heavy shield that can be planted in the ground to create stationary cover. While held, it provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Deploy Cover</h3><p>As an action, you can plant the shield in your square. While planted, it provides full cover (blocking line of sight and attacks) in a 1-square line. You and allies can shoot over it. It takes an action to pick the shield back up.</p><hr><h3>Shield Breaker</h3><p>When you use 'Shield Bash' with this shield, on a 16-19, you also shatter the target's shield, destroying it.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Pavise Shield.png"
+  },
+  {
+    "name": "Blacksmith Tools",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A set of hammers, tongs, and files for maintaining weapons and armor. Has 3 uses.</p><p><em>In a timed scene, you can perform a 'Battlefield Repair'.</em></p><hr><h3>Battlefield Repair</h3><p>When you spend an action to quickly fix a piece of gear, mark off one use and roll+INT.</p><ul><li><strong>On a 16-19:</strong> Choose one: An ally's weapon deals +1d4 damage for 1 round, OR an ally's armor regains a point of Armor for 1 round.</li><li><strong>On a 9-15:</strong> You manage a quick fix, but it's temporary. The chosen effect ends after the target next uses the item.</li><li><strong>On a Miss:</strong> You make the problem worse, damaging the item further (GM's choice).</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Blacksmith Tools.png"
+  },
+  {
+    "name": "Antitoxin",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "uncommon"
+    ],
+    "description": "<p>A single-dose vial of a universal antidote for common poisons.</p><p><em>In a timed scene, you can 'Administer Antitoxin'.</em></p><hr><h3>Administer Antitoxin</h3><p>When you spend an action to administer this to yourself or an adjacent creature, roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The target is immediately cured of one <strong>Poisoned</strong> condition.</li><li><strong>On a 9-15:</strong> The poison's effect is suppressed for 2 rounds, but not cured.</li><li><strong>On a Miss:</strong> The antitoxin fails to work.</li></ul><p><em>This item is consumed on use.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.25"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "25"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Antitoxin.png"
+  },
+  {
+    "name": "Holy Symbol",
+    "crystals": {
+      "requires": [
+        "white",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A sacred object representing your devotion to a deity, used as a focus for divine power.</p><p><em>In a timed scene, you can 'Turn Undead'.</em></p><hr><h3>Turn Undead</h3><p>When you spend an action and 1 SP to present your holy symbol, roll+CHA.</p><ul><li><strong>On a 16-19:</strong> All Undead creatures within a 3-square radius are <strong>Frightened</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> All adjacent Undead are <strong>Frightened</strong> for 1 round.</li><li><strong>On a Miss:</strong> You show a moment of doubt. The nearest Undead gains +3 forward against you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Holy Symbol.png"
+  },
+  {
+    "name": "Lockpicks",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A set of fine metal tools for manipulating the mechanisms of locks. Allows you to attempt to open locks without a key.</p><p><em>In a timed scene, you can 'Pick Lock'.</em></p><hr><h3>Pick Lock</h3><p>When you spend an action to pick a lock, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You open the lock swiftly and silently.</li><li><strong>On a 9-15:</strong> You open the lock, but it takes time and makes a loud click.</li><li><strong>On a Miss:</strong> You break your tools in the lock, making it impossible to open without force.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Lockpicks.png"
+  },
+  {
+    "name": "Grappling Hook",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A four-pronged iron hook attached to 50 feet of sturdy rope, used for climbing or snaring.</p><p><em>In a timed scene, you can use 'Hook Shot'.</em></p><hr><h3>Hook Shot</h3><p>When you throw the hook at a creature or object within 5 squares, roll+STR.</p><ul><li><strong>On a 16-19:</strong> Your hook finds its mark. You can immediately <strong>Pull 5</strong> (if the target is your size or smaller) or pull yourself to the target's location.</li><li><strong>On a 9-15:</strong> You hook the target, but only manage to <strong>Pull 2</strong>.</li><li><strong>On a Miss:</strong> The hook gets snagged on something unintended nearby.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "15"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Grappling Hook.png"
+  },
+  {
+    "name": "Elven Bread Ration",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "uncommon"
+    ],
+    "description": "<p>A single, light, and sweet wafer that is surprisingly satisfying. A staple of elven travelers.</p><p><em>In a timed scene, you can 'Nibble on Lembas'.</em></p><hr><h3>Nibble on Lembas</h3><p>When you spend an action to eat this ration, roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The bread revitalizes you. You heal 1d6 HP and 1d4 MP.</li><li><strong>On a 9-15:</strong> You heal 1d6 HP.</li><li><strong>On a Miss:</strong> You eat it too quickly and get an upset stomach, becoming <strong>Weakened</strong> for 1 round.</li></ul><p><em>This item is consumed on use.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Elven Bread Ration.png"
+  },
+  {
+    "name": "Warhorse",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "uncommon"
+    ],
+    "description": "<p>A large, powerful horse bred and trained for the chaos of battle. It is unafraid of combat and can wear barding.</p><p><em>In a timed scene, you can command it to 'Trample'.</em></p><hr><h3>Trample</h3><p>When you command your warhorse to charge through enemies, roll+STR.</p><ul><li><strong>On a 16-19:</strong> You move up to your horse's SPEED in a straight line. You can move through enemy spaces. Each enemy you move through takes 1d8 HD and is knocked prone.</li><li><strong>On a 9-15:</strong> As above, but enemies take only 1d4 HD.</li><li><strong>On a Miss:</strong> The first enemy in your path holds their ground, stopping your movement and dealing their damage to your warhorse.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "25"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "10"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Warhorse.png"
+  },
+  {
+    "name": "Hawk",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "uncommon"
+    ],
+    "description": "<p>A trained bird of prey with incredibly keen eyesight. It can be used for scouting from above or harassing enemies in battle.</p><p><em>In a timed scene, you can command it to 'Harry'.</em></p><hr><h3>Harry</h3><p>When you command your hawk to harry a target within 10 squares, roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The hawk swoops and claws at the target's face. The target is <strong>Blinded</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The hawk distracts the target, making them <strong>Weakened</strong> for 1 round.</li><li><strong>On a Miss:</strong> The hawk misses and is driven off, unable to be commanded for the rest of the combat.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "12 (fly)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Hawk.png"
+  },
+  {
+    "name": "Mechanical Squirrel",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "uncommon"
+    ],
+    "description": "<p>A gnomish invention that mimics a real squirrel with surprising accuracy. It's an excellent companion that can also perform minor repairs with its tiny, built-in tools.</p><p><em>In a timed scene, you can send it to 'Deconstruct'.</em></p><hr><h3>Deconstruct</h3><p>When you command your squirrel to sabotage an enemy's gear (weapon, armor, or shield) within its SPEED, roll+INT.</p><ul><li><strong>On a 16-19:</strong> The squirrel quickly dismantles a key component. The target item's effectiveness is halved for the rest of combat (half damage, or -1 Armor).</li><li><strong>On a 9-15:</strong> The item is damaged, giving the wielder disadvantage on their next roll using it.</li><li><strong>On a Miss:</strong> The squirrel gets stuck in the mechanism. It cannot act again until you spend an action to retrieve it.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "8"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Mechanical_Squirrel.png"
+  },
+  {
+    "name": "Bloodfen Raptor",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "uncommon"
+    ],
+    "description": "<p>A young, but ferocious raptor, trained for combat. Its sharp claws and pack tactics make it a deadly companion for any aspiring troll or hunter.</p><p><em>In a timed scene, you can command it to 'Pounce'.</em></p><hr><h3>Pounce</h3><p>When you command your raptor to attack a target within its SPEED, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The raptor leaps onto the target, dealing 1d8 HD and causing them to be <strong>Immobilized</strong> for 1 round as it latches on.</li><li><strong>On a 9-15:</strong> The raptor deals 1d8 HD but fails to latch on.</li><li><strong>On a Miss:</strong> The raptor misses and is left off-balance; the target gets a free attack with advantage against it.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "14"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "9"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Bloodfen_Raptor.png"
+  },
+  {
+    "name": "Acolyte Healer",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A young priest-in-training sent out to experience the world. Eager to help, but lacks the fortitude for the front lines. Their basic attack deals <strong>1d4 MD</strong>.</p><hr><h3>Mend Wounds</h3><p>When you command the acolyte to heal an ally within 4 squares, they spend 1 MP and roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The acolyte's prayer is answered. The target heals 1d8+3 HP.</li><li><strong>On a 9-15:</strong> The target heals 1d8 HP.</li><li><strong>On a Miss:</strong> The prayer is disjointed. The target heals only 1d4 HP, and the acolyte takes 1d4 SD from the psychic strain.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "MP",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Acolyte_Healer.png"
+  },
+  {
+    "name": "Hedge Mage",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A runaway apprentice with a handful of flashy but unreliable spells. They have an arrogant attitude but can be useful in a pinch. Their basic attack deals <strong>1d6 MD</strong>.</p><p>__</p><hr><h3>Frostbolt</h3><p>When you command the mage to cast a frostbolt at a target within 7 squares, they spend 1 MP and roll+INT.</p><ul><li><strong>On a 16-19:</strong> The target takes 1d8 MD (cold) and is <strong>Slowed</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The target takes 1d8 MD and is <strong>Slowed</strong> for 1 round.</li><li><strong>On a Miss:</strong> The spell backfires, encasing the Hedge Mage's own feet in ice. They are <strong>Immobilized</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "8"
+      },
+      {
+        "stat_name": "MP",
+        "stat_value": "12"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Hedge_Mage.png"
+  },
+  {
+    "name": "Minstrel-for-Hire",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A cheerful but greedy performer who can inspire allies or heckle foes with their sharp tongue and lute. Their basic attack is a thrown bottle for <strong>1d4 HD</strong>.</p><p>__</p><hr><h3>Song of Valor</h3><p>When you command the minstrel to play an inspiring tune, they spend 1 SP and roll+CHA.</p><ul><li><strong>On a 16-19:</strong> You and one other ally gain advantage on your next roll.</li><li><strong>On a 9-15:</strong> You or one other ally gains +3 forward on their next roll.</li><li><strong>On a Miss:</strong> The minstrel plays a dreadful note, causing one ally to become <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "SP",
+        "stat_value": "15"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Minstrel-for-Hire.png"
+  },
+  {
+    "name": "Cutpurse",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A shadowy figure who excels at relieving others of their valuables. Not much of a fighter, but useful for disruption. Their basic attack is a shiv for <strong>1d4 HD</strong>.</p><hr><h3>Pilfer</h3><p>When you command the cutpurse to steal from an adjacent enemy, they roll+DEX.</p><ul><li><strong>On a 16-19:</strong> They steal one small, carried item (a potion, a pouch, a key) without being noticed.</li><li><strong>On a 9-15:</strong> They steal the item but are noticed, provoking a reaction from the target.</li><li><strong>On a Miss:</strong> They are caught red-handed and immediately become the target of the enemy's ire, who becomes <strong>Taunted</strong> by the cutpurse for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "7"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Cutpurse.png"
+  },
+  {
+    "name": "Dire Wolf",
+    "crystals": {
+      "requires": [
+        "orange",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "uncommon"
+    ],
+    "description": "<p>A massive wolf, larger and more intelligent than its common kin, bred for war. Its powerful jaws can snap bone, and it moves with a chilling speed.</p><p>You can devote crystals to this mount to unlock its special abilities.</p><hr><h3>Savage Lunge</h3><p>When you command your Dire Wolf to lunge at a target within 4 squares, roll+STR.</p><ul><li><strong>On a 16-19:</strong> The wolf leaps to the target, dealing 1d8 HD and knocking them prone.</li><li><strong>On a 9-15:</strong> The wolf deals 1d8 HD but does not knock them prone.</li><li><strong>On a Miss:</strong> The wolf misses and is left overextended, granting the target advantage on its next attack against the wolf.</li></ul><hr><h3>Howl</h3><p>When you command your wolf to howl, spend 1 SP and roll+CHA.</p><ul><li><strong>On a 16-19:</strong> All enemies within a 5-square radius who can hear the howl are <strong>Frightened</strong> for 1 round.</li><li><strong>On a 9-15:</strong> One enemy of your choice is <strong>Frightened</strong> for 1 round.</li><li><strong>On a Miss:</strong> The howl attracts unwanted attention from other nearby creatures.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "25"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "10"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Dire_Wolf.png"
+  },
+  {
+    "name": "War Raptor",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "uncommon"
+    ],
+    "description": "<p>A swift, bipedal predator covered in scales and feathers, trained by troll and goblin riders. It attacks with a flurry of claws and teeth.</p><p>You can devote crystals to this mount to unlock its special abilities.</p><hr><h3>Rending Claws</h3><p>When you command your raptor to attack an adjacent enemy, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The raptor deals 1d8 HD and the target is <strong>Bleeding</strong> for 2 rounds (taking 1d4 HD at the start of their turn).</li><li><strong>On a 9-15:</strong> The raptor deals 1d8 HD, but the wound is not deep enough to cause bleeding.</li><li><strong>On a Miss:</strong> The target sidesteps the attack, and the raptor is <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "20"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "12"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "War_Raptor.png"
+  },
+  {
+    "name": "Giant Spider",
+    "crystals": {
+      "requires": [
+        "black",
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "uncommon"
+    ],
+    "description": "<p>A monstrous arachnid mount, prized by dark elves and goblins. It can scuttle up walls and ensnare foes in sticky webbing.</p><p>You can devote crystals to this mount to unlock its special abilities.</p><hr><h3>Web Wrap</h3><p>When you command your spider to shoot a web at a target within 5 squares, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The target is <strong>Immobilized</strong> for 2 rounds and you can <strong>Pull 1</strong>.</li><li><strong>On a 9-15:</strong> The target is <strong>Immobilized</strong> for 1 round.</li><li><strong>On a Miss:</strong> The web shooter jams and cannot be used for the rest of the combat.</li></ul><hr><h3>Poisonous Bite</h3><p>When your spider makes a melee attack, it deals its damage (1d6 HD). On a hit, the target must also roll+CON or become <strong>Poisoned</strong> for 3 rounds.</p>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "18"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8 (Wall Climb)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Giant_Spider.png"
+  },
+  {
+    "name": "War Boar",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "uncommon"
+    ],
+    "description": "<p>A foul-tempered, armored boar with sharp tusks, favored by orc and dwarven raiders for its sheer resilience and devastating charge.</p><p>You can devote crystals to this mount to unlock its special abilities.</p><hr><h3>Gore</h3><p>When you command your boar to charge at least 3 squares in a straight line and attack a target, roll+STR.</p><ul><li><strong>On a 16-19:</strong> The boar deals 1d10 HD, and the target is <strong>Bleeding</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The boar deals 1d10 HD, but does not cause a bleed.</li><li><strong>On a Miss:</strong> The boar misses and carries on past the target, ending its movement 3 squares away.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "30"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "War_Boar.png"
+  },
+  {
+    "name": "Giant Bat",
+    "crystals": {
+      "requires": [
+        "purple",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "uncommon"
+    ],
+    "description": "<p>A massive nocturnal creature trained to carry a rider through the darkest nights. Its screech can disorient foes, and it navigates flawlessly in total darkness.</p><p>You can devote crystals to this mount to unlock its special abilities.</p><hr><h3>Screech</h3><p>As an action, you can command your bat to emit a deafening screech. Roll+CON.</p><ul><li><strong>On a 16-19:</strong> All enemies within a 3-square radius are <strong>Deafened</strong> and <strong>Weakened</strong> for 1 round.</li><li><strong>On a 9-15:</strong> All enemies in the radius are only <strong>Weakened</strong> for 1 round.</li><li><strong>On a Miss:</strong> The screech affects friends and foes alike, Weakening everyone in the radius.</li></ul><hr><h3>Wing Attack</h3><p>When you command your bat to attack an adjacent enemy, it deals 1d6 HD and may <strong>Push 1</strong> as it beats its powerful wings.</p>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "15"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "10 (fly)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Giant_Bat.png"
+  },
+  {
+    "name": "Ogre 'Bodyguard'",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A dim-witted but immensely strong Ogre you've somehow convinced to follow you around. Simple commands work best. Their basic club attack deals <strong>1d10 HD</strong>.</p><hr><h3>Big Smash</h3><p>When you point at an enemy and tell your ogre to smash, they roll+STR.</p><ul><li><strong>On a 16-19:</strong> The ogre deals their damage, and the target is <strong>Stunned</strong> for 1 round from the sheer concussive force.</li><li><strong>On a 9-15:</strong> The ogre deals their damage.</li><li><strong>On a Miss:</strong> The ogre gets confused and smashes the ground, stunning itself for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "35"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Ogre_Bodyguard.png"
+  },
+  {
+    "name": "Brothel Bouncer",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A large, intimidating individual whose job is to handle 'unruly patrons.' They are an expert at de-escalation and, when that fails, forceful removal. Their basic unarmed attack deals <strong>1d6 HD</strong>.</p><hr><h3>You're Out!</h3><p>When you command the bouncer to eject an enemy, they roll+STR.</p><ul><li><strong>On a 16-19:</strong> The bouncer grabs the target and uses their entire movement to <strong>Push</strong> them in a direction of your choice. The target is <strong>Stunned</strong> for 1 round.</li><li><strong>On a 9-15:</strong> The bouncer only manages to <strong>Push 2</strong>.</li><li><strong>On a Miss:</strong> The target resists and the bouncer is knocked prone.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "25"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "6"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Brothel_Bouncer.png"
+  },
+  {
+    "name": "Gnoll Scavenger",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "hireling",
+      "uncommon"
+    ],
+    "description": "<p>A twitchy, unnerving gnoll who follows you for the promise of scrap metal and leftovers. Their loyalty is fleeting, but their ferocity is not. Their basic spear attack deals <strong>1d8 HD</strong>.</p><hr><h3>Rampage</h3><p>When you command the gnoll to rampage, roll+WIS to see if you can control it.</p><ul><li><strong>On a 16-19:</strong> The gnoll flies into a rage for 2 rounds. It makes two basic attacks on each of its turns.</li><li><strong>On a 9-15:</strong> The gnoll rages for 1 round.</li><li><strong>On a Miss:</strong> The gnoll becomes <strong>Confused</strong> and attacks the nearest creature for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "18"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "7"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Gnoll_Scavenger.png"
+  },
+  {
+    "name": "Goblin Blunderbuss",
+    "crystals": {
+      "requires": [
+        "gold",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "uncommon"
+    ],
+    "description": "<p>A loud, crudely made firearm that sprays a wide cone of shrapnel. It deals <strong>1d10 HD</strong> and attacks all targets in a <strong>Cone (5 squares)</strong>. This weapon is very loud and requires an action to reload.</p><hr><h3>Explosive Shot</h3><p>When you load a special explosive shell, roll+INT.</p><ul><li><strong>On a 16-19:</strong> Your next attack deals an additional 1d6 MD (fire) and all targets hit are now <strong>Burning</strong> for 1 round.</li><li><strong>On a 9-15:</strong> Your next attack deals an additional 1d6 MD (fire).</li><li><strong>On a Miss:</strong> The shell was unstable! The gun backfires, dealing 1d8 MD to you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "6"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "120"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Goblin_Blunderbuss.png"
+  },
+  {
+    "name": "Trade Caravan Wagon",
+    "crystals": {
+      "requires": [
+        "gold",
+        "red",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "vehicle",
+      "uncommon"
+    ],
+    "description": "<p>A sturdy, canvas-covered wagon pulled by two draft horses. It has space for a driver, one passenger, and a large amount of cargo. It provides cover to those inside.</p><hr><h3>Reinforced Plating</h3><p><strong>(Passive)</strong></p><p><em>You've bolted extra metal plates to the wagon. The wagon now has Armor 2 and can be used to provide cover with improved protection.</em></p><hr><h3>Hunker Down!</h3><p>When you command everyone to take cover inside the wagon, roll+CHA.</p><ul><li><strong>On a 16-19:</strong> All occupants gain +2 Armor against ranged attacks for 2 rounds.</li><li><strong>On a 9-15:</strong> All occupants gain +1 Armor for 2 rounds.</li><li><strong>On a Miss:</strong> In the scramble to take cover, an important item is dropped outside the wagon.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "50"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Caravan_Wagon.png"
+  },
+  {
+    "name": "Goblin Hot Rod",
+    "crystals": {
+      "requires": [
+        "red",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "vehicle",
+      "uncommon"
+    ],
+    "description": "<p>A rickety, three-wheeled contraption that belches smoke and makes an incredible racket. It's dangerously fast and prone to exploding, but a thrilling ride.</p><hr><h3>Nitro Boost</h3><p>When you inject a volatile fuel mixture into the engine, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The hot rod's SPEED is tripled for 1 round.</li><li><strong>On a 9-15:</strong> The SPEED is doubled, but the engine takes 1d6 MD (fire) at the end of the move.</li><li><strong>On a Miss:</strong> The engine explodes! The hot rod is destroyed, dealing 2d8 MD to the driver and all adjacent creatures.</li></ul><hr><h3>Oil Slick</h3><p>When you release the oil slick, choose a 2x2 area directly behind you. That area becomes difficult terrain, and any creature entering it must roll+DEX or fall prone.</p>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "15"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "10"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Goblin_Hot_Rod.png"
+  },
+  {
+    "name": "Grappling Hook & Launcher",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A spring-loaded, gnomish device designed to fire a four-pronged grappling hook attached to 50 feet of thin, wiry rope. Its high-tension spring mechanism requires careful aiming and bracing.</p><hr><h3>Hook Shot</h3><p>When you use your action to fire the grappling hook at a surface or creature within 10 squares, roll+DEX.</p><ul><li><strong>On a 16+:</strong> The hook latches securely. You can immediately <strong>Pull 5</strong> a target your size or smaller, or pull yourself to the anchor point.</li><li><strong>On a 9-15:</strong> The hook holds, but precariously. You can pull yourself to the anchor point, but cannot pull other objects.</li><li><strong>On a 1-8:</strong> The hook ricochets dangerously and gets tangled. You must spend an action to untangle it before it can be used again.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "75"
+      }
+    ],
+    "header_image": "Grappling_Hook.png"
+  },
+  {
+    "name": "Bullseye Lantern",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>An oil lantern with a polished silver reflector and adjustable shutters. It can produce a broad cone of light or be focused into a narrow, bright beam. Consumes 1 use of Oil per hour.</p><hr><h3>Blinding Flash</h3><p>When you use your action to open the shutters and focus the beam on a creature within 4 squares, roll+INT.</p><ul><li><strong>On a 16+:</strong> You create a blinding flash. The target is affected; if their WIS is less than your INT, they are <strong>Blinded</strong> for 2 rounds. Otherwise, they are <strong>Weakened</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The target is <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The intense heat cracks the lantern's lens. Its light radius is halved until it is repaired.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "header_image": "Bullseye_Lantern.png"
+  },
+  {
+    "name": "Crampons & Ice Axe",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A set of biting spikes that strap to your boots and a sturdy axe with a serrated pick. Wearing the crampons allows you to move across icy or snowy surfaces without penalty. The axe can be used as a simple weapon (1d6 HD).</p><hr><h3>Arrest Fall</h3><p><strong>(Reaction)</strong> When you or an adjacent ally would fall down a slippery or sheer surface, you can spend your reaction to dig in with your axe. Roll+STR.</p><ul><li><strong>On a 16+:</strong> You successfully stop the fall for both yourself and one ally.</li><li><strong>On a 9-15:</strong> You stop your own fall, but cannot hold anyone else.</li><li><strong>On a 1-8:</strong> You slow the fall, taking only half damage, but you end up in a more dangerous position.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Crampons_and_Ice_Axe.png"
+  },
+  {
+    "name": "Alchemist's Fire",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "uncommon"
+    ],
+    "description": "<p>A single-use clay flask filled with a volatile, sticky substance that ignites on contact with air. It is a dangerous but effective way to create a barrier or burn away an obstacle.</p><p><em>In a timed scene, you can 'Throw Flask'.</em></p><hr><h3>Throw Flask</h3><p>When you use your action to throw the flask at a square within 4 squares, roll+DEX.</p><ul><li><strong>On a 16+:</strong> The flask shatters, covering the target square and all adjacent squares in fire for 2 rounds. Any creature starting its turn in the fire takes 1d6 fire damage.</li><li><strong>On a 9-15:</strong> The flask only covers the target square in fire for 2 rounds.</li><li><strong>On a 1-8:</strong> You fumble the flask. It shatters at your feet, setting your square on fire.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "header_image": "Alchemists_Fire.png"
+  },
+  {
+    "name": "Block and Tackle",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A set of pulleys and 50 feet of rope that, when anchored, provides a significant mechanical advantage for lifting heavy objects. Setting it up takes about a minute.</p><p><em>Once set up, you can use 'Heave'.</em></p><hr><h3>Heave</h3><p>When you use this device to lift or pull a heavy object (like a portcullis or a boulder), you gain advantage on your STR roll. In a timed scene, you can attempt to use it on a creature. Roll+INT to rig it.</p><ul><li><strong>On a 16+:</strong> You successfully rig the pulley. As an action, you can <strong>Lift 2</strong> or <strong>Pull 3</strong> a creature up to two sizes larger than you.</li><li><strong>On a 9-15:</strong> You can only <strong>Lift 1</strong> or <strong>Pull 2</strong>.</li><li><strong>On a 1-8:</strong> The rope snaps under the strain, and the device is useless until repaired.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "35"
+      }
+    ],
+    "header_image": "Block_and_Tackle.png"
+  },
+  {
+    "name": "Arcane Signal Mirror",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A silver-plated mirror etched with focusing runes. It doesn't just reflect light, but can gather and project a beam of pure energy, allowing for silent, long-distance communication (line of sight required).</p><hr><h3>Solar Flare</h3><p>When you use your action to focus a beam of light into a target's eyes, spend 1 MP and roll+INT.</p><ul><li><strong>On a 16+:</strong> You create a blinding flash. The target is affected; if their WIS is less than your INT, they are <strong>Blinded</strong> for 2 rounds. Otherwise, they are <strong>Weakened</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The target is <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> You can't focus the beam properly. A stray flash hits an ally adjacent to the target, making them <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "60"
+      }
+    ],
+    "header_image": "Signal_Mirror.png"
+  },
+  {
+    "name": "Goblin Sapper's Shovel",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A sturdy iron shovel fitted with a small, highly unstable explosive charge near the spade, designed for 'rapid excavation'. It can be used as a simple weapon (1d6 HD).</p><hr><h3>Furious Dig</h3><p>When you use your action to dig furiously into soft earth or rubble, spend 1 SP and roll+STR.</p><ul><li><strong>On a 16+:</strong> You excavate a 1-square trench in your space in seconds, granting you and any creature in your square +1 Armor from cover.</li><li><strong>On a 9-15:</strong> You dig quickly but messily, turning your square and an adjacent square into difficult terrain.</li><li><strong>On a 1-8:</strong> You dig too greedily and trigger the explosive charge! You take 1d6 fire damage and are thrown back (<strong>Push 1</strong>).</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "45"
+      }
+    ],
+    "header_image": "Sapper_Shovel.png"
+  },
+  {
+    "name": "Camouflage Tarp",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A 10x10 foot oilcloth tarp, dyed with shifting patterns of green and brown. When draped over a campsite or used as a lean-to in a natural environment, it makes the location much harder to spot.</p><p><em>In a timed scene, you can 'Hunker Down'.</em></p><hr><h3>Hunker Down</h3><p>When you use your action to throw the tarp over yourself, roll+DEX.</p><ul><li><strong>On a 16+:</strong> You are perfectly camouflaged. You are considered <strong>Invisible</strong> as long as you do not move from your square.</li><li><strong>On a 9-15:</strong> You are hidden, but not perfectly. The first attack against you has disadvantage.</li><li><strong>On a 1-8:</strong> You fumble with the tarp, creating a conspicuous shape. The first attack against you has advantage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "20"
+      }
+    ],
+    "header_image": "Camouflage_Tarp.png"
+  },
+  {
+    "name": "Physician's Kit",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A leather satchel containing precise medical instruments: scalpels, sutures, bone saws, and antiseptic herbs. It has 5 uses. Far superior to simple bandages for treating serious wounds.</p><hr><h3>Field Surgery</h3><p>When you spend one minute treating a wounded ally, mark off one use and roll+WIS.</p><ul><li><strong>On a 16+:</strong> You expertly treat their wounds. The target heals 2d8 HP and you may remove one physical Condition.</li><li><strong>On a 9-15:</strong> The target heals 2d8 HP.</li><li><strong>On a 1-8:</strong> Your hands are unsteady. The target heals only 1d8 HP, and you cannot use this kit on them again until they have a full rest.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "header_image": "Physicians_Kit.png"
+  },
+  {
+    "name": "Smoked Goggles",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A pair of goggles with lenses made of dark, smoked glass. They are essential for engineers and alchemists to protect their eyes from bright flashes and chemical splashes.</p><p><em>Wearing these goggles grants a passive benefit.</em></p><hr><h3>Glare Protection</h3><p><strong>(Passive)</strong></p><p><em>While wearing these goggles, you have advantage on all rolls to resist the <strong>Blinded</strong> condition caused by bright flashes of light (magical or otherwise).</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "30"
+      }
+    ],
+    "header_image": "Smoked_Goggles.png"
+  },
+  {
+    "name": "Troll-Blood Vial",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "uncommon"
+    ],
+    "description": "<p>A single-use vial containing the potent, rapidly-clotting blood of a troll. When applied to a wound, it forces the flesh to knit back together with alarming, and often painful, speed.</p><p><em>In a timed scene, you can 'Apply Troll's Blood'.</em></p><hr><h3>Apply Troll's Blood</h3><p>When you spend an action to apply this vial to an adjacent creature (or yourself), roll+CON.</p><ul><li><strong>On a 16+:</strong> The target heals 2d8 HP instantly, but the process is agonizing; they are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 9-15:</strong> The target heals 2d8 HP, but they are <strong>Stunned</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The regeneration is unstable. The target heals 1d8 HP but takes 1d4 damage at the start of their next turn as the flesh tears itself apart.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "60"
+      }
+    ],
+    "header_image": "Troll_Blood_Vial.png"
+  },
+  {
+    "name": "Ever-burning Torch",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon",
+      "magic"
+    ],
+    "description": "<p>A haft of darkwood topped with a chunk of enchanted coal. When the command word is spoken, it produces a clean, bright light equivalent to a normal torch. It does not consume fuel and cannot be extinguished by non-magical means.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Blaze of Glory</h3><p>When you speak a second command word as an action, the torch erupts in a brilliant blaze. Roll+CHA.</p><ul><li><strong>On a 16+:</strong> The torch flares brightly for 2 rounds. All creatures within a 3-square radius are affected. If an undead or shadow creature's WIS is less than your CHA, they are <strong>Frightened</strong>. Otherwise, they are <strong>Weakened</strong>.</li><li><strong>On a 9-15:</strong> The flare lasts 1 round and only affects adjacent creatures.</li><li><strong>On a 1-8:</strong> The torch flares and immediately extinguishes. It cannot be relit for one hour.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "75"
+      }
+    ],
+    "header_image": "Everburning_Torch.png"
+  },
+  {
+    "name": "Sapper's Listening Horn",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "uncommon"
+    ],
+    "description": "<p>A large, conical horn made of bronze. When the wide end is placed against a solid surface like a wall or floor, it amplifies even the faintest sounds from the other side, such as footsteps or whispers.</p><p><em>In a timed scene, you can 'Listen In'.</em></p><hr><h3>Listen In</h3><p>When you use your action to press the horn against a surface, roll+WIS.</p><ul><li><strong>On a 16+:</strong> You hear with perfect clarity. The GM will tell you the precise number and location of any creatures on the other side of the surface within 5 squares.</li><li><strong>On a 9-15:</strong> You hear something. You learn the number of creatures, but not their exact locations.</li><li><strong>On a 1-8:</strong> You misinterpret the sounds, getting the number wrong, or a sudden loud noise on your side deafens you for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "40"
+      }
+    ],
+    "header_image": "Listening_Horn.png"
+  },
+  {
+    "name": "Elixir of Tongues",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "consumable",
+      "uncommon"
+    ],
+    "description": "<p>A single-use bubbling potion that, when consumed, temporarily grants the drinker the ability to speak and understand any spoken language. It does not grant literacy. The effect is potent but short-lived.</p><p><em>In a timed scene, you can 'Speak the Lingo'.</em></p><hr><h3>Speak the Lingo</h3><p>When you drink this potion as an action, roll+INT.</p><ul><li><strong>On a 16+:</strong> For the next 10 minutes, you can understand and speak all languages fluently. You gain advantage on your next CHA roll made to parley with a creature you couldn't otherwise speak to.</li><li><strong>On a 9-15:</strong> The effect lasts for only 1 minute.</li><li><strong>On a 1-8:</strong> The languages get jumbled in your head. You can understand all languages for 1 minute, but you can only speak a garbled, nonsensical mix of them.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "50"
+      }
+    ],
+    "header_image": "Elixir_of_Tongues.png"
+  }
+]

@@ -1,0 +1,2261 @@
+[
+{
+"name": "Patient Killer",
+"crystals": {
+"requires": [],
+"provides": [
+"black",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>I am the shadow that falls just before the blade. By the time you hear my footsteps, it is already too late.</em></p><hr><h3>Master Poisoner</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to identify, resist, or brew poisons. When you successfully apply a <strong>Poisoned</strong> condition, it lasts for 1 additional round.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 2
+},
+{
+"stat_name": "sp",
+"stat_value": 12
+},
+{
+"stat_name": "hd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 2
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 2
+},
+{
+"ability_name": "WIS",
+"ability_value": -2
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"secondary_stats": [
+{
+"stat_name": "speed",
+"stat_value": 7
+},
+{
+"stat_name": "load",
+"stat_value": 10
+}
+],
+"header_image": "Patient_Killer.png"
+},
+{
+"name": "Cunning Scoundrel",
+"crystals": {
+"requires": [],
+"provides": [
+"black",
+"purple"
+]
+},
+"type": "character",
+"description": "<p><em>Rules are for people who can't win a fair fight. Lucky for me, I've never had a fair fight in my life.</em></p><hr><h3>Opportunity Knocks</h3><p><strong>(Passive)</strong></p><p><em>You are an opportunist. When an ally within 5 squares makes a successful attack against an enemy, you gain +3 forward on your next roll against that same enemy.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 12
+},
+{
+"stat_name": "mp",
+"stat_value": 1
+},
+{
+"stat_name": "sp",
+"stat_value": 10
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 1
+},
+{
+"ability_name": "COS",
+"ability_value": 1
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": -1
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"secondary_stats": [
+{
+"stat_name": "speed",
+"stat_value": 6
+},
+{
+"stat_name": "load",
+"stat_value": 11
+}
+],
+"header_image": "Cunning_Scoundrel.png"
+},
+{
+"name": "Selfless Guardian",
+"crystals": {
+"requires": [],
+"provides": [
+"blue",
+"white"
+]
+},
+"type": "character",
+"description": "<p><em>My purpose is not to be the hero, but to help the hero rise. My faith is their shield, and my life is theirs to command.</em></p><hr><h3>Selfless Spirit</h3><p><strong>(Passive)</strong></p><p><em>When you successfully use the Aid move to help an ally, they also heal for an amount equal to your CAR modifier (minimum 1).</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 9
+},
+{
+"stat_name": "mp",
+"stat_value": 2
+},
+{
+"stat_name": "sp",
+"stat_value": 7
+},
+{
+"stat_name": "hd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "md",
+"stat_value": "1d6"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d4"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": -1
+},
+{
+"ability_name": "CAR",
+"ability_value": 1
+}
+],
+"secondary_stats": [
+{
+"stat_name": "speed",
+"stat_value": 6
+},
+{
+"stat_name": "load",
+"stat_value": 11
+}
+],
+"header_image": "Selfless_Guardian.png"
+},
+{
+"name": "Righteous Crusader",
+"crystals": {
+"requires": [],
+"provides": [
+"blue",
+"blue"
+]
+},
+"type": "character",
+"description": "<p><em>The Light demands justice, and I am its instrument. I will uncover the truth with my senses and deliver the verdict with my hammer.</em></p><hr><h3>Seal of Truth</h3><p><strong>(Passive)</strong></p><p><em>You gain advantage on all Discern Realities and Spout Lore rolls when investigating a crime or a known enemy of your order. When you deal HD to an enemy, they are also <strong>Burning</strong> for 1 magical damage for 1 round.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 12
+},
+{
+"stat_name": "mp",
+"stat_value": 4
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d4"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": -2
+},
+{
+"ability_name": "CAR",
+"ability_value": 2
+}
+],
+"secondary_stats": [
+{
+"stat_name": "speed",
+"stat_value": 6
+},
+{
+"stat_name": "load",
+"stat_value": 12
+}
+],
+"header_image": "Righteous_Crusader.png"
+},
+{
+"name": "Arcane Scholar",
+"crystals": {
+"requires": [],
+"provides": [
+"cerulean",
+"cerulean"
+]
+},
+"type": "character",
+"description": "<p><em>The world is an equation, and magic is the variable that allows one to solve it. While others see chaos, I see the beautiful, intricate weave of the arcane.</em></p><hr><h3>Prodigy</h3><p><strong>(Passive)</strong></p><p><em>You learn from your failures. When you roll a Low Hit (1-8) on a magical attack, you gain 1 Arcane Charge (max 4).</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 6
+},
+{
+"stat_name": "mp",
+"stat_value": 12
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "2d6"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d4"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": -2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": -2
+},
+{
+"ability_name": "INT",
+"ability_value": 2
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Arcane_Scholar.png"
+},
+{
+"name": "Grove Tender",
+"crystals": {
+"requires": [],
+"provides": [
+"emerald",
+"emerald"
+]
+},
+"type": "character",
+"description": "<p><em>The forest breathes, and I breathe with it. I am a mender of wounds, a guardian of life's delicate balance. I feel the pain of the land, and I work to make it whole.</em></p><hr><h3>Naturalist</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to identify plants or natural substances. When you successfully use a healing item (like a poultice or potion) on an ally, they heal an additional 1d4 HP.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 8
+},
+{
+"stat_name": "mp",
+"stat_value": 8
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 1
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": -1
+}
+],
+"header_image": "Grove_Tender.png"
+},
+{
+"name": "Spirit Warrior",
+"crystals": {
+"requires": [],
+"provides": [
+"orange",
+"orange"
+]
+},
+"type": "character",
+"description": "<p><em>The earth is my strength, the storm is my fury. I do not ask the elements for power—I commune with them, and together, we strike as one.</em></p><hr><h3>Maelstrom Weapon</h3><p><strong>(Passive)</strong></p><p><em>When you deal HD damage, you gain a stack of Maelstrom Weapon (max 5). You can spend 5 stacks to make your next magical attack instant and deal +3 damage.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 6
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 1
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": 1
+},
+{
+"ability_name": "CAR",
+"ability_value": -2
+}
+],
+"header_image": "Spirit_Warrior.png"
+},
+{
+"name": "Runic Transcriber",
+"crystals": {
+"requires": [],
+"provides": [
+"gold",
+"gold"
+]
+},
+"type": "character",
+"description": "<p><em>Mortals see a sword, a cloak, a ring. I see the unseen patterns, the threads of potential waiting to be woven with magic. I do not make things; I awaken the magic within them.</em></p><hr><h3>Loremaster</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls related to magical writing, ancient history, or identifying enchanted items.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 12
+},
+{
+"stat_name": "mp",
+"stat_value": 8
+},
+{
+"stat_name": "sp",
+"stat_value": 10
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": -2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 2
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Runic_Transcriber.png"
+},
+{
+"name": "Explosive Inventor",
+"crystals": {
+"requires": [],
+"provides": [
+"gold",
+"gold"
+]
+},
+"type": "character",
+"description": "<p><em>Of course it might explode! That's how you know it's working! Every problem is just an opportunity for a bigger, louder, more profitable solution.</em></p><hr><h3>Safety Third</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to create, disarm, or handle explosive devices. The first time you take fire damage in a combat, you may ignore it.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 12
+},
+{
+"stat_name": "mp",
+"stat_value": 6
+},
+{
+"stat_name": "sp",
+"stat_value": 12
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": -2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 2
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Explosive_Inventor.png"
+},
+{
+"name": "Primal Companion",
+"crystals": {
+"requires": [],
+"provides": [
+"green",
+"green"
+]
+},
+"type": "character",
+"description": "<p><em>The wind in my hair, my companion at my side... that's all the kingdom I'll ever need. They say a beast is a tool; I say it's family.</em></p><hr><h3>Kindred Spirits</h3><p><strong>(Passive)</strong></p><p><em>You start with a loyal Animal Companion (e.g., Wolf, Bear, or Cat) with its own stats. You have advantage on all rolls to handle, tame, or understand animals.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 2
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 1
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": -1
+},
+{
+"ability_name": "WIS",
+"ability_value": 1
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Primal_Companion.png"
+},
+{
+"name": "Cunning Trapper",
+"crystals": {
+"requires": [],
+"provides": [
+"green",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>The wilderness doesn't care about your titles or your coin. It only cares if you're smart enough to see the trap before you step in it. I'm smart enough.</em></p><hr><h3>Trap Mastery</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to create, identify, or disarm traps, both magical and mundane. You can harvest components for one trap from a slain beast or mechanical creature.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 4
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 1
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 1
+},
+{
+"ability_name": "WIS",
+"ability_value": -1
+},
+{
+"ability_name": "CAR",
+"ability_value": -2
+}
+],
+"header_image": "Cunning_Trapper.png"
+},
+{
+"name": "Deadeye Sharpshooter",
+"crystals": {
+"requires": [],
+"provides": [
+"green",
+"green"
+]
+},
+"type": "character",
+"description": "<p><em>Patience. The wind, the distance, the target's breath... they all matter. A warrior charges in. A true hunter waits, and ends the fight with a single, perfect shot.</em></p><hr><h3>Deadeye</h3><p><strong>(Passive)</strong></p><p><em>When you use your action to aim without moving, your next Volley attack on the following turn is a guaranteed High Hit (16+) and deals +5 damage.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 2
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 2
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": 0
+},
+{
+"ability_name": "CAR",
+"ability_value": -2
+}
+],
+"header_image": "Deadeye_Sharpshooter.png"
+},
+{
+"name": "Jovial Virtuoso",
+"crystals": {
+"requires": [],
+"provides": [
+"purple",
+"purple"
+]
+},
+"type": "character",
+"description": "<p><em>Swords leave scars, but a good song? That can change the world. Or at least make you forget your troubles for a night, and that's just as important.</em></p><hr><h3>Virtuoso</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all CHA rolls made to perform music or impress a crowd. Your melodies linger in the minds of those who hear them.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 4
+},
+{
+"stat_name": "sp",
+"stat_value": 10
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "2d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 2
+},
+{
+"ability_name": "COS",
+"ability_value": -2
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": 0
+},
+{
+"ability_name": "CAR",
+"ability_value": 2
+}
+],
+"header_image": "Jovial_Virtuoso.png"
+},
+{
+"name": "Acrobatic Fool",
+"crystals": {
+"requires": [],
+"provides": [
+"purple",
+"green"
+]
+},
+"type": "character",
+"description": "<p><em>They call me a fool, and they're right. A fool is the only one who can speak the truth to a king and live. My wit is my shield, and their laughter is the sound of my victory.</em></p><hr><h3>Tumbling Fool</h3><p><strong>(Passive)</strong></p><p><em>When you successfully Defy Danger using DEX to avoid an attack, you may immediately move 1 square for free.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 8
+},
+{
+"stat_name": "mp",
+"stat_value": 2
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 1
+},
+{
+"ability_name": "COS",
+"ability_value": -1
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": 0
+},
+{
+"ability_name": "CAR",
+"ability_value": 1
+}
+],
+"header_image": "Acrobatic_Fool.png"
+},
+{
+"name": "Master Storyteller",
+"crystals": {
+"requires": [],
+"provides": [
+"purple",
+"purple"
+]
+},
+"type": "character",
+"description": "<p><em>Everyone loves a good story. A tale of heroism can forge a king, and a whispered rumor can topple an empire. I just decide which story needs to be told.</em></p><hr><h3>A Story for Every Occasion</h3><p><strong>(Passive)</strong></p><p><em>When you Spout Lore, you may roll+CHA instead of+INT if you frame the knowledge as a story you once heard.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 4
+},
+{
+"stat_name": "sp",
+"stat_value": 10
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "2d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 2
+},
+{
+"ability_name": "COS",
+"ability_value": -2
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": 0
+},
+{
+"ability_name": "CAR",
+"ability_value": 2
+}
+],
+"header_image": "Master_Storyteller.png"
+},
+{
+"name": "Weapon Master",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"blue"
+]
+},
+"type": "character",
+"description": "<p><em>The chaos of battle is a symphony, and I am its conductor. Every swing, every parry, every step is a note in the song of war. And I will not miss a beat.</em></p><hr><h3>Battle Tactics</h3><p><strong>(Passive)</strong></p><p><em>When you successfully Aid an ally on an attack roll, you also generate 10 Rage. When an ally successfully Aids you, you also generate 10 Rage.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 12
+},
+{
+"stat_name": "mp",
+"stat_value": 0
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d4"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 1
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": -1
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Weapon_Master.png"
+},
+{
+"name": "Stalwart Defender",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"blue"
+]
+},
+"type": "character",
+"description": "<p><em>Let them break upon my shield like waves against the cliffs. As long as I stand, the line will not falter. This is my contract.</em></p><hr><h3>Paid to Protect</h3><p><strong>(Passive)</strong></p><p><em>At the start of a timed scene, name one ally you are protecting. You gain +1 Armor as long as you are adjacent to them. You have advantage on all CHA rolls to negotiate payment for a job.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 14
+},
+{
+"stat_name": "mp",
+"stat_value": 0
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 2
+},
+{
+"ability_name": "INT",
+"ability_value": -1
+},
+{
+"ability_name": "WIS",
+"ability_value": 0
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Stalwart_Defender.png"
+},
+{
+"name": "Enraged Berserker",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"orange"
+]
+},
+"type": "character",
+"description": "<p><em>Pain? Pain is a fuel. Fear? Fear is a motivator. Let them wound me. Let them try to break me. Every blow only makes my rage burn hotter.</em></p><hr><h3>Enrage</h3><p><strong>(Passive)</strong></p><p><em>When you take damage, you generate 10 Rage. (This is in addition to any Rage generated by your attacks).</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 12
+},
+{
+"stat_name": "mp",
+"stat_value": 0
+},
+{
+"stat_name": "sp",
+"stat_value": 6
+},
+{
+"stat_name": "hd",
+"stat_value": "1d10"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d4"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 2
+},
+{
+"ability_name": "DEX",
+"ability_value": 1
+},
+{
+"ability_name": "COS",
+"ability_value": 1
+},
+{
+"ability_name": "INT",
+"ability_value": -1
+},
+{
+"ability_name": "WIS",
+"ability_value": -1
+},
+{
+"ability_name": "CAR",
+"ability_value": -2
+}
+],
+"header_image": "Enraged_Berserker.png"
+},
+{
+"name": "Arena Champion",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"red"
+]
+},
+"type": "character",
+"description": "<p><em>The roar of the crowd is the only music I need. Every fight is a performance, and every victory a masterpiece. Are you not entertained?</em></p><hr><h3>Showmanship</h3><p><strong>(Passive)</strong></p><p><em>When you defeat an enemy in a timed scene with at least one onlooker, you regain 1d6 SP and 10 Rage.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 14
+},
+{
+"stat_name": "mp",
+"stat_value": 0
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 2
+},
+{
+"ability_name": "INT",
+"ability_value": -2
+},
+{
+"ability_name": "WIS",
+"ability_value": 0
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Arena_Champion.png"
+},
+{
+"name": "Holy Champion",
+"crystals": {
+"requires": [],
+"provides": [
+"white",
+"blue"
+]
+},
+"type": "character",
+"description": "<p><em>I am a hammer of the Light, and my crusade is eternal. Where the shadows fall, I am the dawn. Where there is injustice, I am the verdict.</em></p><hr><h3>Seal of Command</h3><p><strong>(Passive)</strong></p><p><em>Once per turn, when you hit with a melee attack, you can choose to have it deal magical damage instead of physical. If you do, it deals an additional +2 damage.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 6
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d6"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 0
+},
+{
+"ability_name": "WIS",
+"ability_value": 1
+},
+{
+"ability_name": "CAR",
+"ability_value": 1
+}
+],
+"header_image": "Holy_Champion.png"
+},
+{
+"name": "Beacon of Light",
+"crystals": {
+"requires": [],
+"provides": [
+"white",
+"white"
+]
+},
+"type": "character",
+"description": "<p><em>Doubt is a shadow, and I am a vessel of the Light. To stand in my presence is to be shielded from despair. Have faith, and you will be saved.</em></p><hr><h3>Light's Beacon</h3><p><strong>(Passive)</strong></p><p><em>At the start of combat, you can choose one ally to become your Beacon of Light. Whenever you cast a healing spell on another ally, your Beacon is also healed for half the amount.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 8
+},
+{
+"stat_name": "mp",
+"stat_value": 10
+},
+{
+"stat_name": "sp",
+"stat_value": 10
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": -2
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 1
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": 1
+}
+],
+"header_image": "Beacon_of_Light.png"
+},
+{
+"name": "Feral Brawler",
+"crystals": {
+"requires": [],
+"provides": [
+"orange",
+"orange"
+]
+},
+"type": "character",
+"description": "<p><em>The spirits of the wild are not gentle. They are tooth and claw and fury. I do not ask for their blessing; I embody their rage.</em></p><hr><h3>Primal Fury</h3><p><strong>(Passive)</strong></p><p><em>For every 5 HP you are missing, your HD attacks deal +1 damage.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 15
+},
+{
+"stat_name": "mp",
+"stat_value": 0
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d10"
+},
+{
+"stat_name": "md",
+"stat_value": "1d4"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "speed",
+"stat_value": 7
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 2
+},
+{
+"ability_name": "DEX",
+"ability_value": 1
+},
+{
+"ability_name": "COS",
+"ability_value": 2
+},
+{
+"ability_name": "INT",
+"ability_value": -2
+},
+{
+"ability_name": "WIS",
+"ability_value": -1
+},
+{
+"ability_name": "CAR",
+"ability_value": 0
+}
+],
+"header_image": "Feral_Brawler.png"
+},
+{
+"name": "Spirit Guide",
+"crystals": {
+"requires": [],
+"provides": [
+"orange",
+"emerald"
+]
+},
+"type": "character",
+"description": "<p><em>Listen. Not with your ears, but with your soul. The ancestors are always whispering. They guide my hand and steady my heart. I am never alone.</em></p><hr><h3>Ancestral Guidance</h3><p><strong>(Passive)</strong></p><p><em>Once per day, when you would roll a Low Hit (1-8), you may ask the spirits for guidance and treat the result as a Medium Hit (9-15) instead.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 8
+},
+{
+"stat_name": "sp",
+"stat_value": 10
+},
+{
+"stat_name": "hd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 0
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 1
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": -1
+}
+],
+"header_image": "Spirit_Guide.png"
+},
+{
+"name": "Wildheart Shifter",
+"crystals": {
+"requires": [],
+"provides": [
+"emerald",
+"emerald"
+]
+},
+"type": "character",
+"description": "<p><em>This form is a cage. The city is a cage. True freedom is the feel of claws on earth and the wind in your fur. I am the wild made manifest.</em></p><hr><h3>Untamed Heart</h3><p><strong>(Passive)</strong></p><p><em>You can speak with and understand animals. When you are in a Wild Shape form, you gain +1 to your SPEED.</em></p>",
+"stats": [
+{
+"stat_name": "hp",
+"stat_value": 10
+},
+{
+"stat_name": "mp",
+"stat_value": 6
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d8"
+},
+{
+"stat_name": "md",
+"stat_value": "1d6"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d6"
+},
+{
+"stat_name": "speed",
+"stat_value": 7
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": 1
+},
+{
+"ability_name": "DEX",
+"ability_value": 2
+},
+{
+"ability_name": "COS",
+"ability_value": 1
+},
+{
+"ability_name": "INT",
+"ability_value": -1
+},
+{
+"ability_name": "WIS",
+"ability_value": 1
+},
+{
+"ability_name": "CAR",
+"ability_value": -2
+}
+],
+"header_image": "Wildheart_Shifter.png"
+},
+{
+"name": "Thornspeaker",
+"crystals": {
+"requires": [],
+"provides": [
+"emerald",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>Do not be fooled by the blossom. Every plant has thorns. I speak for the silent, rooted things of this world, and their wrath is slow, patient, and inevitable.</em></p><hr><h3>Verdant Growth</h3><p><strong>(Passive)</strong></p><p><em>When you are in a natural environment with ample plant life, you may spend 1 MP to cause the area in a 3-square radius around you to become difficult terrain for 1 round.</em></p>",
+"stats": [ 
+{
+"stat_name": "hp",
+"stat_value": 8
+},
+{
+"stat_name": "mp",
+"stat_value": 10
+},
+{
+"stat_name": "sp",
+"stat_value": 8
+},
+{
+"stat_name": "hd",
+"stat_value": "1d4"
+},
+{
+"stat_name": "md",
+"stat_value": "1d8"
+},
+{
+"stat_name": "sd",
+"stat_value": "1d8"
+}
+],
+"abilities": [
+{
+"ability_name": "STR",
+"ability_value": -1
+},
+{
+"ability_name": "DEX",
+"ability_value": 0
+},
+{
+"ability_name": "COS",
+"ability_value": 0
+},
+{
+"ability_name": "INT",
+"ability_value": 2
+},
+{
+"ability_name": "WIS",
+"ability_value": 2
+},
+{
+"ability_name": "CAR",
+"ability_value": -1
+}
+],
+"header_image": "Thornspeaker.png"
+}
+,
+{
+"name": "Arcane Knight",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"cerulean"
+]
+},
+"type": "character",
+"description": "<p><em>The only thing sharper than my blade is the spell that guides it.</em></p><hr><h3>Spell-Charged Blade</h3><p><strong>(Passive)</strong></p><p><em>When you successfully deal magical damage (MD) to an enemy, your next physical attack (HD) against that same enemy deals an additional +3 damage.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 12},
+{"stat_name": "mp", "stat_value": 6},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 2},
+{"ability_name": "DEX", "ability_value": 0},
+{"ability_name": "COS", "ability_value": 1},
+{"ability_name": "INT", "ability_value": 1},
+{"ability_name": "WIS", "ability_value": 0},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"secondary_stats": [
+{"stat_name": "speed", "stat_value": 6},
+{"stat_name": "load", "stat_value": 12}
+],
+"header_image": "Arcane_Knight.png"
+},
+{
+"name": "Beast-Machine Smith",
+"crystals": {
+"requires": [],
+"provides": [
+"green",
+"gold"
+]
+},
+"type": "character",
+"description": "<p><em>Nature is the perfect design. I just add a few gears and a better power source.</em></p><hr><h3>Clockwork Companion</h3><p><strong>(Passive)</strong></p><p><em>You start with a loyal Clockwork Companion (e.g., Mechanical Squirrel, Brass Hawk) with its own stats. You have advantage on all rolls to repair or build mechanical creatures.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 10},
+{"stat_name": "mp", "stat_value": 4},
+{"stat_name": "sp", "stat_value": 8},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 1},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Beast-Machine_Smith.png"
+},
+{
+"name": "Twilight Inquisitor",
+"crystals": {
+"requires": [],
+"provides": [
+"white",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>To know the Light, one must understand the shadows it casts. I walk in both, and fear neither.</em></p><hr><h3>Painful Truths</h3><p><strong>(Passive)</strong></p><p><em>When you successfully heal an ally with a spell, you may choose one enemy within 5 squares to take SD equal to your WIS modifier.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 9},
+{"stat_name": "mp", "stat_value": 9},
+{"stat_name": "sp", "stat_value": 9},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 0},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 1},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": 0}
+],
+"header_image": "Twilight_Inquisitor.png"
+},
+{
+"name": "Geomancer Warden",
+"crystals": {
+"requires": [],
+"provides": [
+"blue",
+"orange"
+]
+},
+"type": "character",
+"description": "<p><em>The mountain is patient. It is disciplined. It does not yield. I have learned its ways.</em></p><hr><h3>Earthen Bulwark</h3><p><strong>(Passive)</strong></p><p><em>When you use the Defend action, you gain an additional +1 Armor until your next turn.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 13},
+{"stat_name": "mp", "stat_value": 5},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 1},
+{"ability_name": "DEX", "ability_value": -1},
+{"ability_name": "COS", "ability_value": 2},
+{"ability_name": "INT", "ability_value": 0},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Geomancer_Warden.png"
+},
+{
+"name": "Fey-Touched Diplomat",
+"crystals": {
+"requires": [],
+"provides": [
+"purple",
+"emerald"
+]
+},
+"type": "character",
+"description": "<p><em>A treaty signed in ink can be broken. A promise sworn on a running stream lasts forever.</em></p><hr><h3>Beguiling Nature</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all CHA rolls when interacting with beasts, fey, and plant creatures.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 8},
+{"stat_name": "mp", "stat_value": 6},
+{"stat_name": "sp", "stat_value": 12},
+{"stat_name": "hd", "stat_value": "1d4"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d8"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": -1},
+{"ability_name": "DEX", "ability_value": 1},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 1},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": 2}
+],
+"header_image": "Fey-Touched_Diplomat.png"
+},
+{
+"name": "Venomous Alchemist",
+"crystals": {
+"requires": [],
+"provides": [
+"gold",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>Every living thing is just a complex chemical reaction. I simply enjoy introducing new, exciting variables.</em></p><hr><h3>Potent Tinctures</h3><p><strong>(Passive)</strong></p><p><em>When you use an item to inflict the <strong>Poisoned</strong> or <strong>Burning</strong> condition, the effect deals an additional +2 damage each round.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 10},
+{"stat_name": "mp", "stat_value": 8},
+{"stat_name": "sp", "stat_value": 8},
+{"stat_name": "hd", "stat_value": "1d4"},
+{"stat_name": "md", "stat_value": "1d8"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": -1},
+{"ability_name": "DEX", "ability_value": 1},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 3},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Venomous_Alchemist.png"
+},
+{
+"name": "Wrathful Zealot",
+"crystals": {
+"requires": [],
+"provides": [
+"white",
+"red"
+]
+},
+"type": "character",
+"description": "<p><em>Mercy is a luxury for the gods to grant. My duty is to deliver the faithless to their judgment.</em></p><hr><h3>Righteous Fury</h3><p><strong>(Passive)</strong></p><p><em>When you are below half your maximum HP, your melee attacks deal an additional +1d4 MD (fire).</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 13},
+{"stat_name": "mp", "stat_value": 5},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 2},
+{"ability_name": "DEX", "ability_value": 0},
+{"ability_name": "COS", "ability_value": 2},
+{"ability_name": "INT", "ability_value": -1},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": -1}
+],
+"header_image": "Wrathful_Zealot.png"
+},
+{
+"name": "Storm Sorcerer",
+"crystals": {
+"requires": [],
+"provides": [
+"cerulean",
+"orange"
+]
+},
+"type": "character",
+"description": "<p><em>Some see a storm and seek shelter. I see it and take notes.</em></p><hr><h3>Conduit</h3><p><strong>(Passive)</strong></p><p><em>When you deal lightning or thunder damage with a spell, you gain +1 Armor until your next turn.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 7},
+{"stat_name": "mp", "stat_value": 11},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d4"},
+{"stat_name": "md", "stat_value": "1d10"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": -1},
+{"ability_name": "DEX", "ability_value": 1},
+{"ability_name": "COS", "ability_value": -1},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": 0}
+],
+"header_image": "Storm_Sorcerer.png"
+},
+{
+"name": "Grave-Bound Paladin",
+"crystals": {
+"requires": [],
+"provides": [
+"blue",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>My oath was 'to serve and protect, until death'. The oath never said what to do after.</em></p><hr><h3>Undying Loyalty</h3><p><strong>(Passive)</strong></p><p><em>The first time you would be reduced to 0 HP in a combat, you are left with 1 HP instead.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 14},
+{"stat_name": "mp", "stat_value": 4},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 2},
+{"ability_name": "DEX", "ability_value": -1},
+{"ability_name": "COS", "ability_value": 2},
+{"ability_name": "INT", "ability_value": 0},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": -1}
+],
+"header_image": "Grave-Bound_Paladin.png"
+},
+{
+"name": "Urban Druid",
+"crystals": {
+"requires": [],
+"provides": [
+"emerald",
+"gold"
+]
+},
+"type": "character",
+"description": "<p><em>They say nature is being pushed out by the city. I say it's just adapting. You just need to know where to look.</em></p><hr><h3>Guerilla Gardener</h3><p><strong>(Passive)</strong></p><p><em>You can use abilities that require a 'natural environment' by using sewer grates, potted plants, or cracks in the pavement as a focus.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 10},
+{"stat_name": "mp", "stat_value": 8},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 1},
+{"ability_name": "COS", "ability_value": 1},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Urban_Druid.png"
+}
+,
+{
+"name": "Skald of Fury",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"purple"
+]
+},
+"type": "character",
+"description": "<p><em>The best songs are sung in the heat of battle, to the rhythm of a war drum and a screaming axe.</em></p><hr><h3>Battle Hymn</h3><p><strong>(Passive)</strong></p><p><em>When you defeat an enemy, you may choose one ally. That ally gains +3 forward on their next roll.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 12},
+{"stat_name": "mp", "stat_value": 2},
+{"stat_name": "sp", "stat_value": 8},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d4"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 2},
+{"ability_name": "DEX", "ability_value": 0},
+{"ability_name": "COS", "ability_value": 1},
+{"ability_name": "INT", "ability_value": -1},
+{"ability_name": "WIS", "ability_value": 0},
+{"ability_name": "CAR", "ability_value": 1}
+],
+"header_image": "Skald_of_Fury.png"
+},
+{
+"name": "Shadow Broker",
+"crystals": {
+"requires": [],
+"provides": [
+"black",
+"gold"
+]
+},
+"type": "character",
+"description": "<p><em>Everyone has a secret, and every secret has a price. Business is booming.</em></p><hr><h3>Leverage</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to intimidate or persuade someone if you have previously learned a secret about them.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 10},
+{"stat_name": "mp", "stat_value": 2},
+{"stat_name": "sp", "stat_value": 12},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d8"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": -1},
+{"ability_name": "DEX", "ability_value": 2},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": 1}
+],
+"header_image": "Shadow_Broker.png"
+},
+{
+"name": "Star-Caller Shaman",
+"crystals": {
+"requires": [],
+"provides": [
+"orange",
+"cerulean"
+]
+},
+"type": "character",
+"description": "<p><em>The spirits of the earth are loud, but the spirits of the stars are eternal. I listen to both.</em></p><hr><h3>Cosmic Balance</h3><p><strong>(Passive)</strong></p><p><em>When you deal fire or lightning damage, you gain +1 forward on your next healing spell. When you cast a healing spell, you gain +1 forward on your next fire or lightning spell.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 9},
+{"stat_name": "mp", "stat_value": 9},
+{"stat_name": "sp", "stat_value": 9},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d8"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 0},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": -1}
+],
+"header_image": "Star-Caller_Shaman.png"
+},
+{
+"name": "Verdant Warden",
+"crystals": {
+"requires": [],
+"provides": [
+"emerald",
+"blue"
+]
+},
+"type": "character",
+"description": "<p><em>This forest does not need a wall of stone. It has me.</em></p><hr><h3>Barkskin</h3><p><strong>(Passive)</strong></p><p><em>When you use the Defend action, you may heal for an amount equal to your COS modifier (minimum 1).</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 13},
+{"stat_name": "mp", "stat_value": 6},
+{"stat_name": "sp", "stat_value": 5},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 1},
+{"ability_name": "DEX", "ability_value": -1},
+{"ability_name": "COS", "ability_value": 3},
+{"ability_name": "INT", "ability_value": 0},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Verdant_Warden.png"
+},
+{
+"name": "Blade Dancer",
+"crystals": {
+"requires": [],
+"provides": [
+"green",
+"purple"
+]
+},
+"type": "character",
+"description": "<p><em>Do not mistake my performance for mere entertainment. Every step is a strike, every twirl a parry.</em></p><hr><h3>Flowing Form</h3><p><strong>(Passive)</strong></p><p><em>When you use your full movement on your turn, you gain +1 Armor until your next turn.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 10},
+{"stat_name": "mp", "stat_value": 2},
+{"stat_name": "sp", "stat_value": 10},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d4"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 1},
+{"ability_name": "DEX", "ability_value": 2},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": -1},
+{"ability_name": "WIS", "ability_value": 0},
+{"ability_name": "CAR", "ability_value": 2}
+],
+"header_image": "Blade_Dancer.png"
+},
+{
+"name": "Holy Gunsmith",
+"crystals": {
+"requires": [],
+"provides": [
+"white",
+"gold"
+]
+},
+"type": "character",
+"description": "<p><em>Some pray with beads and incense. I pray with black powder and blessed lead.</em></p><hr><h3>Sanctified Rounds</h3><p><strong>(Passive)</strong></p><p><em>You can spend 1 MP to make your next Volley attack deal magical (holy) damage instead of physical.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 12},
+{"stat_name": "mp", "stat_value": 8},
+{"stat_name": "sp", "stat_value": 6},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 2},
+{"ability_name": "COS", "ability_value": 1},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": 1},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Holy_Gunsmith.png"
+},
+{
+"name": "Blood Mage",
+"crystals": {
+"requires": [],
+"provides": [
+"red",
+"black"
+]
+},
+"type": "character",
+"description": "<p><em>Mana is a crutch for the weak. True power flows in the veins.</em></p><hr><h3>Sanguine Magic</h3><p><strong>(Passive)</strong></p><p><em>You can choose to spend HP instead of MP to cast your spells at a 1:1 ratio.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 8},
+{"stat_name": "mp", "stat_value": 10},
+{"stat_name": "sp", "stat_value": 8},
+{"stat_name": "hd", "stat_value": "1d4"},
+{"stat_name": "md", "stat_value": "1d10"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 0},
+{"ability_name": "COS", "ability_value": 2},
+{"ability_name": "INT", "ability_value": 2},
+{"ability_name": "WIS", "ability_value": -1},
+{"ability_name": "CAR", "ability_value": -1}
+],
+"header_image": "Blood_Mage.png"
+},
+{
+"name": "Tidal Knight",
+"crystals": {
+"requires": [],
+"provides": [
+"blue",
+"cerulean"
+]
+},
+"type": "character",
+"description": "<p><em>Let them come. The tide always wins.</em></p><hr><h3>Crashing Wave</h3><p><strong>(Passive)</strong></p><p><em>When you successfully use the Shove action, you may also <strong>Push</strong> the target an additional square.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 13},
+{"stat_name": "mp", "stat_value": 6},
+{"stat_name": "sp", "stat_value": 5},
+{"stat_name": "hd", "stat_value": "1d8"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 2},
+{"ability_name": "DEX", "ability_value": -1},
+{"ability_name": "COS", "ability_value": 2},
+{"ability_name": "INT", "ability_value": 1},
+{"ability_name": "WIS", "ability_value": 0},
+{"ability_name": "CAR", "ability_value": 0}
+],
+"header_image": "Tidal_Knight.png"
+},
+{
+"name": "Spirit-Beast Hunter",
+"crystals": {
+"requires": [],
+"provides": [
+"green",
+"orange"
+]
+},
+"type": "character",
+"description": "<p><em>I do not hunt the flesh. I hunt the echo it leaves behind.</em></p><hr><h3>Spirit Sight</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to track creatures. You can see and interact with invisible or ethereal creatures.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 10},
+{"stat_name": "mp", "stat_value": 6},
+{"stat_name": "sp", "stat_value": 8},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d6"},
+{"stat_name": "sd", "stat_value": "1d6"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 1},
+{"ability_name": "DEX", "ability_value": 2},
+{"ability_name": "COS", "ability_value": 0},
+{"ability_name": "INT", "ability_value": 0},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": -1}
+],
+"header_image": "Spirit-Beast_Hunter.png"
+},
+{
+"name": "Plague Zealot",
+"crystals": {
+"requires": [],
+"provides": [
+"white",
+"green"
+]
+},
+"type": "character",
+"description": "<p><em>Sickness is a holy fire that scours the unworthy. Let us rejoice in its righteous cleanse.</em></p><hr><h3>Contagion</h3><p><strong>(Passive)</strong></p><p><em>When you are hit by a melee attack, the attacker must make a COS roll or become <strong>Weakened</strong> for 1 round.</em></p>",
+"stats": [
+{"stat_name": "hp", "stat_value": 11},
+{"stat_name": "mp", "stat_value": 8},
+{"stat_name": "sp", "stat_value": 7},
+{"stat_name": "hd", "stat_value": "1d6"},
+{"stat_name": "md", "stat_value": "1d8"},
+{"stat_name": "sd", "stat_value": "1d4"}
+],
+"abilities": [
+{"ability_name": "STR", "ability_value": 0},
+{"ability_name": "DEX", "ability_value": 1},
+{"ability_name": "COS", "ability_value": 2},
+{"ability_name": "INT", "ability_value": 0},
+{"ability_name": "WIS", "ability_value": 2},
+{"ability_name": "CAR", "ability_value": -2}
+],
+"header_image": "Plague_Zealot.png"
+}
+]

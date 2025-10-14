@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Save my Family",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>Your family is in danger and you must rescue them. To complete this destiny, you must face the villain who threatens them and defeat them. Once you have saved your family, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that protect or aid your family.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Save my Family.png"
+  },
+  {
+    "name": "Become a Hero",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You dream of becoming a hero and being admired by all. To complete this destiny, you must perform a heroic act that will earn you the respect and admiration of others. Once you have achieved this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that demonstrate your heroic nature or inspire others.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Become a Hero.png"
+  },
+  {
+    "name": "Learn from Your Mistakes",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have made mistakes in the past and are determined to learn from them. To complete this destiny, you must reflect on your past actions and use that insight to make better choices in the future. Once you have demonstrated this growth, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by reflecting on your actions and actively working to avoid repeating past mistakes.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Learn from Your Mistakes.png"
+  },
+  {
+    "name": "Learn About the World",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You are curious about the world and seek to learn all you can about it. To complete this destiny, you must discover a new fact or piece of knowledge that broadens your understanding of the world. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively seeking out new information and asking questions to learn more about the world.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Learn About the World.png"
+  },
+  {
+    "name": "Champion of the People",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have always had a deep desire to help those in need, and you long to become a true champion of the people. To complete this destiny, you must perform a heroic act that inspires others and makes a positive impact on the world. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively seeking out opportunities to help those in need and by taking actions that make the world a better place.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Champion of the People.png"
+  },
+  {
+    "name": "Master of the Craft",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You are a true master of your craft, and you long to achieve the highest level of skill and expertise in your chosen field. To complete this destiny, you must create a masterpiece that showcases your skill and talent. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively practicing your craft and by taking on new challenges that push your skills to the limit.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Master of the Craft.png"
+  },
+  {
+    "name": "Fated Savior",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have been chosen by destiny to become the savior of a people or civilization. To complete this destiny, you must defeat a great evil or overcome a seemingly insurmountable obstacle. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively seeking out information about your enemy and by making alliances with those who share your cause.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Fated Savior.png"
+  },
+  {
+    "name": "Cursed Seeker",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have been cursed by fate, and you must seek a way to break the curse before it destroys you. To complete this destiny, you must uncover the source of your curse and find a way to lift it. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively searching for clues about your curse and by taking actions that bring you closer to breaking it.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Cursed Seeker.png"
+  },
+  {
+    "name": "Ambitious Usurper",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have always dreamed of power and glory, and you will stop at nothing to achieve it. To complete this destiny, you must overthrow a powerful ruler or conquer a land that is not rightfully yours. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively seeking out opportunities to gain more power and by taking actions that further your ambitions.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Ambitious Usurper.png"
+  },
+  {
+    "name": "Eternal Wanderer",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have always felt a deep longing to explore the world and discover its secrets, and you cannot imagine settling down in one place for too long. To complete this destiny, you must travel to a new and exciting location and uncover a hidden secret or treasure. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively seeking out new places to explore and by taking risks that lead you to uncharted territory.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Eternal Wanderer.png"
+  },
+  {
+    "name": "Party Bonding",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You and your party have been through a lot together and you want to strengthen your bond. To complete this destiny, you must spend time bonding with your party members and doing something that brings you closer together. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that support your party members or by participating in activities that build camaraderie.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Party Bonding.png"
+  },
+  {
+    "name": "Cool Action",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You are always looking for an opportunity to show off your skills and impress others. To complete this destiny, you must perform a cool action that leaves everyone in awe. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by attempting to perform impressive feats or by using your skills in creative and unexpected ways.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Cool Action.png"
+  },
+  {
+    "name": "I Found a Friend",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have been feeling lonely and isolated, but you long to connect with others. To complete this destiny, you must make a friend or ally who shares your values and interests. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively seeking out opportunities to meet new people and by building relationships with those around you.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "I Found a Friend.png"
+  },
+  {
+    "name": "Revenge Seeker",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have a powerful enemy who has wronged you, and you will not rest until you have exacted revenge. To complete this destiny, you must confront your enemy and defeat them. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that further your goal of revenge, such as gathering information about your enemy or plotting their downfall.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Revenge Seeker.png"
+  },
+  {
+    "name": "Lost Heir",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You are the last surviving member of a noble house that has been overthrown, and you seek to reclaim your birthright. To complete this destiny, you must rally allies to your cause, defeat those who stand in your way, and reclaim your rightful place as ruler. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that further your goal of reclaiming your birthright, such as searching for allies or plotting your next move.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Lost Heir.png"
+  },
+  {
+    "name": "Haunted Survivor",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have survived a traumatic event that has left you scarred, and you seek to overcome your past and find redemption. To complete this destiny, you must confront the demons that haunt you and find a way to move on. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that further your goal of overcoming your past, such as seeking therapy or confronting those who have wronged you.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Haunted Survivor.png"
+  },
+  {
+    "name": "Legacy Keeper",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>Your family has a long and storied history, and you seek to carry on their legacy. To complete this destiny, you must uncover and preserve artifacts, stories, and knowledge of your family's history. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that further your goal of preserving your family's legacy, such as researching your family's history or recovering lost artifacts.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Legacy Keeper.png"
+  },
+  {
+    "name": "Wanderer",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You are a wanderer who seeks adventure and new experiences. To complete this destiny, you must travel to new lands, meet new people, and have new experiences. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that further your goal of experiencing new things, such as seeking out new cultures or trying new foods.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Wanderer.png"
+  },
+  {
+    "name": "Where is Love?",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have been searching for love, but have yet to find it. To complete this destiny, you must find a romantic partner who you care deeply for. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by actively pursuing romantic interests or by taking actions that bring you closer to finding love.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Where is Love.png"
+  },
+  {
+    "name": "Redeem Yourself",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have made mistakes in the past and are now seeking redemption. To complete this destiny, you must right a wrong or make amends for a past misdeed. Once you have done this, everyone in your party gains 10 XP points as a reward. Additionally, you can make everyone in the party gain 1 XP point each session by taking actions that demonstrate your commitment to making amends or seeking forgiveness.</p>",
+    "stats": [
+      {
+        "stat_name": "",
+        "stat_value": ""
+      },
+      {
+        "stat_name": "",
+        "stat_value": ""
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Redeem Yourself.png"
+  },
+  {
+    "name": "Treasure Finder",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have heard rumors of a great treasure hidden in a dangerous place. To complete this destiny, you must find and obtain the treasure. Once you have claimed the treasure, everyone in your party gains 10 XP points as a reward. Additionally, everyone in your party gains 1 XP point each session by taking actions that move you closer to the treasure or that help you overcome obstacles in your search.</p>",
+    "stats": [],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Treasure Finder.png"
+  },
+  {
+    "name": "Lore Seeker",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You are fascinated by the history and secrets of the world, and seek to uncover forgotten knowledge. To complete this destiny, you must discover a piece of ancient lore or solve a mystery that has confounded others. Once you have uncovered the knowledge you seek, everyone in your party gains 10 XP points as a reward. Additionally, everyone in your party gains 1 XP point each session by taking actions that advance your understanding of the world or that help you gather information.</p>",
+    "stats": [],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Lore Seeker.png"
+  },
+  {
+    "name": "Beast Slayer",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "destiny",
+    "description": "<p>You have dedicated yourself to hunting down and defeating dangerous beasts that threaten civilization. To complete this destiny, you must hunt and slay a powerful beast that has terrorized a region. Once you have vanquished the beast, everyone in your party gains 10 XP points as a reward. Additionally, everyone in your party gains 1 XP point each session by taking actions that help you track down the beast or that prepare you for the fight ahead.</p>",
+    "stats": [],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Beast Slayer.png"
+  }
+]

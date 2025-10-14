@@ -1,0 +1,1160 @@
+[
+  {
+    "name": "Full Plate Armor",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "rare"
+    ],
+    "description": "<p>A masterwork suit of interlocking steel plates, offering the pinnacle of physical protection. It provides <strong>+4 Armor</strong> but gives you disadvantage on all DEX-based rolls. This armor is clumsy and noisy.</p><p></p><hr><h3>Immovable Object</h3><p><strong>(Passive)</strong></p><p><em>You are immune to unwilling movement from <strong>Push</strong>, <strong>Pull</strong>, or <strong>Crush</strong> effects of 2 or less.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "12"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1500 "
+      }
+    ],
+    "header_image": "Full_Plate_Armor.png"
+  },
+  {
+    "name": "Spidersilk Robes",
+    "crystals": {
+      "requires": [
+        "black",
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>Robes woven from the silk of giant spiders, enchanted to be unnaturally tough and resistant to toxins. It provides <strong>+0 Armor</strong>.</p><p></p><hr><h3>Poison Resistance</h3><p><strong>(Passive)</strong></p><p><em>You have advantage on all rolls to resist the <strong>Poisoned</strong> condition, and you take half damage from all poison sources.</em></p><hr><h3>Web Snare</h3><p><strong>(Reaction)</strong> When an enemy hits you with a melee attack, you can spend your reaction and 1 MP to release a burst of sticky webbing. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> The attacker is <strong>Immobilized</strong> for 1 round.</li><li><strong>On a 9-15:</strong> The attacker is <strong>Slowed</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The webbing is weak and has no effect.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "450 "
+      }
+    ],
+    "header_image": "Spidersilk_Robes.png"
+  },
+  {
+    "name": "Gladiator's Battlegear",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "rare"
+    ],
+    "description": "<p>Asymmetrical, intimidating plate armor designed for the arena. It prioritizes a mix of vital protection and freedom of movement for aggressive fighting. It provides <strong>+3 Armor</strong>.</p><p></p><hr><h3>For the Crowd!</h3><p>Once per combat, when you defeat an enemy, you can play to the crowd (even a hypothetical one). Roll+CHA.</p><ul><li><strong>On a 16+:</strong> The roar of the crowd invigorates you. You regain 1d8 HP and 1d6 SP.</li><li><strong>On a 9-15:</strong> You regain 1d8 HP.</li><li><strong>On a 1-8:</strong> Your display is seen as arrogant, and one of your remaining foes becomes <strong>Taunted</strong> by you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "9"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "600 "
+      }
+    ],
+    "header_image": "Gladiators_Battlegear.png"
+  },
+  {
+    "name": "Shaman's Mail",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A suit of chainmail adorned with totemic fetishes and elemental runes that hum with power. It provides <strong>+2 Armor</strong>.</p><p></p><hr><h3>Spirit of the Wolf</h3><p>Once per combat, you can use your action to gain the 'Ghost Wolf' effect. For 2 rounds, your SPEED is increased by 4 and your movement is a <strong>Shift</strong> that can pass through enemy spaces. You cannot attack while this is active.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "400 "
+      }
+    ],
+    "header_image": "Shamans_Mail.png"
+  },
+  {
+    "name": "Druid's Leathers",
+    "crystals": {
+      "requires": [
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>Armor made from the enchanted hides of wild beasts, adorned with living leaves and vines. It moves as if it were a second skin. It provides <strong>+1 Armor</strong>.</p><p></p><hr><h3>Wildheart</h3><p><strong>(Passive)</strong></p><p><em>When you use your Wild Shape feature, the transformation does not cost MP.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "400 "
+      }
+    ],
+    "header_image": "Druids_Leathers.png"
+  },
+  {
+    "name": "Grimoire (Weapon)",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A heavy, magically-bound spellbook that can be wielded as a focus to unleash blasts of raw, untamed magic. <strong>Range:</strong> Ranged (8 squares).</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Unleash Tome</h3><p>When you use your action to fire a blast of raw magic, spend 1 MP and roll+INT.</p><ul><li><strong>On a 16+:</strong> You deal your MD + 5 as magical damage and may <strong>Push 1</strong> the target.</li><li><strong>On a 9-15:</strong> You deal your MD.</li><li><strong>On a 1-8:</strong> The magic is uncontrolled. You deal 1d6 magical damage to a random target (friend or foe) within range.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "400 "
+      }
+    ],
+    "header_image": "Grimoire.png"
+  },
+  {
+    "name": "Earthbreaker Mace",
+    "crystals": {
+      "requires": [
+        "orange",
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A heavy mace made of magically hardened stone. Each impact resonates with the power of the earth. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Tremor Strike</h3><p><strong>(Passive)</strong> When you get a High Hit (16+) on a Hack & Slash attack, the impact creates a tremor. All other creatures adjacent to your target must roll+DEX or be knocked prone.</p><hr><h3>Fissure</h3><p>When you spend your action to slam the ground, spend 1 MP and roll+STR.</p><ul><li><strong>On a 16+:</strong> A fissure erupts in a 3-square line in front of you. The line becomes difficult terrain, and any creature who enters it takes 1d6 damage.</li><li><strong>On a 9-15:</strong> You create a 2-square line of difficult terrain.</li><li><strong>On a 1-8:</strong> The ground shakes, but only your square becomes difficult terrain.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1400 "
+      }
+    ],
+    "header_image": "Earthbreaker_Mace.png"
+  },
+  {
+    "name": "Starlight Rapier",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A duelist's blade forged from a fallen star. It is unnaturally light and shimmers with a faint, illusory glow. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Mirror Image</h3><p><strong>(Reaction)</strong> When an enemy targets you with an attack, you can spend your reaction and 1 MP to create illusory duplicates. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You create two duplicates. The next two attacks against you automatically miss, destroying one duplicate each time.</li><li><strong>On a 9-15:</strong> You create one duplicate. The next attack against you misses.</li><li><strong>On a 1-8:</strong> The illusion is flawed. The next attack against you has disadvantage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1500 "
+      }
+    ],
+    "header_image": "Starlight_Rapier.png"
+  },
+  {
+    "name": "Plague-Dipped Stiletto",
+    "crystals": {
+      "requires": [
+        "black",
+        "green"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A thin-bladed dagger permanently enchanted with a virulent, magical disease. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Septic Strike</h3><p><strong>(Passive)</strong> When you deal HD with this weapon, the target is afflicted with a magical disease. At the start of their next turn, they must roll+CON.</p><ul><li><strong>On a 16+:</strong> They fight off the disease.</li><li><strong>On a 9-15:</strong> They take your MD and are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> They take your MD and are <strong>Stunned</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1700 "
+      }
+    ],
+    "header_image": "Plague-Dipped_Stiletto.png"
+  },
+  {
+    "name": "Boomstick",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A masterfully engineered gnomish shotgun that fires a cone of shrapnel and concussive force. It is loud, powerful, and prone to overheating. <strong>Range:</strong> Ranged (Cone 4). Requires 2 actions to reload.</p><p></p><hr><h3>Dragon's Breath</h3><p>When you make a Volley attack, spend 1 MP to load a special shell. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD as fire damage to all targets in the cone. If a target's DEX is less than your INT, they are also set <strong>Ablaze</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You deal your HD as fire damage to all targets in the cone.</li><li><strong>On a 1-8:</strong> The weapon backfires, dealing half your HD as fire damage to you and making you <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "400 "
+      }
+    ],
+    "header_image": "Boomstick.png"
+  },
+  {
+    "name": "Warglaives (Paired)",
+    "crystals": {
+      "requires": [
+        "emerald",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A pair of elegant, double-bladed weapons, iconic to elven demon hunters. Requires two hands to wield. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Blade Dance</h3><p>When you use your action to perform a whirlwind of strikes, spend 2 HP and roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD to your primary target, and then half your HD to up to two other enemies within 1 square.</li><li><strong>On a 9-15:</strong> You deal your HD to your primary target and half HD to one other enemy within 1 square.</li><li><strong>On a 1-8:</strong> You deal your HD to your primary target, but leave yourself open and are <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1600 "
+      }
+    ],
+    "header_image": "Warglaives.png"
+  },
+  {
+    "name": "Long-Rifle",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A beautifully crafted rifle with a long, rune-etched barrel and a crystal focusing lens instead of a normal sight. <strong>Range:</strong> Ranged (30 squares). Requires an action to reload.</p><p></p><hr><h3>Arcane Shot</h3><p>When you make a Volley attack, you can spend 1 MP to empower the shot with magic. Roll+INT instead of DEX.</p><ul><li><strong>On a 16+:</strong> The shot deals your MD. If the target's DEX is less than your INT, they are also <strong>Slowed</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The shot deals your MD.</li><li><strong>On a 1-8:</strong> The shot deals half your MD.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "500 "
+      }
+    ],
+    "header_image": "Long-Rifle.png"
+  },
+  {
+    "name": "Warpike",
+    "crystals": {
+      "requires": [
+        "red",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A long pike tipped with an arcane focusing crystal that thrums with stored energy. <strong>Range:</strong> Melee (3 squares, Reach).</p><p></p><hr><h3>Force Lunge</h3><p>When you use your action to make a special thrust, spend 1 MP and roll+STR.</p><ul><li><strong>On a 16+:</strong> A blast of force erupts from the tip. You deal your MD to up to two enemies in a straight line within your reach and may <strong>Push 1</strong> them.</li><li><strong>On a 9-15:</strong> You deal your MD to the first enemy in the line.</li><li><strong>On a 1-8:</strong> The energy backfires, inflicting <strong>Push 1</strong> on you and making you <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1300 "
+      }
+    ],
+    "header_image": "Warpike.png"
+  },
+  {
+    "name": "Scepter of Command",
+    "crystals": {
+      "requires": [
+        "blue",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A ceremonial mace that acts as a symbol of authority and a conduit for social power. It is surprisingly sturdy. <strong>Range:</strong> Melee (1 square).</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Commanding Word</h3><p>When you use your action to issue a one-word command (e.g., 'Grovel,' 'Flee,' 'Stop'), spend 2 SP and roll+CHA.</p><ul><li><strong>On a 16+:</strong> Choose one target who can hear you. If their WIS is less than your CHA, they are compelled to obey for 1 round.</li><li><strong>On a 9-15:</strong> The target is only compelled to hesitate; they are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> They openly defy your command and are now immune to this ability for the rest of the scene.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1100 "
+      }
+    ],
+    "header_image": "Scepter_of_Command.png"
+  },
+  {
+    "name": "Ritual Dagger",
+    "crystals": {
+      "requires": [
+        "white",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A wicked, obsidian dagger used in profane rituals. It seems to drink the light and whispers promises of power in exchange for sacrifice. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Sacrificial Strike</h3><p>When you make a Hack & Slash attack, you can choose to sacrifice your own life force. Before you roll, take up to 5 irreducible damage.</p><ul><li>For every 1 HP you sacrifice, your attack deals an additional +1 magical damage on a hit. If your attack is a High Hit (16+), you may also choose to heal an ally within 3 squares for half the amount of HP you sacrificed.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1000 "
+      }
+    ],
+    "header_image": "Ritual_Dagger.png"
+  },
+  {
+    "name": "Spellfire Handwraps",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>Strips of enchanted cloth that wrap around the hands and forearms. They allow a spellcaster to channel raw magic through their unarmed strikes. <strong>Range:</strong> Melee (1 square).</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Arcane Fist</h3><p>When you make an unarmed Hack & Slash attack, you may roll+INT instead of STR. The attack deals magical damage (MD) instead of physical damage (HD).</p><hr><h3>Blast Wave</h3><p>When you successfully hit with an unarmed attack, you can spend 2 MP to release a wave of force. Roll+INT.</p><ul><li><strong>On a 16+:</strong> You <strong>Push 2</strong> the target and they are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You <strong>Push 1</strong> the target.</li><li><strong>On a 1-8:</strong> The backlash pushes you back 1 square instead.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "300 "
+      }
+    ],
+    "header_image": "Spellfire_Handwraps.png"
+  },
+  {
+    "name": "Totemic War-Club",
+    "crystals": {
+      "requires": [
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A heavy club carved with primal symbols and adorned with feathers and stones. It hums with the power of the elements. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Spirit of the Earth</h3><p>When you use your action to slam the club on the ground, spend 1 MP and roll+WIS.</p><ul><li><strong>On a 16+:</strong> A 2-square line of shattered earth erupts in front of you. It becomes difficult terrain, and any enemy starting their turn there is <strong>Immobilized</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You create a 2-square line of difficult terrain.</li><li><strong>On a 1-8:</strong> The ground shakes violently under your own feet, making you <strong>Immobilized</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "280 "
+      }
+    ],
+    "header_image": "Totemic_War-Club.png"
+  },
+  {
+    "name": "Lifestealer's Dirk",
+    "crystals": {
+      "requires": [
+        "white",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A cruel, jagged dagger that seems to drink the light. It pulses with a faint, sickly energy, promising vitality at a terrible price. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Vampiric Strike</h3><p><strong>(Passive)</strong> When you successfully deal HD with this weapon, you may choose to take 1d4 SD. If you do, you heal HP equal to the HD you dealt. This effect can only be used once per round.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1200 "
+      }
+    ],
+    "header_image": "Lifestealers_Dirk.png"
+  },
+  {
+    "name": "Aegis of Command",
+    "crystals": {
+      "requires": [
+        "blue",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A magnificent shield of gleaming, golden metal that inspires allies and directs the flow of battle. It can be used as a weapon. <strong>Range:</strong> Melee (1 square).</p><p>You can devote crystals to this item to unlock its hidden potential.</p><hr><h3>Coordinated Assault</h3><p>When you use your action to direct an attack, choose an ally within 5 squares and an enemy. Roll+CHA.</p><ul><li><strong>On a 16+:</strong> Your ally may immediately use their Reaction to make an attack against the chosen enemy with advantage.</li><li><strong>On a 9-15:</strong> Your ally may use their Reaction to make an attack against the enemy.</li><li><strong>On a 1-8:</strong> Your command is confusing. The chosen ally is <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1400 "
+      }
+    ],
+    "header_image": "Aegis_of_Command.png"
+  },
+  {
+    "name": "Katana",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare"
+    ],
+    "description": "<p>A masterfully forged single-edged blade with a gentle curve, known for its incredible sharpness and swiftness. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Iaijutsu Strike</h3><p>If you did not attack on your previous turn, you can use your action to make a lightning-fast draw and strike. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD + 5 and inflict <strong>Bleeding</strong> for half your HD for 2 rounds.</li><li><strong>On a 9-15:</strong> You deal your HD and inflict <strong>Bleeding</strong> for 1 round.</li><li><strong>On a 1-8:</strong> You deal your HD, but the clumsy draw leaves you <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "150 "
+      }
+    ],
+    "header_image": "Katana.png"
+  },
+  {
+    "name": "Moon Glaive",
+    "crystals": {
+      "requires": [
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A three-bladed throwing weapon favored by elven sentinels. It magically returns to the thrower's hand after being thrown. <strong>Range:</strong> Ranged (8 squares).</p><p></p><hr><h3>Ricochet Blade</h3><p>When you make a Volley attack, you can spend 1 MP to have the glaive bounce to another target. Roll+DEX.</p><ul><li><strong>On a 16+:</strong> You deal your HD to your primary target, and it bounces to a second enemy within 3 squares, dealing half your HD to them.</li><li><strong>On a 9-15:</strong> You deal your HD to your primary target, but the bounce misses.</li><li><strong>On a 1-8:</strong> You deal half HD to your primary target, and the glaive bounces wildly, hitting the nearest creature to the target (friend or foe) for 1d4 damage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "250 "
+      }
+    ],
+    "header_image": "Moon_Glaive.png"
+  },
+  {
+    "name": "Runeblade",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A cruel-looking longsword etched with glowing frost-runes that drain the life and warmth from its victims. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Icy Touch</h3><p><strong>(Passive)</strong> When you deal HD with this weapon, your target is also afflicted with a chilling frost, making them <strong>Slowed</strong> for 1 round.</p><hr><h3>Death Coil</h3><p>When you use your action to unleash the blade's unholy energy, spend 2 MP and roll+INT.</p><ul><li><strong>On a 16+:</strong> You deal your MD as necrotic damage to a target within 6 squares. If the target is undead, it heals for that amount instead.</li><li><strong>On a 9-15:</strong> You deal half your MD.</li><li><strong>On a 1-8:</strong> The unholy energy backlashes, dealing 1d6 necrotic damage to you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1800 "
+      }
+    ],
+    "header_image": "Runeblade.png"
+  },
+  {
+    "name": "Gavel of Justice",
+    "crystals": {
+      "requires": [
+        "white",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A heavy, ornate warhammer that glows with a soft golden light. It feels warm to the touch for the righteous, and cold to the wicked. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Judgment</h3><p>When you use your action to strike a foe and judge their soul, spend 1 MP and roll+WIS.</p><ul><li><strong>On a 16+:</strong> You deal your MD. If the target is Undead or Demonic, they are also <strong>Stunned</strong> for 1 round.</li><li><strong>On a 9-15:</strong> You deal your MD.</li><li><strong>On a 1-8:</strong> You deal half your MD.</li></ul><hr><h3>Consecration</h3><p>Once per combat, when you strike the ground with the gavel as an action, you create a 2-square radius of hallowed ground around you for 2 rounds. Enemies who start their turn in the area are <strong>Weakened</strong>.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1600 "
+      }
+    ],
+    "header_image": "Gavel_of_Justice.png"
+  },
+  {
+    "name": "Sun Blade",
+    "crystals": {
+      "requires": [
+        "blue",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>The hilt of this sword is exquisitely crafted, but it has no blade. When the command word is spoken, a blade of pure, searing sunlight erupts from the crossguard. <strong>Range:</strong> Melee (1 square).</p><p></p><hr><h3>Searing Light</h3><p><strong>(Passive)</strong> When you deal HD with this weapon, it is considered magical. Against Undead and Demonic creatures, your attacks with this weapon are Brutal (roll damage twice, take the best result).</p><hr><h3>Sun Flash</h3><p>When you spend an action to present the blade, spend 1 MP and roll+CHA.</p><ul><li><strong>On a 16+:</strong> You create a brilliant flash of light. All creatures in a 4-square cone are <strong>Blinded</strong> for 1 round.</li><li><strong>On a 9-15:</strong> All creatures in the cone are <strong>Weakened</strong> for 1 round.</li><li><strong>On a 1-8:</strong> The blade's light falters, dealing 1d4 magical damage to you.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "1500 "
+      }
+    ],
+    "header_image": "Sun_Blade.png"
+  },
+  {
+    "name": "Staff of Thunders",
+    "crystals": {
+      "requires": [
+        "emerald",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A staff built by storm-worshipping cultists, crackling with contained lightning. <strong>Range:</strong> Melee (2 squares, Reach).</p><p></p><hr><h3>Thunderstrike</h3><p>When you cast a spell that deals damage, you can spend 1 MP to infuse it with lightning. The spell deals an additional +3 damage, and the target is <strong>Deafened</strong> for 1 round.</p><hr><h3>Thunderclap</h3><p>When you spend your action to slam the staff on the ground, roll+WIS.</p><ul><li><strong>On a 16+:</strong> You create a deafening thunderclap. All creatures within 2 squares are <strong>Deafened</strong> and <strong>Pushed 1</strong> away from you.</li><li><strong>On a 9-15:</strong> All adjacent creatures are <strong>Pushed 1</strong>.</li><li><strong>On a 1-8:</strong> The sound backfires into your own ears, leaving you <strong>Deafened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "2000 "
+      }
+    ],
+    "header_image": "Staff of Thunders.png"
+  },
+  {
+    "name": "Plate Armor",
+    "crystals": {
+      "requires": [
+        "red",
+        "red",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "armor",
+      "rare"
+    ],
+    "description": "<p>A full suit of interlocking metal plates, offering excellent protection at the cost of mobility. It provides <strong>+3 Armor</strong> but gives you disadvantage on all DEX-based rolls. This armor is clumsy and noisy.</p><p></p><hr><h3>Deflection</h3><p><strong>(Reaction)</strong> When you are hit by a melee attack, you can spend your reaction to angle your armor. Roll a d6.</p><ul><li><strong>On a 5-6:</strong> The blow glances off harmlessly. You take no damage.</li><li><strong>On a 2-4:</strong> You partially deflect it, taking half damage.</li><li><strong>On a 1:</strong> You fail to angle correctly and take full damage.</li></ul><hr><h3>Unstoppable Juggernaut</h3><p><strong>Effect Type:</strong> Passive</p><p><em>Your sheer momentum makes you difficult to stop. You are immune to the <strong>Immobilized</strong> and <strong>Slowed</strong> conditions from non-magical sources.</em></p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "100 "
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Plate armor.png"
+  },
+  {
+    "name": "Imp in a Ball",
+    "crystals": {
+      "requires": [
+        "purple",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "rare"
+    ],
+    "description": "<p>A lesser imp has been magically bound inside a small, purple crystal ball. It offers cynical advice and complains constantly, but can be released to cause magical chaos.</p><p><em>In a timed scene, you can 'Unleash Imp'.</em></p><hr><h3>Unleash Imp</h3><p>When you spend your action and 2 MP to release the imp, roll+CHA.</p><ul><li><strong>On a 16-19:</strong> The imp appears and will obey you for 2 rounds. On its turn, it can cast a 'Fel Flame' attack that deals your character's MD at a range of 6 squares.</li><li><strong>On a 9-15:</strong> The imp appears for 2 rounds but is unruly, attacking the nearest creature each turn (friend or foe).</li><li><strong>On a Miss:</strong> The imp refuses to come out, instead launching a 'Fel Flame' attack at you from inside the ball before sulking.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "10"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8 (fly)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Imp_in_a_Ball.png"
+  },
+  {
+    "name": "Wisp",
+    "crystals": {
+      "requires": [
+        "emerald",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "pet",
+      "rare"
+    ],
+    "description": "<p>A benevolent nature spirit, appearing as a floating ball of faint light. It cannot attack, but it can drain magical energy and detonate to dispel harmful effects.</p><p><em>In a timed scene, it can 'Detonate'.</em></p><hr><h3>Detonate</h3><p>When you command the wisp to detonate, it moves to any square within its SPEED and explodes. Roll+WIS.</p><ul><li><strong>On a 16-19:</strong> The wisp is destroyed. All allies within a 2-square radius of it are healed for 1d8 HP, and one magical debuff of your choice is removed from each of them.</li><li><strong>On a 9-15:</strong> The wisp is destroyed, and allies in the radius are healed for 1d8 HP, but no debuffs are removed.</li><li><strong>On a Miss:</strong> The wisp is destroyed, but the magical energy feedback causes all allies in the radius to become <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "8 (fly)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Wisp.png"
+  },
+  {
+    "name": "Gryphon",
+    "crystals": {
+      "requires": [
+        "blue",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "rare"
+    ],
+    "description": "<p>A majestic and intelligent flying mount with the body of a lion and the head and wings of an eagle. It is a symbol of courage and royalty.</p><p><em>In a timed scene, you can command it to perform a 'Diving Strike'.</em></p><hr><h3>Diving Strike</h3><p>When you are mounted on your gryphon and dive towards an enemy, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> The gryphon rakes the target with its talons for 2d6 HD. After the attack, you may move the gryphon up to half its SPEED.</li><li><strong>On a 9-15:</strong> The gryphon deals 2d6 HD, but must land adjacent to the target.</li><li><strong>On a Miss:</strong> The dive is poorly timed; the target gets a free attack against the gryphon as it passes.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "40"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "15 (fly)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Gryphon.png"
+  },
+  {
+    "name": "Gnomish Repeating Crossbow",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare"
+    ],
+    "description": "<p>An intricate clockwork crossbow of gnomish design with an internal magazine, allowing for rapid firing. It deals <strong>1d8 HD</strong> and has the <strong>Ranged (15 squares)</strong> range. It does not need to be reloaded after every shot.</p><p>You can devote crystals to this weapon to unlock its special firing modes.</p><hr><h3>Rapid Fire</h3><p>When you unleash a quick volley of bolts, spend 10 Focus and roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You fire three bolts at once. You can hit up to three different targets, dealing your HD to each.</li><li><strong>On a 9-15:</strong> You fire two bolts, hitting up to two different targets for your HD each.</li><li><strong>On a Miss:</strong> The mechanism jams. You must spend your next action clearing it.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "4"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "250 "
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Repeating_Crossbow.png"
+  },
+  {
+    "name": "Flintlocke's Pistol",
+    "crystals": {
+      "requires": [
+        "gold",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A masterfully crafted pistol, surprisingly accurate for a gunpowder weapon. It deals <strong>1d8 HD</strong> and has the <strong>Ranged (8 squares)</strong> range. Requires an action to reload.</p><p>You can devote crystals to this weapon to unlock its special abilities.</p><hr><h3>Aimed Shot</h3><p>When you take a moment to line up your shot, spend your action and roll+DEX.</p><ul><li><strong>On a 16-19:</strong> Your next shot this combat is a guaranteed Strong Hit (16-19 result).</li><li><strong>On a 9-15:</strong> Your next shot this combat gains +3 forward.</li><li><strong>On a Miss:</strong> You lose your focus and are <strong>Weakened</strong> for 1 round.</li></ul><hr><h3>Disrupting Shot</h3><p><strong>(Reaction)</strong> When an enemy within 8 squares begins to cast a spell, you can spend your reaction to fire a shot. Roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You deal your HD and the enemy's spell is interrupted.</li><li><strong>On a 9-15:</strong> The enemy's spell is interrupted, but you deal no damage.</li><li><strong>On a Miss:</strong> You miss, and the spell hits with greater effect.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "300 "
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Flintlocke_Pistol.png"
+  },
+  {
+    "name": "Gnomish Steam Strider",
+    "crystals": {
+      "requires": [
+        "gold",
+        "cerulean",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "vehicle",
+      "rare"
+    ],
+    "description": "<p>A single-pilot, bipedal clockwork walker powered by a volatile steam engine. It's not heavily armored, but it is surprisingly fast and can leap over obstacles.</p><p>You can devote crystals to this vehicle to command it in special ways.</p><hr><h3>Overload Boiler</h3><p>When you push the engine to its limits, spend 1 MP and roll+INT.</p><ul><li><strong>On a 16-19:</strong> For 2 rounds, the strider's SPEED is doubled, and its basic Stomp attack deals an extra 1d8 MD (fire).</li><li><strong>On a 9-15:</strong> The effect lasts for only 1 round.</li><li><strong>On a Miss:</strong> The boiler explodes! The strider is destroyed, dealing 2d8 MD to the pilot and all adjacent creatures.</li></ul><hr><h3>Rocket Leap</h3><p>When you activate the jump jets, roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You can leap to any empty square within 8 squares, landing safely.</li><li><strong>On a 9-15:</strong> You leap, but the landing is rough. You are <strong>Weakened</strong> for 1 round.</li><li><strong>On a Miss:</strong> You leap 1d6 squares in a random direction and land prone.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "30"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "9"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Steam_Strider.png"
+  },
+  {
+    "name": "Dwarven Siege Engine",
+    "crystals": {
+      "requires": [
+        "gold",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "vehicle",
+      "rare"
+    ],
+    "description": "<p>A powerful, slow-moving war machine that is part battering ram, part mobile fortress. It requires a crew to operate and can launch massive projectiles.</p><p>You can devote crystals to this vehicle to unlock its special abilities.</p><hr><h3>Fire Catapult</h3><p>When you spend an action to fire the catapult at a target square you can see within 30 squares, roll+INT.</p><ul><li><strong>On a 16-19:</strong> The projectile hits its mark, dealing 3d8 MD (fire) to all creatures in a 3-square radius and setting the area <strong>Ablaze</strong> for 2 rounds.</li><li><strong>On a 9-15:</strong> The projectile is slightly off-target, landing 1d4 squares away in a random direction.</li><li><strong>On a Miss:</strong> The arm jams or the ammunition explodes prematurely, dealing 2d8 MD to the Siege Engine itself.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "80"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "3"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "4"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Dwarven_Siege_Engine.png"
+  },
+  {
+    "name": "Gnomish Flying Machine",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "vehicle",
+      "rare"
+    ],
+    "description": "<p>A rickety, one-person airship held aloft by whirring rotors and questionable physics. It's fragile but offers unparalleled mobility over any terrain.</p><p>You can devote crystals to this vehicle to unlock its special abilities.</p><hr><h3>Evasive Maneuvers</h3><p><strong>(Reaction)</strong> When the flying machine is targeted by an attack, the pilot can spend their reaction and roll+DEX.</p><ul><li><strong>On a 16-19:</strong> You deftly dodge, and the attack misses. You may immediately move 2 squares.</li><li><strong>On a 9-15:</strong> You dodge, but the strain on the engine causes it to stall. Your SPEED is halved for your next turn.</li><li><strong>On a Miss:</strong> The controls jam and the attack hits with advantage.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "20"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "0"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "12 (fly)"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Gnomish_Flying_Machine.png"
+  },
+  {
+    "name": "Orc Kodo Beast",
+    "crystals": {
+      "requires": [
+        "orange",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "mount",
+      "rare"
+    ],
+    "description": "<p>A massive, lumbering beast of burden and war, native to the plains of Kalimdor. Its thick hide provides natural armor, and its sheer size is a weapon in itself.</p><p>You can devote crystals to this mount to unlock its special abilities.</p><hr><h3>War Drums</h3><p>When a rider on the kodo's back spends an action to beat the war drums mounted on its sides, roll+CHA.</p><ul><li><strong>On a 16-19:</strong> The thunderous rhythm is inspiring. All allies within a 5-square radius gain advantage on their next HD attack roll.</li><li><strong>On a 9-15:</strong> All allies within 3 squares gain +3 forward on their next HD attack roll.</li><li><strong>On a Miss:</strong> The rhythm is off-putting, and all allies within 5 squares are <strong>Weakened</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "HP",
+        "stat_value": "60"
+      },
+      {
+        "stat_name": "Armor",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "SPEED",
+        "stat_value": "5"
+      }
+    ],
+    "geo_location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "header_image": "Kodo_Beast.png"
+  },
+  {
+    "name": "Aetheric Compass",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "rare"
+    ],
+    "description": "<p>This is no ordinary compass. Instead of a magnetic needle, a magically suspended crystal shard floats within its housing. It does not point north; it slowly rotates to align with the strongest source of raw magical energy within a one-mile radius.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Pinpoint Ley Line</h3><p>When you spend one minute concentrating on the compass, roll+WIS.</p><ul><li><strong>On a 16+:</strong> You get a clear vision of the magic's source and nature (e.g., 'a necrotic altar in the crypt below'). You regain 1d4 MP from the ambient energy.</li><li><strong>On a 9-15:</strong> You get a strong sense of the magic's direction and school (e.g., 'illusion magic from the east tower').</li><li><strong>On a 1-8:</strong> The magic is overwhelming or deceptive. The compass spins wildly, inflicting the <strong>Confused</strong> condition on you for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "150 "
+      }
+    ],
+    "header_image": "Aetheric_Compass.png"
+  },
+  {
+    "name": "Tome of Arcane Wards",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "book",
+      "rare"
+    ],
+    "description": "<p>A heavy tome bound in treated hide, detailing the theory and practice of abjuration magic. Studying it for an hour can grant knowledge of how to counter specific magical effects.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Warding Glyph</h3><p>When you spend one minute and 2 MP to inscribe a temporary glyph on a creature or object, roll+INT.</p><ul><li><strong>On a 16+:</strong> The glyph holds for one hour. Choose an energy type (fire, cold, lightning, etc.). The target gains resistance (half damage) to that energy type until the glyph expires.</li><li><strong>On a 9-15:</strong> The glyph only lasts for 10 minutes.</li><li><strong>On a 1-8:</strong> The glyph is unstable. It shatters on the first instance of taking the chosen damage type, dealing 1d6 magical damage to the bearer.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "250 "
+      }
+    ],
+    "header_image": "Tome_of_Wards.png"
+  },
+  {
+    "name": "Choker of the Guardian",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A simple-looking but heavy iron choker etched with runes of protection. When worn, it forms a magical link between the wearer and a chosen ward.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Guardian's Ward</h3><p>At the start of a timed scene, you may choose one ally as your ward. While they are within 5 squares of you, you can use this item's reaction.</p><p><strong>(Reaction)</strong> When your ward is hit by an attack, you can spend your reaction and 1 SP to roll+CON.</p><ul><li><strong>On a 16+:</strong> You intercept the full force of the blow. You take the damage and all effects instead of your ward.</li><li><strong>On a 9-15:</strong> You intercept the attack, but you both take half damage.</li><li><strong>On a 1-8:</strong> You are too slow. Your ward takes the full attack, and you take half damage from the magical backlash.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "200 "
+      }
+    ],
+    "header_image": "Choker_of_the_Guardian.png"
+  },
+  {
+    "name": "Tome of Whispers",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "book",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A book bound in human skin, its pages filled with incomprehensible, shifting text. It is said to contain every secret ever uttered in a moment of fear or betrayal. Consulting it is a dangerous act that taxes the mind.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Whispers of the Damned</h3><p>When you spend one minute reading from the tome and ask about a specific person or place, you take 1d6 SD and roll+INT.</p><ul><li><strong>On a 16+:</strong> The tome reveals a deep, damning secret about your subject. You gain advantage on your next two rolls against them.</li><li><strong>On a 9-15:</strong> The tome reveals a useful, but minor, secret. You gain advantage on your next roll against them.</li><li><strong>On a 1-8:</strong> The whispers are a torrent of lies and madness. You take an additional 1d6 SD and are <strong>Confused</strong> for 1 round.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "2"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "350 "
+      }
+    ],
+    "header_image": "Tome_of_Whispers.png"
+  },
+  {
+    "name": "Warp-Woven Saddle",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "rare",
+      "magic"
+    ],
+    "description": "<p>A saddle woven with phase-silk from the Netherstorm. It feels strangely cool to the touch and seems to flicker at the edge of your vision. It allows a skilled rider to briefly shift their mount through space.</p><p>You can devote crystals to this item to unlock its special abilities.</p><hr><h3>Phase-Ride</h3><p>While mounted, you can use your action to activate the saddle. Spend 1 MP and roll+INT.</p><ul><li><strong>On a 16+:</strong> You and your mount instantly <strong>Shift</strong> to an empty square you can see within 5 squares.</li><li><strong>On a 9-15:</strong> You <strong>Shift</strong> up to 3 squares.</li><li><strong>On a 1-8:</strong> The spatial magic is unstable. You and your mount teleport to a random empty square within 3 squares of your location.</li></ul>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "400 "
+      }
+    ],
+    "header_image": "Warp-Woven_Saddle.png"
+  }
+]
