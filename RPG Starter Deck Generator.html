@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Starter Deck Generator (with Images)</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+    <style>
+        :root {
+            --card-text: #f0f0f0;
+            --card-border: #555;
+            --title-bg: rgba(0, 0, 0, 0.4);
+            --page-bg: #222;
+            --color-blue: #3498db; --color-red: #e74c3c; --color-gold: #f1c40f;
+            --color-green: #27ae60; --color-emerald: #1abc9c; --color-cerulean: #00a8ff;
+            --color-purple: #9b59b6; --color-black: #34495e; --color-white: #ecf0f1;
+            --color-orange: #f39c12; --color-default-bg: #333; --color-light-blue: #85C1E9;
+        }
+
+        @import url('https://fonts.cdnfonts.com/css/averia-serif-libre');
+
+        body {
+            font-family: 'Averia Serif Libre', sans-serif;
+            background-color: var(--page-bg);
+            color: var(--card-text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .controls {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            text-align: center;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .instructions {
+            text-align: left;
+            max-width: 600px;
+            margin: 1em auto;
+            background-color: rgba(0,0,0,0.2);
+            padding: 1em;
+            border-radius: 8px;
+        }
+        .instructions ul { list-style-position: inside; padding-left: 0; }
+        .instructions code { background-color: #111; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+
+
+        h1, h2 { font-family: 'Averia Serif Libre', sans-serif; }
+        
+        button {
+            background-color: #5a8;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            margin: 10px;
+        }
+        
+        button:hover:not(:disabled) { background-color: #497; transform: translateY(-2px); }
+        button:disabled { background-color: #555; cursor: not-allowed; }
+        
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            border: 2px dashed #777;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: border-color 0.3s;
+            max-width: 80%;
+        }
+        input[type="file"]:hover { border-color: #5a8; }
+
+        #deck-display {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        #status { margin-top: 20px; font-size: 16px; min-height: 20px; color: #ccc; }
+
+        .card {
+            width: 350px;
+            height: 500px;
+            border: 1px solid black;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-image: url('https://i.ibb.co/8Z4NHGj/safwan-thottoli-Ygm-NICHdss-unsplash.jpg'); 
+            background-size: cover; background-position: center;
+            opacity: 0.7; border-radius: 15px; pointer-events: none; 
+            z-index: 1; mix-blend-mode: hard-light;
+        }
+
+        .card, .card h2, .card div, .card table, .card th, .card td {
+            color: white !important;
+            text-shadow: 0 0 5px black, 0 0 3px black;
+        }
+        hr { border-color: rgba(255,255,255,0.2); margin: 4px 0; }
+
+        .card-header, .card-image-container, .card-type-line, .card-text-box { position: relative; z-index: 2; }
+        
+        .card-header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 8px 12px; background: var(--title-bg); flex-shrink: 0; gap: 8px;
+        }
+        .card-header .requires, .card-header .provides { display: flex; align-items: center; flex-basis: 15%; }
+        .card-header .requires { justify-content: flex-start; }
+        .card-header .provides { justify-content: flex-end; }
+        .card-title { flex-grow: 1; text-align: center; font-size: 12px; margin: 0; }
+        .card-title.uncommon-style { color: var(--color-emerald) !important; }
+        .card-title.rare-style { color: var(--color-light-blue) !important; }
+        
+        .crystals { display: flex; gap: 4px; }
+        .crystal-icon { display: inline-block; width: 18px; height: 18px; vertical-align: middle; }
+        .crystal-romboid { width: 12px; height: 12px; transform: rotate(45deg); margin: 3px; border: 1px solid rgba(0,0,0,0.5); }
+        .description .crystal-icon { width: 12px; height: 12px; }
+        .description .crystal-romboid { width: 8px; height: 8px; margin: 2px; }
+        .crystal-romboid.blue { background-color: var(--color-blue); } .crystal-romboid.red { background-color: var(--color-red); }
+        .crystal-romboid.gold { background-color: var(--color-gold); } .crystal-romboid.green { background-color: var(--color-green); }
+        .crystal-romboid.emerald { background-color: var(--color-emerald); } .crystal-romboid.cerulean { background-color: var(--color-cerulean); }
+        .crystal-romboid.purple { background-color: var(--color-purple); } .crystal-romboid.black { background-color: var(--color-black); }
+        .crystal-romboid.white { background-color: var(--color-white); } .crystal-romboid.orange { background-color: var(--color-orange); }
+
+        .card-image-container {
+            height: 190px; width: calc(100% - 24px); margin: 10px auto 0;
+            background-color: #111; border: 2px solid #333;
+        }
+        .card-image-container img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .card-type-line {
+            padding: 5px 12px; background: var(--title-bg); margin: 10px 12px 0 12px;
+            border-radius: 4px; font-weight: bold; font-size: 13px; text-transform: capitalize;
+        }
+        
+        .character-stats-table { padding: 0 12px; margin-top: 8px; }
+        .character-stats-table table { width: 100%; border-collapse: collapse; background: rgba(0,0,0,0.2); }
+        .character-stats-table th, .character-stats-table td { text-align: center; padding: 4px; border: 1px solid rgba(255,255,255,0.2); }
+        .character-stats-table th { font-size: 10px; text-transform: uppercase; font-weight: bold; }
+        .character-stats-table td { font-size: 14px; font-weight: bold; }
+
+        .card-text-box {
+            flex-grow: 1; padding: 5px 15px 15px 15px; margin: 8px 12px 12px 12px;
+            border: 1px solid rgba(0,0,0,0.2); background: rgba(0,0,0,0.1); display: flex;
+            flex-direction: column; overflow: hidden; font-size: 11.5px; line-height: 1.35;
+        }
+
+        .description-content { flex-grow: 1; overflow-y: auto; }
+        .description ul { padding-left: 15px; margin: 5px 0; }
+        .description h3 { margin: 8px 0 4px 0; }
+        .description p { margin: 5px 0; }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="controls">
+            <h1>RPG Starter Deck Generator</h1>
+            <div class="instructions">
+                <p>Upload a single <code>.zip</code> file containing your JSON files and an <code>images</code> folder.</p>
+                <ul>
+                    <li>The generator will create a deck of 12 random cards.</li>
+                    <li>Click "Download Deck" to save the generated deck as a new JSON file.</li>
+                </ul>
+            </div>
+            <input type="file" id="zipFileInput" accept=".zip">
+            <button id="generateButton" disabled>Generate Starter Deck</button>
+            <button id="downloadButton" disabled>Download Deck as JSON</button>
+            <div id="status">Ready to load ZIP file.</div>
+        </div>
+        <div id="deck-display"></div>
+    </main>
+
+    <script>
+        const zipFileInput = document.getElementById('zipFileInput');
+        const generateButton = document.getElementById('generateButton');
+        const downloadButton = document.getElementById('downloadButton');
+        const deckDisplay = document.getElementById('deck-display');
+        const statusDiv = document.getElementById('status');
+        
+        let cardsByCategory = {};
+        let currentDeck = [];
+        let imageMap = {};
+        
+        const colorMap = {
+            blue: '#3498db', red: '#e74c3c', gold: '#f1c40f',
+            green: '#27ae60', emerald: '#1abc9c', cerulean: '#00a8ff',
+            purple: '#9b59b6', black: '#34495e', white: '#ecf0f1',
+            orange: '#f39c12', 'default-bg': '#333'
+        };
+
+        const ABILITY_TYPES = new Set(['background', 'culture', 'drawback', 'enemies', 'family', 'feature', 'friends', 'personality', 'species', 'training']);
+        const CORE_STATS_KEYS = ['hp', 'mp', 'sp', 'armor', 'speed', 'hd', 'md', 'sd'];
+        const ABILITY_SCORE_KEYS = ['str', 'dex', 'cos', 'int', 'wis', 'car'];
+
+        zipFileInput.addEventListener('change', handleFileSelect);
+        generateButton.addEventListener('click', handleGenerateDeck);
+        downloadButton.addEventListener('click', handleDownloadDeck);
+
+        async function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            resetState();
+            statusDiv.textContent = 'Reading ZIP file...';
+
+            try {
+                const zip = await JSZip.loadAsync(file);
+                
+                // --- Image Loading Logic ---
+                statusDiv.textContent = 'Loading images...';
+                const imagePromises = [];
+                zip.folder("images").forEach((relativePath, file) => {
+                    if (!file.dir) {
+                        const promise = file.async('blob').then(blob => {
+                            const url = URL.createObjectURL(blob);
+                            imageMap[file.name.split('/').pop()] = url;
+                        });
+                        imagePromises.push(promise);
+                    }
+                });
+                await Promise.all(imagePromises);
+
+                // --- JSON Loading Logic ---
+                const jsonFiles = zip.file(/\.json$/);
+                if (jsonFiles.length === 0) {
+                    throw new Error("No .json files found in the ZIP archive.");
+                }
+                
+                statusDiv.textContent = `Found ${jsonFiles.length} JSON file(s). Parsing...`;
+                const allJsonContents = await Promise.all(jsonFiles.map(f => f.async('string')));
+                
+                const allCards = allJsonContents.flatMap(content => JSON.parse(content));
+                categorizeCards(allCards);
+
+                const cardCount = allCards.length;
+                statusDiv.textContent = `Successfully loaded ${cardCount} cards. Ready to generate deck.`;
+                if (cardCount > 0) generateButton.disabled = false;
+
+            } catch (error) {
+                statusDiv.textContent = `Error: ${error.message}`;
+                statusDiv.style.color = '#e74c3c';
+            }
+        }
+        
+        function resetState() {
+            cardsByCategory = {
+                character: [], destiny: [], ability: [],
+                commonItem: [], uncommonItem: []
+            };
+            currentDeck = [];
+            imageMap = {};
+            // Clean up old image URLs to prevent memory leaks
+            Object.values(imageMap).forEach(URL.revokeObjectURL);
+            deckDisplay.innerHTML = '';
+            generateButton.disabled = true;
+            downloadButton.disabled = true;
+            statusDiv.style.color = '#ccc';
+        }
+
+        function categorizeCards(cards) {
+            cards.forEach(card => {
+                const type = card.type || '';
+                if (Array.isArray(type)) {
+                    if (type.includes('item')) {
+                        if (type.includes('common')) cardsByCategory.commonItem.push(card);
+                        else if (type.includes('uncommon')) cardsByCategory.uncommonItem.push(card);
+                    }
+                } else if (type === 'character') {
+                    cardsByCategory.character.push(card);
+                } else if (type === 'destiny') {
+                    cardsByCategory.destiny.push(card);
+                } else if (ABILITY_TYPES.has(type)) {
+                    cardsByCategory.ability.push(card);
+                }
+            });
+        }
+        
+        function handleGenerateDeck() {
+            currentDeck = [];
+            deckDisplay.innerHTML = '';
+            
+            const requiredCounts = {
+                character: 1, destiny: 1, ability: 5, commonItem: 4, uncommonItem: 1
+            };
+
+            for (const category in requiredCounts) {
+                if (cardsByCategory[category].length < requiredCounts[category]) {
+                    statusDiv.textContent = `Error: Not enough cards in category "${category}". Need ${requiredCounts[category]}, found ${cardsByCategory[category].length}.`;
+                    statusDiv.style.color = '#e74c3c';
+                    return;
+                }
+            }
+
+            currentDeck.push(...getRandomCards(cardsByCategory.character, 1));
+            currentDeck.push(...getRandomCards(cardsByCategory.destiny, 1));
+            currentDeck.push(...getRandomCards(cardsByCategory.ability, 5));
+            currentDeck.push(...getRandomCards(cardsByCategory.commonItem, 4));
+            currentDeck.push(...getRandomCards(cardsByCategory.uncommonItem, 1));
+
+            renderDeck(currentDeck);
+            statusDiv.textContent = `Generated a starter deck with ${currentDeck.length} cards.`;
+            downloadButton.disabled = false;
+        }
+        
+        function getRandomCards(cardArray, count) {
+            const shuffled = [...cardArray].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        function renderDeck(deck) {
+            deck.forEach(cardData => {
+                const cardElement = createCardElement(cardData);
+                deckDisplay.appendChild(cardElement);
+                const descContent = cardElement.querySelector('.description-content');
+                if (descContent) adjustFontSize(descContent);
+            });
+        }
+
+        function createCardElement(card) {
+            const cardDiv = document.createElement('div');
+            cardDiv.className = 'card';
+            const cardName = card.name || 'Untitled';
+            
+            const colorIdentity = Array.from(new Set([
+                ...(card.crystals?.requires || []),
+                ...(card.crystals?.provides || [])
+            ]));
+
+            if (colorIdentity.length === 1) {
+                cardDiv.style.background = colorMap[colorIdentity[0]] || colorMap['default-bg'];
+            } else if (colorIdentity.length > 1) {
+                const gradientColors = colorIdentity.map(c => colorMap[c] || colorMap['default-bg']);
+                cardDiv.style.background = `linear-gradient(135deg, ${gradientColors.join(', ')})`;
+            } else {
+                cardDiv.style.background = colorMap['default-bg'];
+            }
+
+            const providesHtml = (card.crystals?.provides || []).map(c => `<div class="crystal-icon"><div class="crystal-romboid ${c}"></div></div>`).join('');
+            const requiresHtml = (card.crystals?.requires || []).map(c => `<div class="crystal-icon"><div class="crystal-romboid ${c}"></div></div>`).join('');
+
+            let cardType = Array.isArray(card.type) ? card.type.join(' - ') : card.type || 'N/A';
+            let titleClass = '';
+            if (Array.isArray(card.type)) {
+                if (card.type.includes('uncommon')) titleClass = 'uncommon-style';
+                else if (card.type.includes('rare')) titleClass = 'rare-style';
+            }
+            
+            const imageUrl = card.header_image && imageMap[card.header_image] ? imageMap[card.header_image] : '';
+
+            let description = card.description || '';
+            Object.keys(colorMap).forEach(color => {
+                const regex = new RegExp(`<span class="crystal ${color}"></span>`, "g");
+                description = description.replace(regex, `<div class="crystal-icon"><div class="crystal-romboid ${color}"></div></div>`);
+            });
+
+            const allStats = [
+                ...(card.stats || []).map(s => ({ name: s.stat_name, value: s.stat_value })),
+                ...(card.abilities || []).map(a => ({ name: a.ability_name, value: a.ability_value }))
+            ];
+            
+            const coreStats = allStats.filter(s => s.name && CORE_STATS_KEYS.includes(s.name.toLowerCase()));
+            const abilityScores = allStats.filter(s => s.name && ABILITY_SCORE_KEYS.includes(s.name.toLowerCase()));
+
+            let statsTableHtml = '';
+            if (coreStats.length > 0 || abilityScores.length > 0) {
+                 statsTableHtml += '<div class="character-stats-table"><table><tbody>';
+                 if(coreStats.length > 0) {
+                    statsTableHtml += `<tr>${coreStats.map(s => `<th>${s.name}</th>`).join('')}</tr>`;
+                    statsTableHtml += `<tr>${coreStats.map(s => `<td>${s.value}</td>`).join('')}</tr>`;
+                 }
+                 if(abilityScores.length > 0) {
+                    abilityScores.sort((a, b) => ABILITY_SCORE_KEYS.indexOf(a.name.toLowerCase()) - ABILITY_SCORE_KEYS.indexOf(b.name.toLowerCase()));
+                    statsTableHtml += `<tr>${abilityScores.map(s => `<th>${s.name}</th>`).join('')}</tr>`;
+                    statsTableHtml += `<tr>${abilityScores.map(s => `<td>${s.value}</td>`).join('')}</tr>`;
+                 }
+                 statsTableHtml += '</tbody></table></div>';
+            }
+
+            cardDiv.innerHTML = `
+                <div class="card-header">
+                    <div class="requires"><div class="crystals">${requiresHtml}</div></div>
+                    <h2 class="card-title ${titleClass}">${cardName}</h2>
+                    <div class="provides"><div class="crystals">${providesHtml}</div></div>
+                </div>
+                <div class="card-image-container">
+                    <img src="${imageUrl}" alt="" onerror="this.style.display='none'">
+                </div>
+                <div class="card-type-line">${cardType}</div>
+                ${statsTableHtml}
+                <div class="card-text-box">
+                    <div class="description-content"><div class="description">${description}</div></div>
+                </div>
+            `;
+            return cardDiv;
+        }
+        
+        function adjustFontSize(element) {
+            let currentSize = 11.5;
+            element.style.fontSize = `${currentSize}px`;
+            while (element.scrollHeight > element.clientHeight && currentSize > 8) {
+                currentSize -= 0.5;
+                element.style.fontSize = `${currentSize}px`;
+            }
+        }
+
+        function handleDownloadDeck() {
+            if (currentDeck.length === 0) {
+                statusDiv.textContent = 'Error: No deck generated to download.';
+                return;
+            }
+
+            const deckJsonString = JSON.stringify(currentDeck, null, 2);
+            const blob = new Blob([deckJsonString], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'starter-deck.json';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            statusDiv.textContent = "starter-deck.json has been downloaded.";
+        }
+    </script>
+</body>
+</html>

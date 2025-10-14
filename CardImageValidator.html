@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Image Validator</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            background-color: #34495e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            width: 90%;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: #1abc9c;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-section {
+            margin-bottom: 25px;
+            border: 1px dashed #7f8c8d;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #1abc9c;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #2c3e50;
+            border: 1px solid #7f8c8d;
+            border-radius: 5px;
+            color: #ecf0f1;
+        }
+
+        button {
+            background-color: #1abc9c;
+            color: #2c3e50;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        button:hover:not(:disabled) {
+            background-color: #16a085;
+            transform: translateY(-2px);
+        }
+        
+        button:disabled {
+            background-color: #7f8c8d;
+            cursor: not-allowed;
+        }
+
+        #results-container {
+            margin-top: 25px;
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        #status {
+            font-style: italic;
+            color: #bdc3c7;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        #missing-images-list {
+            list-style-type: none;
+            padding: 0;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        #missing-images-list li {
+            background-color: #34495e;
+            padding: 10px;
+            border-left: 4px solid #e74c3c;
+            margin-bottom: 8px;
+            word-break: break-all;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Card Image Validator</h1>
+
+        <div class="input-section">
+            <label for="json-folder-input">Select the folder with your JSON card data:</label>
+            <input type="file" id="json-folder-input" webkitdirectory directory multiple>
+        </div>
+
+        <div class="input-section">
+            <label for="images-folder-input">Select the folder containing your images:</label>
+            <input type="file" id="images-folder-input" webkitdirectory directory multiple>
+        </div>
+
+        <button id="process-button">Find Missing Images</button>
+        <button id="download-json-button" disabled>Download Missing List as JSON</button>
+
+        <div id="results-container">
+            <h2 style="text-align: center;">Results</h2>
+            <div id="status">Select folders and click the button to start.</div>
+            <ul id="missing-images-list"></ul>
+        </div>
+    </div>
+
+    <script>
+        const jsonFolderInput = document.getElementById('json-folder-input');
+        const imagesFolderInput = document.getElementById('images-folder-input');
+        const processButton = document.getElementById('process-button');
+        const downloadJsonButton = document.getElementById('download-json-button');
+        const statusDiv = document.getElementById('status');
+        const missingImagesList = document.getElementById('missing-images-list');
+
+        let missingCards = [];
+
+        processButton.addEventListener('click', async () => {
+            const jsonFiles = jsonFolderInput.files;
+            const imageFiles = imagesFolderInput.files;
+
+            if (jsonFiles.length === 0 || imageFiles.length === 0) {
+                statusDiv.textContent = 'Error: Please select both a JSON and an Image folder.';
+                return;
+            }
+
+            statusDiv.textContent = 'Processing...';
+            missingImagesList.innerHTML = '';
+            missingCards = [];
+            downloadJsonButton.disabled = true;
+
+            try {
+                // Step 1: Get all image names from the image folder
+                const imageFileNames = new Set();
+                for (const file of imageFiles) {
+                    imageFileNames.add(file.name);
+                }
+                statusDiv.textContent = `Found ${imageFileNames.size} images. Reading JSON files...`;
+
+                // Step 2: Read all JSON files and check for corresponding images
+                let totalCards = 0;
+                for (const file of jsonFiles) {
+                    if (file.type === 'application/json') {
+                        const content = await file.text();
+                        const cards = JSON.parse(content);
+                        
+                        if (Array.isArray(cards)) {
+                           totalCards += cards.length;
+                           cards.forEach(card => {
+                               if (card.header_image) {
+                                   if (!imageFileNames.has(card.header_image)) {
+                                       missingCards.push(card);
+                                   }
+                               }
+                           });
+                        }
+                    }
+                }
+
+                // Step 3: Display the results
+                statusDiv.textContent = `Processed ${totalCards} cards. Found ${missingCards.length} cards with missing images.`;
+
+                if (missingCards.length > 0) {
+                    missingCards.forEach(card => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `Name: "${card.name}" --- Missing Image: "${card.header_image}"`;
+                        missingImagesList.appendChild(listItem);
+                    });
+                    downloadJsonButton.disabled = false;
+                } else {
+                    const listItem = document.createElement('li');
+                    listItem.style.borderLeftColor = '#2ecc71';
+                    listItem.textContent = 'Congratulations! All cards have corresponding images.';
+                    missingImagesList.appendChild(listItem);
+                }
+
+            } catch (error) {
+                statusDiv.textContent = `An error occurred: ${error.message}`;
+                console.error(error);
+            }
+        });
+
+        downloadJsonButton.addEventListener('click', () => {
+            if (missingCards.length === 0) return;
+
+            const jsonString = JSON.stringify(missingCards, null, 2);
+            const blob = new Blob([jsonString], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'missing_image_cards.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+
+    </script>
+
+</body>
+</html>
