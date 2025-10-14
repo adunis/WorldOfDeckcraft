@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Stonebridge Village",
+    "type": "Region",
+    "description": "<p><em>A tense logging and mining village nestled at the foot of the mountains. The locals are wary of outsiders and whisper of disappearances from the old iron mine.</em></p><hr><h4>Keywords</h4><p>Town, Safe Haven</p><hr><h4>Engage Region Action</h4><p>You may speak with the worried <strong>Village Elder</strong>. He tells you of the missing miners and offers a reward for their safe return. He gives you the <strong>'Whispers in Stonebridge'</strong> Quest Card. If you accept, place it in your Quest Log and begin the Quest Phase.</p>",
+    "header_image": "Oakhaven.png"
+  },
+  {
+    "name": "Whispers in Stonebridge",
+    "type": "Quest",
+    "description": "<p><em>The elder has given you the task, but the path forward is unclear. You must get information from one of two key figures in the village: the grieving blacksmith whose husband was among the missing, or the greedy mine foreman who organized the expedition.</em></p><hr><h4>Objective</h4><p>Learn the location of the mine by confronting either Grizelda the Blacksmith or Silas the Foreman.</p><hr><h4>Setup</h4><p>Place both <strong>'Grizelda the Blacksmith'</strong> and <strong>'Silas the Foreman'</strong> NPC cards on the table. Choose one to approach. This will begin a <strong>Timed Scene</strong>. Follow the instructions on the chosen NPC card to determine the type of encounter.</p><hr><h4>Progression</h4><p>Once you defeat your chosen opponent (either socially or physically), their card will instruct you which Quest Card to proceed to next.</p>",
+    "header_image": "Whispers_in_Stonebridge.png"
+  },
+  {
+    "name": "The Abandoned Mines",
+    "type": "Quest",
+    "description": "<p><em>(Hero Path) Following the directions you received, you arrive at a dark, gaping maw in the mountainside. A rickety sign reads 'Stonebridge Iron Mine - Keep Out'. The path inside splits.</em></p><hr><h4>Objective</h4><p>Navigate the mines to find the central chamber.</p><hr><h4>Journey</h4><p>Make a <strong>Journey Roll</strong> to navigate the treacherous upper tunnels. On any result, choose your path based on the information you gathered:<br><strong>A) The Old Path:</strong> Your destination is the <strong>'Fungus Cavern'</strong> Location Card.<br><strong>B) The New Shaft:</strong> Your destination is the <strong>'Collapsed Tunnel'</strong> Location Card.</p><hr><h4>Progression</h4><p>Upon arriving, begin a Timed Scene using your chosen Location Card. When all enemies are defeated, discard the Location and this Quest card. Then, immediately draw and resolve the <strong>'A Sudden Cave-In!'</strong> Event Card.</p>",
+    "header_image": "The_Abandoned_Mines.png"
+  },
+  {
+    "name": "A Sudden Cave-In!",
+    "type": "Event",
+    "description": "<p><em>(Hero Path) As you venture deeper, the groaning timbers above finally give way! Dust and rock rain down, sealing the path behind you. As the dust settles, you realize with horror that this was no accident—the support beams were deliberately sabotaged!</em></p><hr><h4>Immediate Effect</h4><p>Each character must immediately Defy Danger (DEX). On a 1-8, they take 1d8 HD and are <strong>Slowed</strong> for the next Location. On a 9-15, they take 1d6 HD. On a 16+, they dive to safety.</p><hr><h4>Progression</h4><p>After resolving the effect, discard this card and proceed to the <strong>'Heart of the Nest'</strong> Quest Card.</p>",
+    "header_image": "Sudden_Cave-In.png"
+  },
+  {
+    "name": "Heart of the Nest",
+    "type": "Quest",
+    "description": "<p><em>(Hero Path) You've reached the deepest part of the mine. A horrifyingly large spider tends to a pulsating egg sac. The missing miners are cocooned against the walls. Standing near the Broodmother is Silas the Foreman! \"Fools!\" he sneers, holding a strange crystal. \"This will make her brood unstoppable!\"</em></p><hr><h4>Objective</h4><p>Defeat the Broodmother and Silas.</p><hr><h4>Setup</h4><p>Set up the <strong>Location Card 'Broodmother's Nest'</strong>.</p><hr><h4>Progression</h4><p>When both the 'Cave-in Spider Queen' and 'Silas, the Betrayer' are defeated, the adventure is complete. Claim your hero's reward!</p>",
+    "header_image": "Heart_of_the_Nest.png"
+  },
+  {
+    "name": "A Partnership in Greed",
+    "type": "Quest",
+    "description": "<p><em>(Villain Path) Silas grins. \"Good choice. The crystal is in the main nest. The big spider protects it, but she thinks I'm her friend. We just need to get there. I'll make sure no one follows us.\"</em></p><hr><h4>Objective</h4><p>Accompany Silas to the central chamber.</p><hr><h4>Setup & Choice</h4><p>Place the <strong>Region Card 'The Shadowed Depths'</strong>. Silas guides you. You do not need to make a Journey Roll. Choose your path:<br><strong>A) The Old Path:</strong> Proceed to the <strong>'Fungus Cavern'</strong> Location Card.<br><strong>B) The New Shaft:</strong> Proceed to the <strong>'Collapsed Tunnel'</strong> Location Card.</p><hr><h4>Progression</h4><p>When you have cleared all enemies from your chosen Location, discard that Location and this Quest card. Then, draw and resolve the <strong>'A Deliberate Cave-In!'</strong> Event Card.</p>",
+    "header_image": "A_Partnership_in_Greed.png"
+  },
+  {
+    "name": "A Deliberate Cave-In!",
+    "type": "Event",
+    "description": "<p><em>(Villain Path) As you clear the tunnel, Silas grins and kicks a load-bearing beam. \"Can't have any heroes following us!\" The tunnel collapses behind you, sealing the path.</em></p><hr><h4>Immediate Effect</h4><p>Each character must Defy Danger (DEX). On a 1-8, they take 1d8 HD and are <strong>Slowed</strong> for the next Location. On a 9-15, they take 1d6 HD. On a 16+, they dive to safety.</p><hr><h4>Progression</h4><p>After resolving the effect, discard this card and proceed to the <strong>'Securing the Motherlode'</strong> Quest Card.</p>",
+    "header_image": "Sudden_Cave-In.png"
+  },
+  {
+    "name": "Securing the Motherlode",
+    "type": "Quest",
+    "description": "<p><em>(Villain Path) You enter the nest. The Spider Queen regards you passively as Silas approaches with the humming crystal. Suddenly, a cry echoes from the tunnel. \"Murderer! For Borin!\" Grizelda the Blacksmith stands there, her face a mask of rage, hefting a massive smithing hammer.</em></p><hr><h4>Objective</h4><p>Protect Silas and defeat Grizelda.</p><hr><h4>Setup</h4><p>Set up the <strong>Location Card 'Broodmother's Nest'</strong>, but do not place the Spider Queen or Spiders. Place <strong>'Silas, the Betrayer'</strong> as an allied NPC. Place the new enemy, <strong>'Grizelda, the Avenger'</strong>, at the entrance.</p><hr><h4>Progression</h4><p>When 'Grizelda, the Avenger' is defeated, the adventure is complete. Claim your villain's reward!</p>",
+    "header_image": "Heart_of_the_Nest.png"
+  }
+,
+  {
+    "name": "Grizelda the Blacksmith",
+    "crystals": { "provides": ["blue"] },
+    "type": ["NPC", "Humanoid", "Human"],
+    "description": "<p><em>A stout, middle-aged woman with soot on her face and powerful arms, her expression is grim and worried. She has 20 SP and a SD of 1d6.</em></p><hr><h4>Encounter</h4><p><strong><i class='fas fa-comments'></i> Influence (Social Combat):</strong><br><strong>Objective:</strong> Reduce Grizelda's SP to 10 or less.<br><strong>AI:</strong> Uses <strong>Parley</strong> on the character with the highest CAR.<br><strong>Outcome (SP <= 10):</strong> The Social Combat ends. Grizelda reveals the miners were exploring a 'newly opened western tunnel' organized by Silas. Proceed to 'The Abandoned Mines' quest.<br><strong>Critical Outcome (SP = 0):</strong> As above, but she is so convinced of your sincerity that she also gives you the <strong>'Borin's Masterwork Pick'</strong>. The character who dealt the final SD may add the <strong>'Grizelda, the Smith's Heart'</strong> friend card to their deck. Add the <strong>'Silas's Grudge'</strong> enemies card to your collection.</p><p><strong><i class='fas fa-gavel'></i> Intimidate (Physical Combat):</strong><br><em>\"You dare threaten me in my own forge? For Borin!\"</em><br><strong>Action:</strong> Replace this card with the <strong>'Grizelda, the Avenger'</strong> creature card and begin combat.<br><strong>Outcome (HP = 0):</strong> Beaten, she spits out the mine's location. Add the <strong>'Grizelda, the Avenger's Hate'</strong> enemies card to your collection. Proceed to 'The Abandoned Mines' quest.</p>",
+    "header_image": "Grizelda_the_Blacksmith.png"
+  },
+  {
+    "name": "Silas the Foreman",
+    "crystals": { "provides": ["gold", "black"] },
+    "type": ["NPC", "Humanoid", "Human"],
+    "description": "<p><em>A shifty man with greedy eyes. He seems nervous and is quick to deflect blame. He has 25 SP and a SD of 1d8.</em></p><hr><h4>Encounter</h4><p><strong><i class='fas fa-comments'></i> Influence (Social Combat):</strong><br><strong>Objective:</strong> Reduce Silas's SP to 15 or less.<br><strong>AI:</strong> Uses <strong>Parley</strong> against the character who last dealt SD to him.<br><strong>Outcome (SP <= 15):</strong> The Social Combat ends. He tries to mislead you, pointing you towards 'The Old Path'. Proceed to 'The Abandoned Mines' quest.<br><strong>Critical Outcome (SP = 0):</strong> He breaks, revealing the true path is the 'New Shaft' and mentions the crystal. Add the <strong>'Silas's Grudge'</strong> enemies card to your collection. Proceed to 'The Abandoned Mines' quest.</p><p><strong>Secret Offer:</strong> If a player gets a High Hit (16+) on a Parley action, Silas makes an offer to cut you in on the profits. If you accept, the Social Combat ends. Add the <strong>'Grizelda, the Avenger's Hate'</strong> enemies card. Proceed to the <strong>'A Partnership in Greed'</strong> quest.</p><p><strong><i class='fas fa-gavel'></i> Intimidate (Physical Combat):</strong><br><em>\"Get away from me! You'll not get a copper!\"</em><br><strong>Action:</strong> Replace this card with the combat version of <strong>'Silas, the Betrayer'</strong>.<br><strong>Outcome (HP = 0):</strong> Beaten, he whimpers the mine's location. Add the <strong>'Silas's Grudge'</strong> enemies card. Proceed to 'The Abandoned Mines' quest.</p>",
+    "header_image": "Silas_the_Foreman.png"
+  },
+  {
+    "name": "Grizelda, the Smith's Heart",
+    "crystals": { "provides": ["blue"] },
+    "type": "friends",
+    "description": "<p><em>You forged a bond with the blacksmith of Stonebridge, promising to avenge her husband. Her strength and skill now support you.</em></p><hr><h3>Blacksmith's Favor</h3><p><strong>(Passive)</strong></p><p><em>During the Downtime Phase, you can have Grizelda repair one damaged item or sharpen one weapon for free. Sharpened weapons deal +1 damage until your next Downtime.</em></p>",
+    "header_image": "Grizelda_Friend.png"
+  },
+  {
+    "name": "Grizelda, the Avenger's Hate",
+    "crystals": { "provides": ["red"] },
+    "type": "enemies",
+    "description": "<p><em>You sided with the man who led her husband to his death. Grizelda has sworn an oath of vengeance upon you, her heart hardened by loss and betrayal.</em></p><hr><h3>Poisoning the Well</h3><p><strong>(Legacy Effect)</strong></p><p><em>Whenever you are in a civilized settlement, you have disadvantage on social rolls with craftsmen and merchants. All prices for goods and repairs are doubled for you.</em></p>",
+    "header_image": "Grizelda_Enemy.png"
+  },
+  {
+    "name": "Silas's Grudge",
+    "crystals": { "provides": ["gold"] },
+    "type": "enemies",
+    "description": "<p><em>You thwarted his scheme and cost him a fortune. Silas the foreman now holds a deep-seated grudge and will use his ill-gotten gains to make your life difficult.</em></p><hr><h3>A Price on Your Head</h3><p><strong>(Legacy Effect)</strong></p><p><em>The first time you take the 'Time Off' downtime activity in any settlement, Silas sends mercenaries after you. Begin a surprise combat encounter against two 'Crossbow Mercenaries' and one 'Sellsword Brawler'.</em></p>",
+    "header_image": "Silas_Enemy.png"
+  },
+  {
+    "name": "Heroes of Stonebridge",
+    "crystals": { "provides": ["white"] },
+    "type": "background",
+    "description": "<p><em>Your heroic deeds in the old mine have made you legends in the village of Stonebridge and the surrounding region.</em></p><hr><p><strong>Legacy Effect:</strong> When you enter a new settlement, if you reveal your history, you have advantage on your first social roll with lawful or good-aligned NPCs (guards, priests, nobles).</p>",
+    "header_image": "Heroes_of_Stonebridge.png"
+  },
+  {
+    "name": "Accomplices of Stonebridge",
+    "crystals": { "provides": ["black"] },
+    "type": "background",
+    "description": "<p><em>Your name is spoken in hushed, fearful tones—a synonym for betrayal and greed. You sided with a villain for profit, and that reputation follows you.</em></p><hr><p><strong>Legacy Effect:</strong> When you enter a new settlement, if you reveal your history, you have advantage on your first social roll with criminal or greedy NPCs. You have disadvantage on all interactions with law enforcement.</p>",
+    "header_image": "Accomplice_of_Stonebridge.png"
+  },
+  {
+    "name": "Silas, the Betrayer",
+    "crystals": { "provides": ["gold", "black"] },
+    "type": ["Creature", "Humanoid", "Human"],
+    "description": "<p><em>No longer hiding his intentions, Silas's greedy eyes glint with malice as he holds a strange, empowering crystal.</em></p><hr><table><tbody><tr><td>Backstab</td><td><strong>(Active)</strong> Melee attack that deals HD damage. If another creature is also adjacent to the target, this attack deals +1d6 damage.</td></tr><tr><td>Empowering Crystal</td><td><strong>(Active)</strong> Silas uses the crystal to bolster an ally. One allied creature within 3 squares deals +3 damage on its next attack.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 22}, {"stat_name": "mp", "stat_value": 0}, {"stat_name": "sp", "stat_value": 14},
+      {"stat_name": "hd", "stat_value": "1d6"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d8"},
+      {"stat_name": "🛡️", "stat_value": 1}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 1}, {"ability_name": "DEX", "ability_value": 2}, {"ability_name": "COS", "ability_value": 1},
+      {"ability_name": "INT", "ability_value": 1}, {"ability_name": "WIS", "ability_value": -1}, {"ability_name": "CAR", "ability_value": 2},
+      {"ability_name": "🦶", "ability_value": 6}
+    ],
+    "header_image": "Silas_the_Betrayer.png"
+  },
+  {
+    "name": "Grizelda, the Avenger",
+    "crystals": { "provides": ["red", "red", "red"] },
+    "type": ["Creature", "Humanoid", "Human"],
+    "description": "<p><em>Fueled by grief and righteous fury, Grizelda's eyes burn with hate. She wields her smithing hammer not to create, but to destroy.</em></p><hr><table><tbody><tr><td>Sunder Armor</td><td><strong>(Active)</strong> Melee attack. On a hit, the target's Armor is permanently reduced by 1.</td></tr><tr><td>Vengeful Strike</td><td><strong>(Active)</strong> Melee attack. This attack deals +1d8 damage against the character with the highest CAR.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 35}, {"stat_name": "mp", "stat_value": 0}, {"stat_name": "sp", "stat_value": 15},
+      {"stat_name": "hd", "stat_value": "1d10"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d6"},
+      {"stat_name": "🛡️", "stat_value": 2}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 4}, {"ability_name": "DEX", "ability_value": 1}, {"ability_name": "COS", "ability_value": 3},
+      {"ability_name": "INT", "ability_value": 0}, {"ability_name": "WIS", "ability_value": 1}, {"ability_name": "CAR", "ability_value": -1},
+      {"ability_name": "🦶", "ability_value": 6}
+    ],
+    "header_image": "Grizelda_the_Avenger.png"
+  }
+,
+  {
+    "name": "The Shadowed Depths",
+    "crystals": { "provides": ["black", "orange"] },
+    "type": "Region",
+    "description": "<p><em>An abandoned iron mine plunged into an unnatural darkness that swallows light and sound. The air is cold, and the silence is broken only by the drip of water and the scuttling of unseen things.</em></p><hr><h4>Region Effect</h4><p>The oppressive darkness is disorienting. Any <strong><i class='fas fa-search'></i> Investigate</strong> actions in this region that rely on sight are made with disadvantage.</p>",
+    "header_image": "The_Shadowed_Depths.png"
+  },
+  {
+    "name": "Mine Entrance",
+    "crystals": { "provides": [] },
+    "type": "Location",
+    "description": "<p><em>A 10x10 square chamber supported by rotting wooden beams. Discarded tools (🔍) litter the floor.</em></p><hr><h4>Setup</h4><ul><li><strong>Enemies:</strong> Place one <strong>'Cave Bat'</strong> at E4 and another at F7.</li><li><strong>Terrain:</strong> Place <strong>'Mine Cart'</strong> terrains at G2-G4. Place <strong>'Rotting Beam'</strong> terrains at A5 and J5.</li></ul><hr><h4><i class='fas fa-search'></i> Investigate the Tools</h4><p>An adjacent character can use an Action to <strong>Investigate</strong> the tools. Roll+INT.<br><strong>On a 16+:</strong> You find a well-made <strong>'Miner's Pick'</strong> common item.<br><strong>On a 9-15:</strong> You find a hastily dropped journal hinting that Silas was searching for something valuable.<br><strong>Peril (1-8):</strong> You disturb a nest of mundane bats, who swarm you. You are <strong>Weakened</strong> for 1 round.</p>",
+    "header_image": "Mine_Entrance.png"
+  },
+  {
+    "name": "Collapsed Tunnel",
+    "crystals": { "provides": [] },
+    "type": "Location",
+    "description": "<p><em>A long, 8x15 tunnel where the ceiling has partially caved in. A large pile of rubble (F9) seems particularly unstable.</em></p><hr><h4>Setup</h4><ul><li><strong>Enemies:</strong> Place one <strong>'Rock Golemite'</strong> at E8.</li><li><strong>Terrain:</strong> All squares in columns 6 through 10 are difficult terrain.</li></ul><hr><h4><i class='fas fa-binoculars'></i> Explore the Rubble (F9)</h4><p>An adjacent character can use an Action to <strong>Explore</strong> the rubble pile. Roll+STR.<br><strong>On a 16+:</strong> You clear a shortcut, removing all difficult terrain in column 9.<br><strong>On a 9-15:</strong> You clear a small path, removing difficult terrain from square F9 only.<br><strong>Peril (1-8):</strong> You dislodge a larger rock, which tumbles onto you. You take 1d6 HD.</p>",
+    "header_image": "Collapsed_Tunnel.png"
+  },
+  {
+    "name": "Fungus Cavern",
+    "crystals": { "provides": [] },
+    "type": "Location",
+    "description": "<p><em>A 12x12 square natural cavern illuminated by the eerie glow of phosphorescent fungi.</em></p><hr><h4>Setup</h4><ul><li><strong>Enemies:</strong> Place four <strong>'Shambling Zombie'</strong> creatures at D4, D8, H4, and H8.</li><li><strong>Terrain:</strong> Place <strong>'Glowing Mushroom'</strong> terrains at A1, A12, L1, and L12.</li></ul>",
+    "header_image": "Fungus_Cavern.png"
+  },
+  {
+    "name": "Broodmother's Nest",
+    "crystals": { "provides": ["black", "green"] },
+    "type": "Location",
+    "description": "<p><em>A massive 20x20 square cavern draped in thick, sticky webbing. Several cocooned miners (🔍) are stuck to the walls.</em></p><hr><h4>Setup</h4><ul><li><strong>Enemies:</strong> Place one <strong>'Cave-in Spider Queen'</strong> at J10. Place four <strong>'Cave-in Spider'</strong> creatures at H8, H12, L8, and L12. Place <strong>'Silas, the Betrayer'</strong> at K11.</li><li><strong>Terrain:</strong> The entire location is difficult terrain. Place <strong>'Cocooned Miner'</strong> terrains at A10, T10, K1, and K20. Place one <strong>'Egg Sac'</strong> terrain at J11.</li></ul><hr><h4><i class='fas fa-search'></i> Investigate a Cocoon</h4><p>An adjacent character can use an Action to <strong>Investigate</strong> a cocoon. Roll+WIS.<br><strong>On a 16+:</strong> You discover the miner is alive and can be cut free with one Action and a successful STR/DEX roll.<br><strong>On a 9-15:</strong> You determine the miner is alive, but freeing them will take two Actions.<br><strong>Peril (1-8):</strong> Your probing disturbs a hidden swarm of spiderlings. You take 1d6 HD.</p>",
+    "header_image": "Broodmothers_Nest.png"
+  },
+  {
+    "name": "Wall",
+    "type": "Terrain",
+    "description": "<p><em>Represents impassable structures like stone walls, cave-ins, or dense, impenetrable magical barriers.</em></p><hr><h4>Properties</h4><ul><li><strong>Impassable:</strong> Squares with a Wall cannot be moved into or through by any means.</li><li><strong>Blocks Line of Sight:</strong> A Wall blocks line of sight for attacks and abilities.</li><li><strong>Solid:</strong> Creatures cannot be Pushed, Pulled, or otherwise moved into a square containing a Wall. If a forced movement effect would cause a creature to collide with a Wall, the movement stops and any relevant collision effects (like <strong>Crush</strong>) are triggered.</li></ul>",
+    "header_image": "Wall.png"
+  },
+  {
+    "name": "Mine Cart",
+    "type": "Terrain",
+    "description": "<p><em>A rusted, heavy iron cart on a fixed track.</em></p><hr><h4>Properties</h4><p>Provides half cover (+1 Armor). A character can use an Action to attempt to <strong>Push 3</strong> this cart in a straight line with a successful STR roll. Any creature in its path takes 1d6 HD and is pushed with it.</p>",
+    "header_image": "Mine_Cart.png"
+  },
+  {
+    "name": "Rotting Beam",
+    "type": "Terrain",
+    "description": "<p><em>A large wooden support beam, cracked and ready to collapse.</em></p><hr><h4>Properties</h4><p>Provides cover. If it takes any damage, it collapses. All creatures in adjacent squares must Defy Danger (DEX) or take 1d6 HD and become <strong>Slowed</strong> for 1 round.</p>",
+    "header_image": "Rotting_Beam.png"
+  },
+  {
+    "name": "Glowing Mushroom",
+    "type": "Terrain",
+    "description": "<p><em>A cluster of large, phosphorescent mushrooms that cast a dim, eerie light in a 2-square radius.</em></p><hr><h4>Properties</h4><p>When a character ends their turn adjacent to it, it releases spores. They must make a CON roll. On a 1-8, they become <strong>Confused</strong> for 1 round.</p>",
+    "header_image": "Glowing_Mushroom.png"
+  },
+  {
+    "name": "Cocooned Miner",
+    "type": "Terrain",
+    "description": "<p><em>A humanoid figure wrapped tightly in thick spider silk. They are alive, but barely.</em></p><hr><h4>Properties</h4><p>A character can use their Action and succeed on a STR or DEX roll to cut a miner free. Once freed, the miner is <strong>Stunned</strong> and has only 1 HP. They must be escorted to safety.</p>",
+    "header_image": "Cocooned_Miner.png"
+  },
+  {
+    "name": "Egg Sac",
+    "type": "Terrain",
+    "description": "<p><em>A large, pulsating sac of webbing that squirms with unseen life.</em></p><hr><h4>Properties</h4><p>HP: 10, Armor: 0. If it takes any damage, it bursts, and two new <strong>'Cave-in Spider'</strong> creatures spawn in adjacent squares.</p>",
+    "header_image": "Egg_Sac.png"
+  }
+,
+  {
+    "name": "Cave Bat",
+    "crystals": { "provides": ["black"] },
+    "type": ["Creature", "Beast"],
+    "description": "<p><em>A common cave-dwelling bat, easily startled and aggressive in groups.</em></p><hr><table><tbody><tr><td>Supersonic Screech</td><td><strong>(Active)</strong> One target within 3 squares must Defy Danger (CON) or become <strong>Weakened</strong> for 1 round.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 8}, {"stat_name": "mp", "stat_value": 0}, {"stat_name": "sp", "stat_value": 10},
+      {"stat_name": "hd", "stat_value": "1d4"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d6"},
+      {"stat_name": "🛡️", "stat_value": 0}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": -2}, {"ability_name": "DEX", "ability_value": 2}, {"ability_name": "COS", "ability_value": 0},
+      {"ability_name": "INT", "ability_value": -3}, {"ability_name": "WIS", "ability_value": 1}, {"ability_name": "CAR", "ability_value": -2},
+      {"ability_name": "🦶", "ability_value": 7}
+    ],
+    "header_image": "Cave_Bat.png"
+  },
+  {
+    "name": "Rock Golemite",
+    "crystals": { "provides": ["orange", "orange"] },
+    "type": ["Creature", "Elemental"],
+    "description": "<p><em>A brutish humanoid made of jagged rock and soil, with two massive fists of solid granite.</em></p><hr><table><tbody><tr><td>Pummel</td><td><strong>(Active)</strong> Melee attack dealing HD damage.</td></tr><tr><td>Rock Throw</td><td><strong>(Active)</strong> Ranged attack (5 squares) that deals HD damage.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 25}, {"stat_name": "mp", "stat_value": 0}, {"stat_name": "sp", "stat_value": 5},
+      {"stat_name": "hd", "stat_value": "1d8"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d4"},
+      {"stat_name": "🛡️", "stat_value": 2}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 3}, {"ability_name": "DEX", "ability_value": -2}, {"ability_name": "COS", "ability_value": 3},
+      {"ability_name": "INT", "ability_value": -3}, {"ability_name": "WIS", "ability_value": 1}, {"ability_name": "CAR", "ability_value": -3},
+      {"ability_name": "🦶", "ability_value": 3}
+    ],
+    "header_image": "Rock_Golemite.png"
+  },
+  {
+    "name": "Shambling Zombie",
+    "crystals": { "provides": ["black"] },
+    "type": ["Creature", "Undead"],
+    "description": "<p><em>A reanimated corpse that moves with a slow, relentless hunger.</em></p><hr><table><tbody><tr><td>Slam</td><td><strong>(Active)</strong> Melee attack dealing HD damage.</td></tr><tr><td>Undying Fortitude</td><td><strong>(Passive)</strong> The first time this creature is reduced to 0 HP, it returns to life with 1 HP at the start of its next turn.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 15}, {"stat_name": "mp", "stat_value": 0}, {"stat_name": "sp", "stat_value": 0},
+      {"stat_name": "hd", "stat_value": "1d6"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d4"},
+      {"stat_name": "🛡️", "stat_value": 0}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 1}, {"ability_name": "DEX", "ability_value": -2}, {"ability_name": "COS", "ability_value": 2},
+      {"ability_name": "INT", "ability_value": -4}, {"ability_name": "WIS", "ability_value": -2}, {"ability_name": "CAR", "ability_value": -4},
+      {"ability_name": "🦶", "ability_value": 3}
+    ],
+    "header_image": "Shambling_Zombie.png"
+  },
+  {
+    "name": "Cave-in Spider Queen",
+    "crystals": { "provides": ["black", "black", "green", "green"] },
+    "type": ["Creature", "Beast", "Spider"],
+    "description": "<p><em>A monstrously bloated spider with a pulsating abdomen and multiple glowing red eyes.</em><hr><strong>Boss Creature:</strong> Draw 1 random Black and 1 random Green Feature card and attach them.</p><hr><table><tbody><tr><td>Summon Hatchlings</td><td><strong>(Active)</strong> Summons a <strong>'Cave-in Spider'</strong> in an adjacent empty square.</td></tr><tr><td>Venomous Bite</td><td><strong>(Active)</strong> Melee attack. Target must Defy Danger (CON) or take HD damage and become <strong>Stunned</strong> for 1 round.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 40}, {"stat_name": "mp", "stat_value": 10}, {"stat_name": "sp", "stat_value": 12},
+      {"stat_name": "hd", "stat_value": "1d10"}, {"stat_name": "md", "stat_value": "1d6"}, {"stat_name": "sd", "stat_value": "1d6"},
+      {"stat_name": "🛡️", "stat_value": 1}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 3}, {"ability_name": "DEX", "ability_value": 1}, {"ability_name": "COS", "ability_value": 4},
+      {"ability_name": "INT", "ability_value": -2}, {"ability_name": "WIS", "ability_value": 1}, {"ability_name": "CAR", "ability_value": -1},
+      {"ability_name": "🦶", "ability_value": 5}
+    ],
+    "header_image": "Cave-in_Spider_Queen.png"
+  },
+  {
+    "name": "Cave-in Spider",
+    "crystals": { "provides": ["black"] },
+    "type": ["Creature", "Beast", "Spider"],
+    "description": "<p><em>A large arachnid that creates unstable tunnels, collapsing them on prey to trap and consume them.</em></p><hr><table><tbody><tr><td>Bite</td><td><strong>(Active)</strong> Melee attack that deals HD damage.</td></tr><tr><td>Web Trap</td><td><strong>(Active)</strong> Creates a 2x2 area of difficult terrain within 5 squares.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 16}, {"stat_name": "mp", "stat_value": 2}, {"stat_name": "sp", "stat_value": 10},
+      {"stat_name": "hd", "stat_value": "1d8"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d6"},
+      {"stat_name": "🛡️", "stat_value": 0}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 1}, {"ability_name": "DEX", "ability_value": 2}, {"ability_name": "COS", "ability_value": 1},
+      {"ability_name": "INT", "ability_value": -1}, {"ability_name": "WIS", "ability_value": 0}, {"ability_name": "CAR", "ability_value": -2},
+      {"ability_name": "🦶", "ability_value": 6}
+    ],
+    "header_image": "Cave-in_Spider.png"
+  },
+  {
+    "name": "Silas, the Betrayer",
+    "crystals": { "provides": ["gold", "black"] },
+    "type": ["Creature", "Humanoid", "Human"],
+    "description": "<p><em>No longer hiding his intentions, Silas's greedy eyes glint with malice as he holds a strange, empowering crystal.</em></p><hr><table><tbody><tr><td>Backstab</td><td><strong>(Active)</strong> Melee attack that deals HD damage. If another creature is also adjacent to the target, this attack deals +1d6 damage.</td></tr><tr><td>Empowering Crystal</td><td><strong>(Active)</strong> Silas uses the crystal to bolster an ally. One allied creature within 3 squares deals +3 damage on its next attack.</td></tr></tbody></table>",
+    "stats": [
+      {"stat_name": "hp", "stat_value": 22}, {"stat_name": "mp", "stat_value": 0}, {"stat_name": "sp", "stat_value": 14},
+      {"stat_name": "hd", "stat_value": "1d6"}, {"stat_name": "md", "stat_value": "1d4"}, {"stat_name": "sd", "stat_value": "1d8"},
+      {"stat_name": "🛡️", "stat_value": 1}
+    ],
+    "abilities": [
+      {"ability_name": "STR", "ability_value": 1}, {"ability_name": "DEX", "ability_value": 2}, {"ability_name": "COS", "ability_value": 1},
+      {"ability_name": "INT", "ability_value": 1}, {"ability_name": "WIS", "ability_value": -1}, {"ability_name": "CAR", "ability_value": 2},
+      {"ability_name": "🦶", "ability_value": 6}
+    ],
+    "header_image": "Silas_the_Betrayer.png"
+  },
+  {
+    "name": "Borin's Masterwork Pick",
+    "crystals": { "requires": ["red", "blue"] },
+    "type": ["item", "weapon", "rare", "magic"],
+    "description": "<p><em>Grizelda's late husband's pickaxe, perfectly balanced and humming with a faint resonance. Grizelda has kept it in pristine condition, a testament to her love and skill.</em> <strong>Range:</strong> Melee (1 square).</p><hr><h3>Earth-Breaker</h3><p><strong>(Passive)</strong></p><p><em>This weapon deals +3 damage against creatures with the 'Elemental (Earth)' or 'Construct' type.</em></p><hr><h3>Heart of the Mountain</h3><p>Once per combat, as an action, you can make a special attack. This attack automatically hits and ignores all Armor.</p>",
+    "stats": [{"stat_name": "kg", "stat_value": "2"}, {"stat_name": "$", "stat_value": "700"}],
+    "header_image": "Miners_Pick.png"
+  },
+  {
+    "name": "Broodmother's Heart",
+    "crystals": { "requires": ["black", "green"] },
+    "type": ["item", "consumable", "rare", "magic"],
+    "description": "<p><em>A still-warm, pulsating organ taken from the Cave-in Spider Queen. It is filled with a horrifying, potent life force. Single use.</em></p><hr><h3>Call the Brood</h3><p>As an Action, you can crush the heart. If you do, you summon two <strong>'Cave-in Spider'</strong> creatures in adjacent empty squares. They are allied to you and remain for 2 rounds or until defeated, acting on your turn as you command.</p><p><em>This item is consumed on use.</em></p>",
+    "stats": [{"stat_name": "kg", "stat_value": "1"}, {"stat_name": "$", "stat_value": "600"}],
+    "header_image": "Broodmothers_Heart.png"
+  },
+  {
+    "name": "Silas's Crystal of Empowerment",
+    "crystals": { "requires": ["gold", "black"] },
+    "type": ["item", "gear", "rare", "magic"],
+    "description": "<p><em>The very crystal Silas sought. It hums with a greedy, parasitic energy, eager to amplify the power of a worthy wielder.</em></p><hr><h3>Amplify Ally</h3><p>As an Action, you can spend 2 MP and roll+INT to channel the crystal's power into an ally within 3 squares.</p><ul><li><strong>On a 16+:</strong> Your ally gains +5 forward on their next roll.</li><li><strong>On a 9-15:</strong> Your ally gains +3 forward on their next roll.</li><li><strong>On a 1-8:</strong> The crystal overloads. You cannot use this ability again this combat.</li></ul>",
+    "stats": [{"stat_name": "kg", "stat_value": "0.5"}, {"stat_name": "$", "stat_value": "800"}],
+    "header_image": "Crystal_of_Empowerment.png"
+  },
+  {
+    "name": "Miner's Pick",
+    "crystals": { "requires": [], "provides": [] },
+    "type": ["item", "weapon", "common"],
+    "description": "<p><em>A sturdy pickaxe, good for breaking rocks and, in a pinch, skulls.</em></p><hr><h3>Sunder</h3><p><strong>(Passive)</strong></p><p><em>When you get a High Hit (16+) on a Hack & Slash attack with this weapon, you can choose to reduce the target's Armor by 1 for the rest of combat instead of the normal benefit.</em></p>",
+    "stats": [
+      {"stat_name": "kg", "stat_value": "2"},
+      {"stat_name": "$", "stat_value": "5"}
+    ],
+    "header_image": "Miners_Pick.png"
+  }
+]
