@@ -1,0 +1,107 @@
+[
+  {
+    "name": "The Rat Problem (C-Rank)",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Scenario",
+    "difficulty": "C-Rank",
+    "description": "<p><em>The old basement beneath the 'Drunken Dragon' tavern has become infested. The rats are monstrously large and carry a vile plague. You have been hired by the frantic tavern owner, Barliman, to eliminate the infestation and find its source.</em></p><hr><h4>Setup</h4><p>The tavern owner, Barliman, briefs you on the situation. Begin the scenario with the <strong>'Basement Brawl'</strong> Quest Card.</p>",
+    "header_image": "Basement_Infestation.png"
+  },
+  {
+    "name": "Basement Brawl",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>You descend the narrow, wet wooden stairs into the tavern's storage basement. The air is foul, and a chorus of squeaking fills the silence. The first wave of vermin is already upon you.</em></p><hr><h4>Objective</h4><p>Clear the immediate basement area and find the passage deeper.</p><hr><h4>Progression</h4><p>Begin a Timed Scene. Use the <strong>'Storage Cellar'</strong> Location Card for setup. Once all enemies are defeated, you find a crumbling hole in the wall. Proceed to the <strong>'The Rat King's Domain'</strong> Quest Card.</p>",
+    "header_image": "Basement_Brawl.png"
+  },
+  {
+    "name": "Storage Cellar",
+    "crystals": {
+      "provides": [
+        "black",
+        "red"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A cramped, 6x10 cellar. Barrels and spoiled food line the walls. The floor is slick with water and filth.</em></p><hr><h4>Setup</h4><ul><li>**Map:** 6x10 grid (A-F columns, 1-10 rows).</li><li>**Terrain:** The entire area (A1-F10) is **Difficult Terrain**. Barrels at B3, E3 provide Cover.</li><li>**Enemies:** Place 2 **'Giant Rat'** creatures at D5 and C7. Place 1 **'Rat Swarm'** at D4.</li><li>**Players:** Start on any square in row 1.</li></ul><hr><h4>Encounter: Cornered Vermin</h4><p>The creatures are simple and aggressive. The player controlling them should have the Giant Rats focus on the closest heroes, while the Rat Swarm attempts to position itself to affect multiple targets.</p><ul><li>**Victory Condition:** Defeat all enemies.</li></ul><hr><h4>Progression</h4><p>Once all enemies are defeated, proceed to **'The Rat King's Domain'** Quest Card.</p>",
+    "header_image": "Storage_Cellar.png"
+  },
+  {
+    "name": "Giant Rat",
+    "crystals": { "provides": ["black"] },
+    "type": ["Creature", "Beast"],
+    "description": "<p><em>A filthy, oversized sewer rat whose eyes glow with unnatural hunger.</em></p><hr><table><tbody><tr><td>Bite</td><td>**Active** (Melee) Melee attack that deals HD damage.</td></tr><tr><td>Plague Carrier</td><td>**Passive** On a High Hit (16+) with Bite, the target must make a CON roll. On a failure (1-8), they become **Poisoned** for 1 round.</td></tr></tbody></table>",
+    "stats": [ { "stat_name": "hp", "stat_value": 10 }, { "stat_name": "mp", "stat_value": 0 }, { "stat_name": "sp", "stat_value": 5 }, { "stat_name": "hd", "stat_value": "1d6" }, { "stat_name": "md", "stat_value": "1d4" }, { "stat_name": "sd", "stat_value": "1d4" }, { "stat_name": "🛡️", "stat_value": 0 } ],
+    "abilities": [ { "ability_name": "STR", "ability_value": 0 }, { "ability_name": "DEX", "ability_value": 1 }, { "ability_name": "COS", "ability_value": 0 }, { "ability_name": "INT", "ability_value": -2 }, { "ability_name": "WIS", "ability_value": 0 }, { "ability_name": "CAR", "ability_value": -2 }, { "ability_name": "🦶", "ability_value": 5 } ],
+    "header_image": "Giant_Rat.png"
+  },
+  {
+    "name": "Rat Swarm",
+    "crystals": { "provides": ["black", "green"] },
+    "type": ["Creature", "Beast", "Swarm"],
+    "description": "<p><em>Dozens of small, squealing rats that act as one.</em></p><hr><table><tbody><tr><td>Corrupting Presence</td><td>**Active** (Area) All adjacent creatures take 1d4 HD and must make a CON roll. On a failure (1-8), they become **Poisoned** for 1 round.</td></tr><tr><td>Swarm Mind</td><td>**Passive** The Swarm is immune to **Immobilized** and **Stunned** conditions.</td></tr></tbody></table>",
+    "stats": [ { "stat_name": "hp", "stat_value": 15 }, { "stat_name": "mp", "stat_value": 0 }, { "stat_name": "sp", "stat_value": 5 }, { "stat_name": "hd", "stat_value": "1d4" }, { "stat_name": "md", "stat_value": "1d4" }, { "stat_name": "sd", "stat_value": "1d4" }, { "stat_name": "🛡️", "stat_value": 0 } ],
+    "abilities": [ { "ability_name": "STR", "ability_value": -1 }, { "ability_name": "DEX", "ability_value": 1 }, { "ability_name": "COS", "ability_value": 1 }, { "ability_name": "INT", "ability_value": -3 }, { "ability_name": "WIS", "ability_value": 0 }, { "ability_name": "CAR", "ability_value": -3 }, { "ability_name": "🦶", "ability_value": 4 } ],
+    "header_image": "Rat_Swarm.png"
+  },
+  {
+    "name": "The Rat King's Domain",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>The crumbling wall leads into a dark, humid cavern. The source of the infestation is clearly here, a pulsating, grotesque tumor of flesh and fungus.</em></p><hr><h4>Objective</h4><p>Defeat the Rat King and destroy the source of the infestation.</p><hr><h4>Progression</h4><p>Begin a Timed Scene. Use the <strong>'The Nest Chamber'</strong> Location Card for setup. When the Rat King and the Infested Tumor are destroyed, draw the **'A Job Well Done...'** Event card.</p>",
+    "header_image": "Rat_King_Domain.png"
+  },
+  {
+    "name": "The Nest Chamber",
+    "crystals": { "provides": ["black", "orange", "green"] },
+    "type": "Location",
+    "description": "<p><em>A 10x10 chamber covered in filth. A large, repulsive 'Infested Tumor' pulsates at the back (🔍 at E8).</em></p><hr><h4>Setup</h4><ul><li>**Map:** 10x10 grid.</li><li>**Terrain:** Squares B2-C3, G2-H3, B7-C8, G7-H8 are **Infested Nests** (Difficult Terrain).</li><li>**Enemies:** Place 1 **'The Rat King'** (Boss) at E6. Place 2 **'Rat Swarm'** creatures at D4 and F4.</li><li>**Players:** Start on any square in row 1.</li></ul><hr><h4><i class='fas fa-search'></i> Investigate the Tumor (E8)</h4><p>An adjacent character can use an Action to **Investigate** the tumor. Roll+INT.<br>**On a 16+:** You find a shattered vial with the distinct mark of 'Fenwick's Fineries', a local alchemist. Gain the **'Alchemist's Vial'** clue.<br>**On a 9-15:** You notice the tumor's growth is clearly unnatural, likely caused by a powerful alchemical agent.<br>**Peril (1-8):** You rupture a sac on the tumor, releasing a plague cloud. You are **Poisoned** for 2 rounds.</p><hr><h4>Special Objective: Infested Tumor</h4><p>The Tumor has HP 15, Armor 0. It must be destroyed. If the Rat King is defeated first, the Tumor explodes, dealing 2d6 HD to all adjacent creatures.</p>",
+    "header_image": "Nest_Chamber.png"
+  },
+  {
+    "name": "The Rat King",
+    "crystals": { "provides": ["black", "red", "green", "black"] },
+    "type": ["Creature", "Beast", "Boss"],
+    "description": "<p><em>A horrifying mass of intertwined, oversized rats with a single, cunning intelligence. It occupies a 2x2 space.</em></p><hr><table><tbody><tr><td>Plague Scratch</td><td>**Active** (Melee) Deals HD+2 damage. Target must make a CON roll or become **Poisoned** for 2 rounds.</td></tr><tr><td>Inspire Frenzy</td><td>**Active** (Range 4) All allied **Swarm** creatures within range deal +2 damage on their next attack. (Cost 1 MP)</td></tr><tr><td>Unnatural Mass</td><td>**Passive** The Rat King is immune to **Stunned** and **Push** effects.</td></tr></tbody></table>",
+    "stats": [ { "stat_name": "hp", "stat_value": 40 }, { "stat_name": "mp", "stat_value": 10 }, { "stat_name": "sp", "stat_value": 10 }, { "stat_name": "hd", "stat_value": "1d8" }, { "stat_name": "md", "stat_value": "1d6" }, { "stat_name": "sd", "stat_value": "1d6" }, { "stat_name": "🛡️", "stat_value": 1 } ],
+    "abilities": [ { "ability_name": "STR", "ability_value": 2 }, { "ability_name": "DEX", "ability_value": 1 }, { "ability_name": "COS", "ability_value": 3 }, { "ability_name": "INT", "ability_value": 1 }, { "ability_name": "WIS", "ability_value": 1 }, { "ability_name": "CAR", "ability_value": -1 }, { "ability_name": "🦶", "ability_value": 5 } ],
+    "header_image": "Rat_King.png"
+  },
+  {
+    "name": "A Job Well Done...",
+    "crystals": { "requires": [], "provides": [] },
+    "type": "Event",
+    "description": "<p><em>The Rat King is defeated and the tumor destroyed. The unnatural plague recedes, and the surviving rats flee. The tavern owner, Barliman, is immensely grateful.</em></p><hr><h4>Scenario Complete</h4><p>If you **do not** have the 'Alchemist's Vial' clue:<br><strong>Reward:</strong> The party receives 120 Gold and 10 XP. All heroes gain the **'Scourge of the Cellar'** background.</p><hr><p>If you **do** have the 'Alchemist's Vial' clue:<br>You show the evidence to Barliman. Enraged, he calls the city guard, who arrest Fenwick for reckless endangerment and sabotage.<br><strong>Reward:</strong> The party receives 200 Gold and 15 XP. All heroes gain the **'Scourge of the Cellar'** background, the **'Barliman's Gratitude'** friend card, and the **'Fenwick's Ire'** enemy card.</p>",
+    "header_image": "Cleansed_Cellar.png"
+  },
+  {
+    "name": "Barliman's Gratitude",
+    "crystals": { "provides": ["white"] },
+    "type": "friends",
+    "description": "<p><em>You didn't just kill rats; you brought a criminal to justice. Barliman Barrelbelly, owner of the Drunken Dragon, considers you friends of the house.</em></p><hr><h3>On the House</h3><p><strong>(Passive)</strong></p><p><em>During the Downtime Phase, if you are in a settlement with a tavern, you can choose the 'Recover' activity for free.</em></p>",
+    "header_image": "Friend_Tavern.png"
+  },
+  {
+    "name": "Fenwick's Ire",
+    "crystals": { "provides": ["black"] },
+    "type": "enemies",
+    "description": "<p><em>You exposed Alchemist Fenwick's plot to ruin the Drunken Dragon for a rival. From his jail cell, he has put a price on your head with the local poisoners' guild.</em></p><hr><h3>Sabotaged Supplies</h3><p><strong>(Legacy Effect)</strong></p><p><em>The next time you attempt to purchase potions or alchemical goods, roll 1d6. On a 1-2, one of your purchased items is replaced with a vial of poison, cleverly disguised.</em></p>",
+    "header_image": "Enemy_Alchemist.png"
+  },
+  {
+    "name": "Scourge of the Cellar",
+    "crystals": { "provides": ["orange"] },
+    "type": "background",
+    "description": "<p><em>You delved into the filthiest basement in the city and single-handedly ended a monstrous plague. Your reputation for dealing with dirty jobs precedes you.</em></p><hr><p><strong>Legacy Effect:</strong> You have advantage on your first social roll when negotiating payment for a job involving extermination or cleaning.</em></p>",
+    "header_image": "Background_Vermin_Slayer.png"
+  }
+]

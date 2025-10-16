@@ -1,0 +1,419 @@
+[
+  {
+    "name": "The Stolen Tide (C-Rank)",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Scenario",
+    "difficulty": "C-Rank",
+    "description": "<p><em>A shipment of highly volatile alchemical goods has been stolen from the port by a small-time smuggler named Captain Riptide. Your mission is to infiltrate Riptide's private pier, recover the cargo, and silence the operation.</em></p> <hr> <h4>Progression</h4> <p>Begin the scenario with the <strong>'The Dockmaster's Offer'</strong> Quest Card.</p>",
+    "header_image": "Stolen_Tide_Scenario.png"
+  },
+  {
+    "name": "The Dockmaster's Offer",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>Portmaster Kaelen, a nervous man in a crisp uniform, offers a hefty reward if you can recover the cargo. He knows Riptide's brutish second-in-command, Grok, has the coded map (manifest) to the ship.</em></p> <hr> <h4>Objective</h4> <p>Acquire the manifest from Grok by reducing his HP or SP to 0.</p> <hr> <h4>Progression</h4> <p>Begin a Timed Scene. Use the <strong>'Grok's Lookout Post'</strong> Location Card for setup.</p>",
+    "header_image": "Dockmaster_Offer.png"
+  },
+  {
+    "name": "Grok's Lookout Post",
+    "crystals": {
+      "provides": [
+        "red",
+        "orange"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A dimly lit storage area overlooking the main warehouse floor. Grok, a massive Orc, sits alone near a crate containing a fragile-looking clockwork device (🔍 at D4).</em></p> <hr> <h4>Setup</h4> <ul> <li><strong>Map:</strong> 6x6 grid.</li> <li><strong>Enemy:</strong> Place 1 <strong>'Grok, the Simple Brute'</strong> at D3.</li> <li><strong>Players:</strong> Start at F3, F4.</li> <li>**Terrain:** Crates at A1, A2, B1, C1, E1, F1 (Cover).</li> </ul> <hr> <h4><i class='fas fa-search'></i> Disarm the Clockwork (D4)</h4> <p>An adjacent character can use an Action to <strong>Investigate</strong> the device. Roll+INT.<br><strong>On a 16+:</strong> Grok is temporarily distracted. The character gains advantage on their next attack roll against him this scene.<br><strong>Peril (1-8):</strong> The device explodes. All creatures in the scene take 1d6 MD fire damage.</p> <hr> <h4>Progression</h4> <p>Once Grok's HP or SP is reduced to 0, read the **'Manifest (Social Loss)'** text on his card. The next step is the **'The Warehouse Maze'** Quest Card.</p>",
+    "header_image": "Warehouse_Lookout.png"
+  },
+  {
+    "name": "Grok, the Simple Brute",
+    "crystals": {
+      "provides": [
+        "red",
+        "red",
+        "orange"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Humanoid",
+      "Orc"
+    ],
+    "description": "<p><em>A massive, but simple-minded Orc, easily confused but incredibly tough. He is carrying the manifest.</em></p><hr><table><tbody><tr><td>Smash</td><td>**Active** (Melee) Melee attack dealing HD+2 damage.</td></tr><tr><td>Parley (SD)</td><td>**Active** (Social) Attempts to shut down conversation and intimidate target.</td></tr><tr><td>Steel Self (SP)</td><td>**Active** (Self) Heals 1d6 SP.</td></tr><tr><td>Manifest (Loss)</td><td>**Passive** When Grok's SP reaches 0, he becomes confused, loudly stating, \"The Captain's ship is at Pier 13, loaded with the Salt-Cured Dragon Meat!\" This reveals the next location.</td></tr><tr><td>Thick Hide</td><td>**Passive** All HD damage taken is reduced by 1.</td></tr></tbody></table><hr><h3>Combat AI (Very Low INT)</h3><p>Grok uses his social actions to defend his low intelligence, but resorts to brute force when mentally or physically cornered.</p><ol><li>**Step 1: Determine Target:** The enemy who dealt the most **total damage (HP+SP)** to him in the previous turn. If ties, prioritize the closest enemy.</li><li>**Step 2: Determine Action:**<ul><li>If **HP < 15** (less than half HP): Use **Smash** on the target.</li><li>If **SP < 10**: Use **Steel Self** (Heal 1d6 SP).</li><li>If **SP damage > 0** in previous turn: Use **Parley** (SD) on the target.</li><li>Otherwise: Use **Smash** on the closest enemy.</li></ul></li><li>**Step 3: Movement:** Moves up to his SPEED (5) to achieve **melee adjacency** to the target. Follows the **INT -1 or lower** General Movement AI rule (moves through Difficult Terrain).</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 25
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 20
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 2
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "🦶", "ability_value":  5
+      }
+    ],
+    "header_image": "Grok_Simple_Brute.png"
+  },
+  {
+    "name": "The Warehouse Maze",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>Following Grok's forced confession, you move to Pier 13. To reach the ship, you must traverse a labyrinthine warehouse patrolled by Riptide's forces.</em></p> <hr> <h4>Objective</h4> <p>Reach the exit (Row 10) of the warehouse without losing any party members.</p> <hr> <h4>Progression</h4> <p>Begin a Timed Scene. Use the <strong>'Crate Labyrinth'</strong> Location Card for setup. When the scene ends (by exiting or defeating all enemies), proceed to the <strong>'The Smuggler's Yacht'</strong> Quest Card.</p>",
+    "header_image": "Warehouse_Maze.png"
+  },
+  {
+    "name": "Crate Labyrinth",
+    "crystals": {
+      "provides": [
+        "red",
+        "black"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A tight, 10x10 space cluttered with towering stacks of wooden crates. The crates provide cover and create difficult terrain.</em></p> <hr> <h4>Setup</h4> <ul> <li><strong>Map:</strong> 10x10 grid (A-J rows, 1-10 columns).</li> <li><strong>Terrain:</strong> Squares (B2-D2), (G3-H5), (C7-E9) are **Crate Piles** (Difficult Terrain & Cover).</li> <li><strong>Enemies:</strong> Place 1 <strong>'Dock Guard'</strong> at D5. Place 1 <strong>'Smuggler Thug'</strong> at H8. Place 1 <strong>'Smuggler Thug'</strong> at A9.</li> <li><strong>Players:</strong> Start on any square in Row 1.</li> <li><strong>Exit:</strong> The area is cleared once a character reaches any square in Row 10.</li> </ul>",
+    "header_image": "Crate_Labyrinth.png"
+  },
+  {
+    "name": "Dock Guard",
+    "crystals": {
+      "provides": [
+        "red"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Humanoid",
+      "Soldier"
+    ],
+    "description": "<p><em>A hardened city watchman, clad in standard-issue iron armor and carrying a rusty longsword.</em></p><hr><table><tbody><tr><td>Longsword</td><td>**Active** (Melee) Melee attack that deals HD damage.</td></tr><tr><td>Armor</td><td>**Passive** Has a permanent +1 Armor.</td></tr></tbody></table><hr><h3>Combat AI (Low INT)</h3><p>The Guard is simple and direct, always prioritizing melee engagement.</p><ol><li>**Step 1: Determine Target:** The **closest enemy**.</li><li>**Step 2: Determine Action:** Use **Longsword** attack.</li><li>**Step 3: Movement:** Moves up to its SPEED (6) to achieve **melee adjacency** to the target. Follows the **INT -1 or lower** General Movement AI rule (moves through Difficult Terrain).</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 15
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 1
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "🦶", "ability_value":  6
+      }
+    ],
+    "header_image": "Dock_Guard.png"
+  },
+  {
+    "name": "Smuggler Thug",
+    "crystals": {
+      "provides": [
+        "black"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Humanoid",
+      "Rogue"
+    ],
+    "description": "<p><em>A wiry rogue in dark leathers, wielding a pair of short daggers and moving with predatory caution.</em></p><hr><table><tbody><tr><td>Backstab</td><td>**Active** (Melee) Deals HD+2 damage. Must be adjacent to another ally or hidden.</td></tr><tr><td>Throwing Knife</td><td>**Active** (Range 4) Ranged attack that deals HD damage.</td></tr><tr><td>Disengage</td><td>**Active, Cost 1 SP** Allows the Thug to move up to their SPEED without provoking attacks of opportunity.</td></tr></tbody></table><hr><h3>Combat AI (Medium INT)</h3><p>The Thug prefers opportunism and hit-and-run tactics, leveraging allies or distance.</p><ol><li>**Step 1: Determine Target:** The enemy with the **lowest current HP**.</li><li>**Step 2: Determine Action:**<ul><li>If the Thug is adjacent to the Target AND the Target is adjacent to an ally: Use **Backstab** (HD+2 damage).</li><li>If the Thug is adjacent to a high HP enemy, AND SP is available: Use **Disengage** (Cost 1 SP). If used, proceed directly to Step 3 Movement and perform the action in the new square.</li><li>If the Target is within **Throwing Knife range (4)**: Use **Throwing Knife**.</li><li>Otherwise: Use a basic melee attack.</li></ul></li><li>**Step 3: Movement:** Moves up to its SPEED (7). Follows the **INT 0** General Movement AI rule. It prioritizes moving to a square that places it either in a flanking position (adjacent to an ally) or a safe ranged position (within range 4).</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 14
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 10
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 0
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "🦶", "ability_value":  7
+      }
+    ],
+    "header_image": "Smuggler_Thug.png"
+  },
+  {
+    "name": "The Smuggler's Yacht",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>You emerge from the warehouse onto Pier 13. The smuggling ship, a sleek yacht named 'The Sea Serpent', is just ahead. Captain Riptide, a fierce Naga Spell-Serpent, stands ready with a large, glowing chest. This is the final battle.</em></p> <hr> <h4>Objective</h4> <p>Defeat Captain Riptide and secure the cargo chest.</p> <hr> <h4>Progression</h4> <p>Begin a Timed Scene. Use the <strong>'The Sea Serpent's Deck'</strong> Location Card for setup.</p>",
+    "header_image": "Smugglers_Yacht.png"
+  },
+  {
+    "name": "The Sea Serpent's Deck",
+    "crystals": {
+      "provides": [
+        "blue",
+        "cerulean"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A cramped, 10x8 ship deck. The entire perimeter (Row 1 and Row 8, Column A and Column J) is deep water (Hazard). A single, heavy, glowing cargo chest sits at the aft (H4).</em></p> <hr> <h4>Setup</h4> <ul> <li><strong>Map:</strong> 10x8 grid (A-J columns, 1-8 rows).</li> <li><strong>Enemies:</strong> Place 1 **Captain Riptide** (Boss) at F4. Place 2 **Smuggler Thugs** at D3 and H3.</li> <li><strong>Players:</strong> Start on any square in Row 8.</li> <li>**Hazard:** Any creature <strong>Pushed</strong> or <strong>Pulled</strong> into the deep water (A, J, 1, 8) takes 1d6 MD (water) and is immediately <strong>Slowed</strong> for 1 round. Squares on the water perimeter are treated as **Difficult Terrain** (requires 2 movement to enter).</li> </ul> <hr> <h4>Progression</h4> <p>Upon defeating the boss, proceed to the <strong>'Reward of the Tides'</strong> Event Card.</p>",
+    "header_image": "Sea_Serpent_Deck.png"
+  },
+  {
+    "name": "Captain Riptide",
+    "crystals": {
+      "provides": [
+        "blue",
+        "cerulean",
+        "blue",
+        "blue"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Dragon",
+      "Reptile",
+      "Boss"
+    ],
+    "description": "<p><em>A proud, four-armed Naga whose lower body is a massive serpent's tail. She wields a trident and powerful water magic.</em></p><hr><table><tbody><tr><td>Trident Bash</td><td>**Active** (Melee) Melee attack that deals HD damage.</td></tr><tr><td>Tidal Lash</td><td>**Active, Costs 2 MP** (Cone 4) Unleashes a wave in a 4-square cone. All targets take 1d6 MD water damage and are **Pushed 1**.</td></tr><tr><td>Water Gun</td><td>**Active, Costs 1 MP** (Range 6) Ranged attack that deals MD water damage. Can target self for healing.</td></tr><tr><td>Armor</td><td>**Passive** Has a permanent +2 Armor.</td></tr></tbody></table><hr><h3>Combat AI (High INT)</h3><p>Riptide is a tactical caster who favors crowd control (Push) and self-preservation (Heal).</p><ol><li>**Step 1: Determine Target:** Target A: The closest enemy near a deep water hazard (A, J, 1, 8). Target B: The ally currently holding the most crystals (most dangerous caster/healer).</li><li>**Step 2: Determine Action:**<ul><li>If **HP is below 17** (50% HP) AND MP is available: Use **Water Gun** (Cost 1 MP) on herself (Heal).</li><li>If Target A is adjacent AND MP is available: Use **Tidal Lash** (Cost 2 MP) to try to Push them into the hazard.</li><li>If Target B is within **Water Gun range (6)**: Use **Water Gun** on Target B.</li><li>Otherwise: Use **Trident Bash** on the closest enemy.</li></ul></li><li>**Step 3: Movement:** Moves up to her SPEED (6). Follows the **INT +1 or higher** General Movement AI rule. She moves to a square that places a high-value enemy near a hazard or maintains a safe distance from melee threats (4-6 squares).</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 35
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 15
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 12
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 2
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "🦶", "ability_value":  6
+      }
+    ],
+    "header_image": "Captain_Riptide.png"
+  },
+  {
+    "name": "Reward of the Tides",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Event",
+    "description": "<p><em>With Captain Riptide defeated, the valuable alchemical cargo is recovered. A quick search of her quarters yields a magnificent prize.</em></p> <hr> <h4>Reward</h4> <p>The party receives **150 gold** and **10 XP** each. The character who dealt the killing blow to Riptide acquires the **Naga's Finblade** rare item.</p> <hr> <h4>Scenario Complete</h4> <p>The session ends. Proceed to the Post-Session Phase (Downtime & Progression).</p>",
+    "header_image": "Reward_of_the_Tides.png"
+  },
+  {
+    "name": "Naga's Finblade",
+    "crystals": {
+      "requires": [
+        "blue",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "weapon",
+      "rare",
+      "magic"
+    ],
+    "description": "<p><em>A shortsword whose blade shimmers like frozen seawater, granting unnatural speed in the water and on land.</em> <strong>Range:</strong> Melee (1 square).</p><hr><h3>Tidal Quickness</h3><p><strong>(Passive)</strong></p><p><em>Your base SPEED is permanently increased by 1. While in a water environment (GM's discretion), your SPEED is doubled.</em></p><hr><h3>Riptide Strike</h3><p>When you deal HD with this weapon, you can spend 1 MP to push the target 1 square away from you.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "1.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "450"
+      }
+    ],
+    "header_image": "Nagas_Finblade.png"
+  }
+]

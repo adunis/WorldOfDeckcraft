@@ -10231,5 +10231,717 @@
 "description": "<p>You are prone to sleepwalking, especially during times of stress. You have no control over your actions while asleep and often wake up in strange or dangerous places.</p><hr><p>When you Take a Rest in a place that is not perfectly safe and comfortable, the GM can make a move. You might wander off, reveal a secret in your sleep, or wake up in a precarious situation, separated from your gear or the party.</p>",
 "header_image": "Sleepwalker.png"
 }
-
+,
+  {
+    "name": "Tame Beast",
+    "crystals": {
+      "requires": [
+        "green"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Tame Beast</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has green crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Tame_Beast.png"
+  },
+  {
+    "name": "Tame Monster",
+    "crystals": {
+      "requires": [
+        "green",
+        "green"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Tame Monster</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has green crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Tame_Monster.png"
+  },
+  {
+    "name": "Tame Behemoth",
+    "crystals": {
+      "requires": [
+        "green",
+        "green",
+        "green"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Tame Behemoth</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has green crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Tame_Behemoth.png"
+  },
+  {
+    "name": "Tame Apex",
+    "crystals": {
+      "requires": [
+        "green",
+        "green",
+        "green",
+        "green"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Tame Apex</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has green crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Tame_Apex.png"
+  },
+  {
+    "name": "Befriend Animal",
+    "crystals": {
+      "requires": [
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Befriend Animal</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has emerald crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Befriend_Animal.png"
+  },
+  {
+    "name": "Befriend Creature",
+    "crystals": {
+      "requires": [
+        "emerald",
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Befriend Creature</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has emerald crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Befriend_Creature.png"
+  },
+  {
+    "name": "Befriend Guardian",
+    "crystals": {
+      "requires": [
+        "emerald",
+        "emerald",
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Befriend Guardian</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has emerald crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Befriend_Guardian.png"
+  },
+  {
+    "name": "Befriend Ancient",
+    "crystals": {
+      "requires": [
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Befriend Ancient</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has emerald crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Befriend_Ancient.png"
+  },
+  {
+    "name": "Dominate Foe",
+    "crystals": {
+      "requires": [
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Dominate Foe</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Dominate_Foe.png"
+  },
+  {
+    "name": "Dominate Brute",
+    "crystals": {
+      "requires": [
+        "red",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Dominate Brute</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Dominate_Brute.png"
+  },
+  {
+    "name": "Dominate Warlord",
+    "crystals": {
+      "requires": [
+        "red",
+        "red",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Dominate Warlord</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Dominate_Warlord.png"
+  },
+  {
+    "name": "Dominate Legend",
+    "crystals": {
+      "requires": [
+        "red",
+        "red",
+        "red",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Dominate Legend</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Dominate_Legend.png"
+  },
+  {
+    "name": "Enthrall Minion",
+    "crystals": {
+      "requires": [
+        "black"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Enthrall Minion</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has black crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Enthrall_Minion.png"
+  },
+  {
+    "name": "Enthrall Servant",
+    "crystals": {
+      "requires": [
+        "black",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Enthrall Servant</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has black crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Enthrall_Servant.png"
+  },
+  {
+    "name": "Enthrall Thrall",
+    "crystals": {
+      "requires": [
+        "black",
+        "black",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Enthrall Thrall</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has black crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Enthrall_Thrall.png"
+  },
+  {
+    "name": "Enthrall Master",
+    "crystals": {
+      "requires": [
+        "black",
+        "black",
+        "black",
+        "black"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Enthrall Master</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has black crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Enthrall_Master.png"
+  },
+  {
+    "name": "Recruit Follower",
+    "crystals": {
+      "requires": [
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Recruit Follower</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Recruit_Follower.png"
+  },
+  {
+    "name": "Recruit Disciple",
+    "crystals": {
+      "requires": [
+        "white",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Recruit Disciple</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Recruit_Disciple.png"
+  },
+  {
+    "name": "Recruit Champion",
+    "crystals": {
+      "requires": [
+        "white",
+        "white",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Recruit Champion</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Recruit_Champion.png"
+  },
+  {
+    "name": "Recruit Paragon",
+    "crystals": {
+      "requires": [
+        "white",
+        "white",
+        "white",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Recruit Paragon</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Recruit_Paragon.png"
+  },
+  {
+    "name": "Deputize Vagrant",
+    "crystals": {
+      "requires": [
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Deputize Vagrant</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has blue crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Deputize_Vagrant.png"
+  },
+  {
+    "name": "Apprehend Lawbreaker",
+    "crystals": {
+      "requires": [
+        "blue",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Apprehend Lawbreaker</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has blue crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Apprehend_Lawbreaker.png"
+  },
+  {
+    "name": "Conscript Felon",
+    "crystals": {
+      "requires": [
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Conscript Felon</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has blue crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Conscript_Felon.png"
+  },
+  {
+    "name": "Rehabilitate Mastermind",
+    "crystals": {
+      "requires": [
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Rehabilitate Mastermind</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has blue crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Rehabilitate_Mastermind.png"
+  },
+  {
+    "name": "Bind Familiar",
+    "crystals": {
+      "requires": [
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Bind Familiar</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has cerulean crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Bind_Familiar.png"
+  },
+  {
+    "name": "Bind Elemental",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Bind Elemental</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has cerulean crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Bind_Elemental.png"
+  },
+  {
+    "name": "Bind Golem",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "cerulean",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Bind Golem</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has cerulean crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Bind_Golem.png"
+  },
+  {
+    "name": "Bind Archon",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "cerulean",
+        "cerulean",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Bind Archon</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has cerulean crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Bind_Archon.png"
+  },
+  {
+    "name": "Hire Mercenary",
+    "crystals": {
+      "requires": [
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Hire Mercenary</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Hire_Mercenary.png"
+  },
+  {
+    "name": "Contract Sellsword",
+    "crystals": {
+      "requires": [
+        "gold",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Contract Sellsword</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Contract_Sellsword.png"
+  },
+  {
+    "name": "Retain Bodyguard",
+    "crystals": {
+      "requires": [
+        "gold",
+        "gold",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Retain Bodyguard</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Retain_Bodyguard.png"
+  },
+  {
+    "name": "Commission Specialist",
+    "crystals": {
+      "requires": [
+        "gold",
+        "gold",
+        "gold",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Commission Specialist</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Commission_Specialist.png"
+  },
+  {
+    "name": "Befriend Companion",
+    "crystals": {
+      "requires": [
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Befriend Companion</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has orange crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Befriend_Companion.png"
+  },
+  {
+    "name": "Befriend Ally",
+    "crystals": {
+      "requires": [
+        "orange",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Befriend Ally</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has orange crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Befriend_Ally.png"
+  },
+  {
+    "name": "Forge Kinship",
+    "crystals": {
+      "requires": [
+        "orange",
+        "orange",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Forge Kinship</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has orange crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Forge_Kinship.png"
+  },
+  {
+    "name": "Form Blood-Pact",
+    "crystals": {
+      "requires": [
+        "orange",
+        "orange",
+        "orange",
+        "orange"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Form Blood-Pact</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has orange crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Form_Blood-Pact.png"
+  },
+  {
+    "name": "Charm Follower",
+    "crystals": {
+      "requires": [
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Charm Follower</h3><p>Allows you to turn any defeated creature with a Power Level of 1 into a Hireling, provided the creature only has purple crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Charm_Follower.png"
+  },
+  {
+    "name": "Enchant Performer",
+    "crystals": {
+      "requires": [
+        "purple",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Enchant Performer</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature only has purple crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Enchant_Performer.png"
+  },
+  {
+    "name": "Mesmerize Entourage",
+    "crystals": {
+      "requires": [
+        "purple",
+        "purple",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Mesmerize Entourage</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature only has purple crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Mesmerize_Entourage.png"
+  },
+  {
+    "name": "Captivate Audience",
+    "crystals": {
+      "requires": [
+        "purple",
+        "purple",
+        "purple",
+        "purple"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Captivate Audience</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature only has purple crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Captivate_Audience.png"
+  },
+  {
+    "name": "Subjugate Predator",
+    "crystals": {
+      "requires": [
+        "green",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Subjugate Predator</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature's crystals are a combination of only green and/or red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Subjugate_Predator.png"
+  },
+  {
+    "name": "Subjugate Alpha",
+    "crystals": {
+      "requires": [
+        "green",
+        "green",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Subjugate Alpha</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature's crystals are a combination of only green and/or red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Subjugate_Alpha.png"
+  },
+  {
+    "name": "Subjugate Tyrant",
+    "crystals": {
+      "requires": [
+        "green",
+        "green",
+        "red",
+        "red"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Subjugate Tyrant</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature's crystals are a combination of only green and/or red crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Subjugate_Tyrant.png"
+  },
+  {
+    "name": "Shepherd the Wayward",
+    "crystals": {
+      "requires": [
+        "black",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Shepherd the Wayward</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature's crystals are a combination of only black and/or white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Shepherd_the_Wayward.png"
+  },
+  {
+    "name": "Redeem the Fallen",
+    "crystals": {
+      "requires": [
+        "black",
+        "black",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Redeem the Fallen</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature's crystals are a combination of only black and/or white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Redeem_the_Fallen.png"
+  },
+  {
+    "name": "Convert the Damned",
+    "crystals": {
+      "requires": [
+        "black",
+        "black",
+        "white",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Convert the Damned</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature's crystals are a combination of only black and/or white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Convert_the_Damned.png"
+  },
+  {
+    "name": "Bind by Contract",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Bind by Contract</h3><p>Allows you to turn any defeated creature with a Power Level of 2 or lower into a Hireling, provided the creature's crystals are a combination of only cerulean and/or gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Bind_by_Contract.png"
+  },
+  {
+    "name": "Enforce Magical Accord",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "cerulean",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Enforce Magical Accord</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature's crystals are a combination of only cerulean and/or gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Enforce_Magical_Accord.png"
+  },
+  {
+    "name": "Forge Arcane Charter",
+    "crystals": {
+      "requires": [
+        "cerulean",
+        "cerulean",
+        "gold",
+        "gold"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Forge Arcane Charter</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature's crystals are a combination of only cerulean and/or gold crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Forge_Arcane_Charter.png"
+  },
+  {
+    "name": "Recruit Crusader",
+    "crystals": {
+      "requires": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Recruit Crusader</h3><p>Allows you to turn any defeated creature with a Power Level of 3 or lower into a Hireling, provided the creature's crystals are a combination of only red, blue, and/or white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Recruit_Crusader.png"
+  },
+  {
+    "name": "Anoint Vindicator",
+    "crystals": {
+      "requires": [
+        "red",
+        "red",
+        "blue",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Anoint Vindicator</h3><p>Allows you to turn any defeated creature with a Power Level of 4 or lower into a Hireling, provided the creature's crystals are a combination of only red, blue, and/or white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Anoint_Vindicator.png"
+  },
+  {
+    "name": "Sanctify Army",
+    "crystals": {
+      "requires": [
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "white",
+        "white"
+      ],
+      "provides": []
+    },
+    "type": "feature",
+    "description": "<h3>Sanctify Army</h3><p>Allows you to turn any defeated creature with a Power Level of 5 or lower into a Hireling, provided the creature's crystals are a combination of only red, blue, and/or white crystals. Hirelings act on their own turn but only have 1 action instead of 2.</p>",
+    "header_image": "Sanctify_Army.png"
+  }
 ]

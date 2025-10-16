@@ -1,12 +1,74 @@
 [
   {
+    "name": "Game Modes & Creature Control",
+    "type": [
+      "rule",
+      "General"
+    ],
+    "description": "<h3>Game Modes & Creature Control</h3><p>Choose one of two ways to play:</p><hr><h4>Game Master Mode</h4><p>One player acts as the Game Master (GM), controlling all creatures and bringing the world to life. In this mode, the GM can improvise encounters and does not have to follow a specific Adventure Scenario, though they can use them as a guideline for inspiration.</p><hr><h4>Competitive Cooperative Mode</h4><p>In this mode, players must follow the chosen Adventure Scenario. All players are on the same team against the scenario, but personal glory has its rewards. During a Timed Scene, players take turns controlling the creatures.</p><p>When controlling creatures, your goal is to challenge the other heroes to earn <strong>Antagonist Tokens</strong> for yourself:</p><ul><li><strong>Earn 1 XP:</strong> Deal damage to any hireling OR successfully apply a Condition to another player's hero.</li><li><strong>Earn 2 XP::</strong> Deal damage to another player's hero with an attack.</li><li><strong>Earn 3 XP:</strong> Reduce another player's hero to 0 HP.</li></ul></ul>",
+    "header_image": "Game_Modes.png"
+  },
+  {
+    "name": "Initiative & Turns",
+    "type": [
+      "rule",
+      "Timed Scene"
+    ],
+    "description": "<h3>Turn Order</h3><p>Timed Scenes use an alternating turn structure. The round begins with the players.</p><hr><ol><li>The first turn is a <strong>Player Turn</strong>.</li><li>The second turn is an <strong>Enemy Turn</strong>.</li><li>Turns continue to alternate (Player, Enemy, Player, Enemy...) until all participants have acted once.</li></ol><hr><h4>Player Turns</h4><p>On a player turn, the players as a group decide which hero acts. Each hero can only act once per round. If the players cannot agree, each player who has not yet acted rolls 1d20; the highest roller must act.</p><hr><h4>Enemy Turns</h4><p>On an enemy turn, the person controlling the creatures (the GM or a player in co-op mode) chooses which creature acts. Each creature can only act once per round.</p><hr><h4>End of the Round</h4><p>Once every hero and creature has taken a turn, the round ends. A new round begins, starting again with a Player Turn.</p>",
+    "header_image": "Initiative_Order.png"
+  },
+  {
+    "name": "Timed Scenes: Setup & The Grid",
+    "type": [
+      "rule",
+      "Timed Scene"
+    ],
+    "description": "<h3>Setting Up a Timed Scene</h3><p>A **Timed Scene** begins when a card instructs you to. It is played on a grid, integrating all forms of conflict. **Setup is dictated by the Adventure Scenario and Location Card, or by the Game Master in GM mode.**</p><hr><ol><li><strong>Find the Location Card:</strong> This card provides the map size and features.</li><li><strong>Place Miniatures:</strong> The Scenario Card tells you which creatures to place and their starting coordinates (e.g., \"Orc Grunt at A5\"). Place heroes in their designated starting area.</li><li>**Determine Objective:** The initiating Adventure card sets the scene's goal.</li><li>**Begin:** Start the first round with a Player Turn.</li></ol>",
+    "header_image": "Combat_Grid.png"
+  },
+  {
+    "name": "The Adventure Loop (Core Rules)",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "rule",
+      "General"
+    ],
+    "description": "<h3>The Core Game Loop</h3><p>Gameplay progresses in episodic, self-contained units. This structure must be followed in Competitive Cooperative mode and serves as a guideline for the Game Master.</p><hr><ol><li>**Choose Adventure:** The party selects an **Adventure Scenario** card.</li><li>**Play Scenes:** The Adventure card directs the party through a sequence of **Location Cards** (Scenes).</li><li>**Timed Scenes:** Any significant conflict is resolved as a **Timed Scene** on the grid.</li><li>**End Adventure & Rewards:** Upon achieving the final objective, the party gains the fixed **XP** and **Gold** dictated by the Scenario's **Difficulty Rating** (F to S++).</li><li>**Downtime Phase:** Proceed to the **Progression & Downtime** rules to spend rewards and modify decks before selecting a new adventure.</li></ol>",
+    "header_image": "Game_Loop.png"
+  },
+  {
+    "name": "Scenario Rules & Difficulty",
+    "type": [
+      "rule",
+      "Campaign"
+    ],
+    "description": "<h3>Scenario Structure & Progression</h3><p>A Session of play is defined by completing a single <strong>Scenario Card</strong>. Between sessions, players acquire rewards (Gold/XP) and manage their decks.</p><hr><h4>Difficulty Rating (F to S++)</h4><ul><li><strong>F-Rank:</strong> Tutorial / Single-Scene Encounter.</li><li><strong>C-Rank:</strong> Entry-Level Adventure (3-4 Scenes, Minor Hazard/Enemies).</li><li><strong>B-Rank:</strong> Standard Adventure (4-5 Scenes, Standard Boss).</li><li><strong>A-Rank:</strong> Heroic Adventure (5+ Scenes, Multiple Bosses).</li><li><strong>S++ Rank:</strong> Legendary / Campaign-Defining Event.</li></ul><hr><h4>Post-Session Phase</h4><ul><li><strong>Gold:</strong> Used for purchasing Treasure Boosters and Hirelings.</li><li><strong>XP:</strong> Used for purchasing Hero Boosters and new Feature Cards.</li></ul>",
+    "header_image": "Scenario_Rules.png"
+  },
+  {
+    "name": "Grid & Miniatures",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": [
+      "rule",
+      "General"
+    ],
+    "description": "<h3>Grid & Miniatures</h3><p>All **Timed Scenes** are played on a grid using creature miniatures.</p><hr><ul><li>**Square:** The basic unit of movement and distance (approx. 5 feet/1.5 meters).</li><li>**Positioning:** A miniature occupies a single square on the grid.</li><li>**Distance & Range:** All ranges (Melee, Ranged, Abilities) are measured in squares.</li></ul>",
+    "header_image": "Combat_Grid.png"
+  },
+  {
     "name": "Roll Results",
     "type": [
       "rule",
       "General"
     ],
-    "description": "<h3>Roll Results</h3><p>Roll 1d20 + modifier.</p><hr><ul><li><strong>16+ (High Hit):</strong> Succeed with a bonus.</li><li><strong>9-15 (Medium Hit):</strong> Succeed, but with a cost or lesser effect.</li><li><strong>1-8 (Low Hit):</strong> Fail, and face a new complication.</li></ul><p><strong>Advantage:</strong> Roll twice, take the highest. <strong>Disadvantage:</strong> Roll twice, take the lowest.</p>",
-    "header_image": "Basic Moves.png"
+    "description": "<h3>Roll Results</h3><p>Roll 1d20 + modifier.</p><hr><ul><li>**16+ (High Hit):** Succeed with a bonus.</li><li>**9-15 (Medium Hit):** Succeed, but with a cost or lesser effect.</li><li>**1-8 (Low Hit):** Fail, and face a new complication.</li></ul><p>**Advantage:** Roll twice, take the highest. **Disadvantage:** Roll twice, take the lowest.</p>",
+    "header_image": "Basic_Moves.png"
   },
   {
     "name": "Conditions",
@@ -14,17 +76,17 @@
       "rule",
       "General"
     ],
-    "description": "<h3>Conditions</h3><p>Negative effects that last until removed or their duration expires.</p><hr><ul><li><strong>Blinded:</strong> Disadvantage on sight actions. Attacks against you have advantage.</li><li><strong>Charmed:</strong> Cannot attack the charmer.</li><li><strong>Confused:</strong> Roll d6 on turn: 1-2 do nothing, 3-4 attack nearest, 5-6 act normally.</li><li><strong>Deafened:</strong> Fail actions that require hearing.</li><li><strong>Frightened:</strong> Disadvantage on all actions while source of fear is visible.</li><li><strong>Immobilized:</strong> SPEED is 0. Cannot be moved.</li><li><strong>Poisoned:</strong> Take damage at the start of your turn.</li><li><strong>Stunned:</strong> Cannot take actions or reactions.</li><li><strong>Taunted:</strong> Must attack the creature that taunted you.</li><li><strong>Weakened:</strong> Disadvantage on your next roll.</li></ul>",
+    "description": "<h3>Conditions</h3><p>Negative effects that last until removed or their duration expires.</p><hr><ul><li>**Blinded:** Disadvantage on sight actions. Attacks against you have advantage.</li><li>**Charmed:** Cannot attack the charmer.</li><li>**Confused:** Roll d6 on turn: 1-2 do nothing, 3-4 attack nearest, 5-6 act normally.</li><li>**Deafened:** Fail actions that require hearing.</li><li>**Frightened:** Disadvantage on all actions while source of fear is visible.</li><li>**Immobilized:** SPEED is 0. Cannot be moved.</li><li>**Poisoned:** Take damage at the start of your turn.</li><li>**Stunned:** Cannot take actions or reactions.</li><li>**Taunted:** Must attack the creature that taunted you.</li><li>**Weakened:** Disadvantage on your next roll.</li></ul>",
     "header_image": "Conditions.png"
   },
   {
-    "name": "Last Breath",
+    "name": "Resource Depletion & Defeat",
     "type": [
       "rule",
       "General"
     ],
-    "description": "<h3>Last Breath</h3><p>When you reach 0 HP, roll+COS.</p><hr><ul><li><strong>16+:</strong> Stabilize at 1 HP, but are <strong>Weakened</strong>.</li><li><strong>9-15:</strong> Death offers a bargain. Accept to return to life with a cost, or refuse and die.</li><li><strong>1-8:</strong> You die. Your character's Active Deck is lost.</li></ul>",
-    "header_image": "Last Breath.png"
+    "description": "<h3>Resource Depletion & Defeat</h3><p>In any scene, reaching 0 in a resource has an immediate effect:</p><hr><ul><li>**HP 0 (Character):** Trigger **Last Breath** (Roll+COS).</li><li>**HP 0 (Creature):** Creature is **Defeated** and removed from the scene.</li><li>**MP 0 (Character/Creature):** Cannot use abilities that require an MP cost.</li><li>**SP 0 (Character/Creature):** Cannot use abilities that require an SP cost (such as **Parley** or **Cutting Words**). They are defeated in the conflict and cannot influence its outcome through non-physical means.</li></ul>",
+    "header_image": "Last_Breath.png"
   },
   {
     "name": "Character Creation & Decks",
@@ -32,8 +94,8 @@
       "rule",
       "Character"
     ],
-    "description": "<h3>Character Decks</h3><p>Create a character by opening one <strong>Hero Booster</strong> and one <strong>Treasure Booster</strong> to form your starting deck.</p><hr><ul><li><strong>Active Deck:</strong> Your current character's cards. If your character dies, this deck is lost.</li><li><strong>Side Deck:</strong> All other cards you own. Use these to build a new character after death.</li></ul>",
-    "header_image": "Character Creation.png"
+    "description": "<h3>Character Decks</h3><p>Create a character by opening one **Hero Booster** and one **Treasure Booster** to form your starting deck.</p><hr><ul><li>**Active Deck:** Your current character's cards. If your character dies, this deck is lost.</li><li>**Side Deck:** All other cards you own. Use these to build a new character after death.</li></ul>",
+    "header_image": "Character_Creation.png"
   },
   {
     "name": "Deckbuilding Rules",
@@ -41,8 +103,8 @@
       "rule",
       "Character"
     ],
-    "description": "<h3>Deckbuilding Rules</h3><p>An Active Deck must follow these limits:</p><hr><ul><li><strong>Unique Cards (Limit 1 of each type):</strong> Personality, Culture, Species, Background, Family, Friends, Enemies, Drawback, Destiny.</li><li><strong>Standard Cards (No limit):</strong> Features, Trainings, Items, Hirelings.</li></ul>",
-    "header_image": "Character Deck.png"
+    "description": "<h3>Deckbuilding Rules</h3><p>An Active Deck must follow these limits:</p><hr><ul><li>**Unique Cards (Limit 1 of each type):** Personality, Culture, Species, Background, Family, Friends, Enemies, Drawback, Destiny.</li><li>**Standard Cards (No limit):** Features, Trainings, Items, Hirelings.</li></ul>",
+    "header_image": "Character_Deck.png"
   },
   {
     "name": "Crystals & Attunement",
@@ -50,150 +112,43 @@
       "rule",
       "Character"
     ],
-    "description": "<h3>Crystals & Attunement</h3><p>Cards in your deck `provide` crystals to your character's <strong>Crystal Pool</strong>.</p><hr><p>During the <strong>Downtime Phase</strong>, you may `devote` crystals from your pool to cards that `require` them, unlocking their abilities.</p>",
+    "description": "<h3>Crystals & Attunement</h3><p>Cards in your deck `provide` crystals to your character's **Crystal Pool**.</p><hr><p>During the **Downtime Phase**, you may `devote` crystals from your pool to cards that `require` them, unlocking their abilities.</p>",
     "header_image": "Crystal_Attunement.png"
   },
   {
-    "name": "Progression & Downtime",
+    "name": "Downtime: Marketplace & Advancement",
     "type": [
       "rule",
-      "Character"
+      "General"
     ],
-    "description": "<h3>Progression & Downtime</h3><p>After completing an adventure, the party enters a Downtime Phase.</p><hr><h4>Advancement</h4><p>Spend <strong>5 XP</strong> to purchase a <strong>Hero Booster Pack</strong> to acquire new cards.</p><h4>Downtime Activities (Choose One)</h4><ul><li><strong>Work:</strong> Gain gold.</li><li><strong>Recover:</strong> Fully restore HP, MP, SP and clear all conditions.</li><li><strong>Purchase:</strong> Spend 100 gold for a <strong>Treasure Booster Pack</strong>.</li><li><strong>Deck Management:</strong> Swap cards between Active/Side Decks and re-devote crystals.</li></ul>",
-    "header_image": "Level Up.png"
-  },
-   {
-    "name": "Campaign: World Map & Keys",
-    "type": [
-      "rule",
-      "Campaign"
-    ],
-    "description": "<h3>Campaign Setup</h3><p>The goal of a campaign is to find a number of <strong>Key Tokens</strong> scattered across the world to unlock <strong>Gate Regions</strong> and progress the main story.</p><hr><h4>Setup Steps</h4><ol><li><strong>Choose a Campaign Card:</strong> This card sets the story, lists the fixed <strong>Gate Regions</strong>, and specifies the number of <strong>Random Region Decks</strong> and <strong>Key Tokens</strong> to use.</li><li><strong>Build the World:</strong> Draw the specified number of Random Region Decks. Shuffle the Key Tokens face-down and place one on top of each Random Region Deck.</li><li><strong>Assemble the Map:</strong> Arrange the fixed Gate Regions and the random, key-bearing Region Decks into the grid specified by the Campaign Card. All decks are placed face-down.</li><li><strong>Start:</strong> Place the party marker on the starting Region Deck and flip its top card (the Region Card) face-up.</li></ol>",
-    "header_image": "World_Map_Setup.png"
+    "description": "<h3>Downtime: Marketplace & Advancement</h3><p>During the Downtime Phase between adventures, you can spend your hard-earned rewards to improve your deck and prepare for the next challenge. These activities can be performed in any order and are not limited to a single choice.</p><hr><h4>Purchasing Booster Packs</h4><ul><li><strong>Hero Booster Pack (5 XP):</strong> Gain new Feature and Training cards to advance your character.</li><li><strong>Treasure Booster Pack (100 Gold):</strong> Acquire new Item and Hireling cards.</li><li><strong>Monster Booster Pack (75 Gold):</strong> Add creature cards to your collection.</li></ul><hr><h4>Monster Card Rules</h4><p>Creatures from Monster Booster Packs are added to your Side Deck and have unique uses:</p><ul><li><strong>Prospective Hirelings:</strong> A monster you own is considered 'defeated' for the purpose of any card effect that allows you to recruit a defeated creature as a hireling.</li><li><strong>Other Uses:</strong> Certain Feature cards may allow you to use your owned monster cards in other ways, such as summoning them to fight alongside you.</li></ul><hr><h4>Selling Your Wares</h4><p>You can sell any of your unwanted Item cards to gain Gold. The standard rate is half of the item's listed Gold value. If no value is listed, you gain 5 Gold.</p>",
+    "header_image": "Downtime_Card.png"
   },
   {
-    "name": "Campaign: Progression & Gates",
+    "name": "Offensive Actions",
     "type": [
       "rule",
-      "Campaign"
+      "Timed Scene"
     ],
-    "description": "<h3>Campaign Progression</h3><p>Your party's goal is to acquire Key Tokens by completing quests in the random regions, then use them to unlock the fixed, story-critical Gate Regions.</p><hr><h4>Acquiring Key Tokens</h4><p>When you resolve the final card of a Region Deck that has a Key Token on it, you have completed that region's story and successfully claim that token.</p><hr><h4>Gate Regions & Unlocking</h4><p>Gate Region cards have a special <strong>'Unlock'</strong> action. To use this action, you must be in that region and spend the required number of Key Tokens. Resolving the 'Unlock' action progresses the campaign's main story, often by adding new, more challenging cards to the Gate Region's deck (from the game box) or revealing the final boss's location.</p><hr><h4>Winning the Campaign</h4><p>The final objective is detailed on the Campaign Card, typically involving a final Timed Scene at a fully unlocked Gate Region.</p>",
-    "header_image": "Quest_Log.png"
-  },
-  {
-    "name": "The Blighted Woods (Campaign Example)",
-    "type": "Campaign",
-    "description": "<p><em>A creeping blight is corrupting the Greatwood. You must find the three ancient keystones to unlock the path to the forest's heart and confront the source of the corruption.</em></p><hr><h4>Ultimate Goal</h4><p>Defeat the <strong>Blightwood Horror</strong> in the Corrupted Glade.</p><hr><h4>Turn Track (1-20)</h4><ul><li><strong>Space 5, 10, 15:</strong> Campaign Event.</li><li><strong>Space 20:</strong> The Blight consumes the Greatwood. The Campaign is lost.</li></ul><hr><h4>Setup</h4><ul><li><strong>Gate Regions (Fixed):</strong> 'Oakhaven' (Start), 'The Corrupted Glade' (Final Boss).</li><li><strong>Random Regions:</strong> Draw <strong>4</strong> Random Region Decks from the box.</li><li><strong>Key Tokens:</strong> Place <strong>3</strong> Key Tokens, one on three of the four Random Region Decks.</li><li><strong>Map Grid:</strong> Create a 3x2 grid. Place Oakhaven at the top center, The Corrupted Glade face-down at the bottom center. Place the four Random Region Decks face-down in the remaining spaces.</li></ul>",
-    "header_image": "The_Blighted_Woods.png"
-  },
-   {
-    "name": "Campaign: World Map & Region Decks",
-    "type": [
-      "rule",
-      "Campaign"
-    ],
-    "description": "<h3>Campaign Setup</h3><p>The game is played on a world map built from self-contained <strong>Region Decks</strong>. The Campaign Card provides the ultimate goal and a ticking clock.</p><hr><h4>Setup Steps</h4><ol><li><strong>Choose a Campaign Card:</strong> This sets the story, win/loss conditions, and the <strong>Turn Track</strong>.</li><li><strong>Build the Region Decks:</strong> The Campaign Card will list the regions in play. For each, create a small, face-down deck. The <strong>Region Card</strong> itself is the top card. Stack its associated Location, Event, NPC, and Quest cards underneath it in the specified order.</li><li><strong>Build the World:</strong> Lay out the face-down Region Decks in a grid as shown on the Campaign Card.</li><li><strong>Starting Position:</strong> Place the party marker on the starting Region Deck (e.g., 'Oakhaven'). Flip its top card (the Region Card) face-up.</li></ol>",
-    "header_image": "World_Map_Setup.png"
-  },
-  {
-    "name": "Campaign: The Game Loop & Actions",
-    "type": [
-      "rule",
-      "Campaign"
-    ],
-    "description": "<h3>The Party Turn</h3><p>The party takes a collective turn, following these phases in order:</p><hr><ol><li><strong>Event Phase:</strong> Resolve a <strong>Campaign Event</strong> card if the token on the Turn Track lands on an event space.</li><li><strong>Travel Phase:</strong> You may move your party marker to an adjacent Region Deck whose top card is face-up.</li><li><strong>Action Phase:</strong> Collectively take <strong>TWO</strong> Party Actions.</li><li><strong>End Phase:</strong> Advance the token on the Campaign Turn Track by one space.</li></ol><hr><h4>Party Actions</h4><ul><li><strong>Explore New Region:</strong> Flip the top card of an adjacent, face-down Region Deck face-up and resolve its text.</li><li><strong>Engage Current Region:</strong> Draw and resolve the next card from the deck of the region you currently occupy. This is how you advance the local quest and find new locations.</li><li><strong>Downtime/Trade:</strong> If the current Region Card has the 'Town' keyword, you may use an action to perform Downtime Activities or Trade.</li></ul>",
-    "header_image": "Game_Loop.png"
-  },
-  {
-    "name": "Campaign: Region Decks & Quests",
-    "type": [
-      "rule",
-      "Campaign"
-    ],
-    "description": "<h3>Region Decks & Quests</h3><p>Each Region Deck is a self-contained adventure. The <strong>Engage Current Region</strong> action is the key to progressing through its story.</p><hr><h4>Card Progression</h4><p>As you draw cards from a Region Deck, they will guide you through a narrative, presenting <strong>Quest Cards</strong> for objectives, <strong>Event Cards</strong> for unexpected twists, and <strong>NPC Cards</strong> for interactions.</p><h4>Triggering Timed Scenes</h4><p>When a card from the Region Deck instructs you to begin combat or another encounter, it will always specify which <strong>Location Card</strong> to use for setup. Since that Location Card is inside the same Region Deck, it is easily found and set up.</p><h4>Completing a Region</h4><p>When the final card of a Region Deck is resolved, the party has 'completed' that region. The card will detail any final rewards. You can no longer use the 'Engage' action in that region.</p><h4>Abandoning a Region</h4><p>At the start of a turn, the party can vote to abandon their progress in the current region. If they do, discard all remaining cards in that Region Deck, suffer any listed consequences, and advance the Campaign Turn Track by 2 additional spaces.</p>",
-    "header_image": "Quest_Log.png"
-  },
-  {
-    "name": "Quest Phase",
-    "type": [
-      "rule",
-      "Campaign"
-    ],
-    "description": "<h3>The Quest Phase</h3><p>Accepting a <strong>Quest Card</strong> from a Region begins the Quest Phase, which overrides the normal game loop.</p><hr><ul><li><strong>Quest Locked:</strong> While on a quest, you cannot use the <strong>Explore New Region</strong> action.</li><li><strong>Progression:</strong> The Quest Card directs you to specific <strong>Locations</strong>. Travel between them requires a <strong>Journey</strong> roll. Arriving at a Location begins a <strong>Timed Scene</strong> (e.g., combat).</li><li><strong>Completion/Abortion:</strong> Completing the quest grants rewards and ends the phase. Aborting it incurs penalties.</li></ul>",
-    "header_image": "Quest_Phase.png"
-  },
- 
-  {
-    "name": "Physical Combat: Core Actions 1",
-    "type": [
-      "rule",
-      "Physical Combat"
-    ],
-    "description": "<h3>Core Actions 1: Offensive</h3><p>These are the primary actions for attacking an enemy. Each requires one <strong>Action</strong>.</p><hr><table><thead><tr><th>Action</th><th>Roll</th><th>High Hit (16+)</th><th>Medium Hit (9-15)</th><th>Low Hit (1-8)</th></tr></thead><tbody><tr><td><strong>Hack & Slash</strong><br><em>(Melee, Range 1)</em></td><td>+STR</td><td>Deal full HD. If your DEX > target's DEX, also apply <strong>Weakened</strong>.</td><td>Deal full HD.</td><td>Deal half HD. The enemy gains +3 forward on their next attack against you.</td></tr><tr><td><strong>Volley</strong><br><em>(Ranged, Range 6)</em></td><td>+DEX</td><td>Deal full HD.</td><td>Deal full HD, but also deal half HD to the creature (friend or foe) closest to your target.</td><td>Deal half HD. Until your next turn, all enemies will target you if able.</td></tr></tbody></table><hr><p><em>Note: Default ranges. Specific weapons and features can alter these values.</em></p>",
+    "description": "<h3>Offensive Actions (1 Action)</h3><p>In a **Timed Scene**, you may use **Physical (HD) or Social (SD)** actions in any combination during your turn.</p><hr><table><thead><tr><th>Action</th><th>Roll</th><th>High Hit (16+)</th><th>Medium Hit (9-15)</th><th>Low Hit (1-8)</th></tr></thead><tbody><tr><td>**Hack & Slash**<br>*(Melee, Range 1, HD)*</td><td>+STR</td><td>Deal full HD. If your DEX > target's DEX, also apply **Weakened**.</td><td>Deal full HD.</td><td>Deal half HD. The enemy gains +3 forward on their next attack against you.</td></tr><tr><td>**Parley**<br>*(Melee, Range 1, SD)*</td><td>+CAR</td><td>Deal full SD. If your WIS > target's WIS, also apply **Weakened**.</td><td>Deal full SD.</td><td>Deal half SD. The target gains +3 forward on their next social roll against you.</td></tr><tr><td>**Volley**<br>*(Ranged, HD)*</td><td>+DEX</td><td>Deal full HD.</td><td>Deal full HD, but hit nearest creature (friend or foe) for half HD.</td><td>Deal half HD. All enemies target you next turn.</td></tr><tr><td>**Cutting Words**<br>*(Ranged, SD)*</td><td>+WIS</td><td>Deal full SD.</td><td>Deal full SD, but hit nearest creature (friend or foe) for half SD.</td><td>Deal half SD. All enemies socially target you next turn.</td></tr></tbody></table>",
     "header_image": "PhysicalCombatCoreActions1.png"
   },
   {
-    "name": "Physical Combat: Core Actions 2",
+    "name": "Tactical & Defensive Actions",
     "type": [
       "rule",
-      "Physical Combat"
+      "Timed Scene"
     ],
-    "description": "<h3>Core Actions 2: Tactical & Defensive</h3><p>These actions focus on controlling the battlefield. Each requires one <strong>Action</strong>.</p><hr><table><thead><tr><th>Action</th><th>Roll</th><th>High Hit (16+)</th><th>Medium Hit (9-15)</th><th>Low Hit (1-8)</th></tr></thead><tbody><tr><td><strong>Defend</strong></td><td>+CON</td><td>Hold 3.</td><td>Hold 2.</td><td>Hold 1, but you also become <strong>Weakened</strong>.</td></tr><tr><td><strong>Shove</strong><br><em>(Range 1)</em></td><td>+STR</td><td>Choose: <strong>Push 3</strong> the target, OR knock them prone.</td><td><strong>Push 2</strong> the target.</td><td><strong>Push 1</strong> the target, but you are also knocked prone.</td></tr><tr><td><strong>Grab</strong><br><em>(Range 1)</em></td><td>+STR</td><td>Target is <strong>Immobilized</strong>.</td><td>Target is <strong>Immobilized</strong> until the start of your next turn.</td><td>Target is <strong>Weakened</strong> for 1 round.</td></tr><tr><td><strong>Disarm</strong><br><em>(Range 1)</em></td><td>+DEX</td><td>Weapon is knocked 1d4 squares away.</td><td>Weapon is dropped in the target's square.</td><td>Target keeps their weapon but is <strong>Weakened</strong> for 1 round.</td></tr></tbody></table><hr><p><em><strong>Defend Hold:</strong> Spend hold 1-for-1 to: redirect an attack on an adjacent ally to yourself; halve damage to yourself or an adjacent ally; or grant an adjacent ally +3 forward.<br><strong>Disengage (Action):</strong> Move up to half your SPEED. This movement does not provoke Attacks of Opportunity.</em></p>",
+    "description": "<h3>Tactical & Defensive Actions (1 Action)</h3><p>Actions to control position and mitigate damage. All are usable in a **Timed Scene**.</p><hr><table><thead><tr><th>Action</th><th>Roll</th><th>High Hit (16+)</th><th>Medium Hit (9-15)</th><th>Low Hit (1-8)</th></tr></thead><tbody><tr><td>**Defend / Steel Self**</td><td>+CON or +WIS</td><td>Hold 3.</td><td>Hold 2.</td><td>Hold 1, but you also become **Weakened**.</td></tr><tr><td>**Shove / Discredit**<br>*(Range 1)*</td><td>+STR or +CAR</td><td>Choose: **Push 3** the target, OR knock them prone.</td><td>**Push 2** the target.</td><td>**Push 1** the target, but you are also knocked prone.</td></tr><tr><td>**Grab / Corner**<br>*(Range 1)*</td><td>+STR or +INT</td><td>Target is **Immobilized**.</td><td>Target is **Immobilized** until the start of your next turn.</td><td>Target is **Weakened** for 1 round.</td></tr><tr><td>**Disarm / Expose Flaw**<br>*(Range 1)*</td><td>+DEX or +INT</td><td>Disarm/Disable Weapon for 1d4 squares.</td><td>Disarm/Disable Weapon in target's square.</td><td>Target keeps weapon but is **Weakened** for 1 round.</td></tr></tbody></table><hr><p>**Defend/Steel Self Hold:** Spend hold 1-for-1 to: redirect an attack to yourself; halve damage to self/ally; or grant an ally +3 forward on a roll.</p>",
     "header_image": "PhysicalCombatCoreActions2.png"
   },
-    
   {
-    "name": "Physical Combat: Turn & Movement",
+    "name": "Turn & Movement",
     "type": [
       "rule",
-      "Physical Combat"
+      "Timed Scene"
     ],
-    "description": "<h3>Turn & Movement</h3><p>On your turn, you have <strong>two Actions</strong> (any mix of Ability or Movement) and <strong>one Reaction</strong>.</p><hr><ul><li><strong>Movement Action:</strong> Move up to your SPEED.</li><li><strong>Attack of Opportunity (Reaction):</strong> Attack an enemy who voluntarily leaves your melee range.</li><li><strong>Disengage (Action):</strong> Move up to half your SPEED without provoking attacks.</li><li><strong>Forced Movement:</strong> <strong>Push</strong> (away), <strong>Pull</strong> (toward), <strong>Lift</strong> (up), <strong>Crush</strong> (push into a wall for extra damage).</li></ul>",
+    "description": "<h3>Turn & Movement</h3><p>On your turn in a **Timed Scene**, you have **two Actions** (any mix of abilities or movement) and **one Reaction**.</p><hr><ul><li>**Movement Action:** Move up to your SPEED.</li><li>**Attack of Opportunity (Reaction):** Attack an enemy who voluntarily leaves your melee range.</li><li>**Disengage (Action):** Move up to half your SPEED without provoking attacks.</li><li>**Forced Movement:** **Push** (away), **Pull** (toward), **Lift** (up), **Crush** (push into a wall for extra damage).</li></ul>",
     "header_image": "Movement.png"
-  },
-  {
-    "name": "Timed Scenes: Setup & The Grid",
-    "type": [
-      "rule",
-      "Physical Combat"
-    ],
-    "description": "<h3>Setting Up a Timed Scene</h3><p>A <strong>Timed Scene</strong> (like combat or a complex trap) begins when a card tells you to. It is always played on a grid. To set it up, follow these steps:</p><hr><ol><li><strong>Find the Location Card:</strong> The card that started the scene (e.g., a Quest or Region card) will name a specific <strong>Location Card</strong>. This is your blueprint for the encounter.</li><li><strong>Create the Map:</strong> The Location Card describes the map's size (e.g., \"a 10x10 grid\"). Lay out your play area to match these dimensions.</li><li><strong>Place Creatures & Terrain:</strong> The Location Card's \"Setup\" section provides a precise list of all creature, NPC, and terrain cards to use. Place their markers on the grid at the specified coordinates (e.g., \"Place Orc Grunt at A5,\" \"Place Wall at B2-B5\").</li><li><strong>Determine the Objective:</strong> The card that triggered the scene will state the goal (e.g., \"Defeat all enemies,\" \"Survive for 5 rounds\").</li><li><strong>Begin Combat:</strong> Once the grid is set up, the first round begins. Follow the \"Initiative & Turn Order\" rule to determine who acts first.</li></ol>",
-    "header_image": "Combat_Grid.png"
-  },
-  {
-    "name": "Physical Combat: Creature AI",
-    "type": [
-      "rule",
-      "Physical Combat"
-    ],
-    "description": "<h3>Creature AI</h3><p>Creatures take 2 Actions per turn. Their behavior is determined by their INT score.</p><hr><ul><li><strong>Low INT (Bestial):</strong> Attacks the closest target.</li><li><strong>Medium INT (Cunning):</strong> Targets characters with negative Conditions; uses tactical moves like Shove or Disarm.</li><li><strong>High INT (Mastermind):</strong> Targets the character with the lowest HP; uses cover and powerful abilities.</li></ul>",
-    "header_image": "Creature_AI.png"
-  },
-  {
-    "name": "Social Combat: The Grid & Sanity",
-    "type": [
-      "rule",
-      "Social Combat"
-    ],
-    "description": "<h3>Social Combat</h3><p>Engagements of wit and willpower are resolved as a <strong>Timed Scene</strong> on a grid, identical to physical combat. Positioning, range, and turn order function the same, but the objective is to deplete an opponent's <strong>SP (Social Points)</strong> using abilities that deal <strong>SD (Social Damage)</strong>.</p><hr><ul><li><strong>Winning:</strong> When an NPC's SP reaches 0, they are defeated (convinced, intimidated, etc.).</li><li><strong>Losing:</strong> If a player's SP reaches 0, they are socially defeated and can no longer influence the scene.</li></ul><hr><h3>Sanity</h3><p>Witnessing horrors or learning forbidden truths can drain your SP. An Event or Creature card may call for a <strong>Sanity Check</strong> (Roll+WIS). Failure costs SP and can inflict conditions like <strong>Frightened</strong> or <strong>Confused</strong>.</p>",
-    "header_image": "Social_CombatCoreActions1.png"
-  },
-     {
-    "name": "Social Combat: Core Actions 1",
-    "type": [
-      "rule",
-      "Social Combat"
-    ],
-    "description": "<h3>Core Actions 1: Offensive</h3><p>These are the primary social actions for influencing an opponent. Each requires one <strong>Action</strong>.</p><hr><table><thead><tr><th>Action</th><th>Roll</th><th>High Hit (16+)</th><th>Medium Hit (9-15)</th><th>Low Hit (1-8)</th></tr></thead><tbody><tr><td><strong>Parley</strong><br><em>(Melee, Range 1)</em></td><td>+CAR</td><td>Deal full SD. If your WIS > target's WIS, also apply <strong>Weakened</strong>.</td><td>Deal full SD.</td><td>Deal half SD. The target gains +3 forward on their next social roll against you.</td></tr><tr><td><strong>Cutting Words</strong><br><em>(Ranged, Range 6)</em></td><td>+WIS</td><td>Deal full SD.</td><td>Deal full SD, but also deal half SD to the character (friend or foe) closest to your target.</td><td>Deal half SD. Until your next turn, all enemies will socially target you if able.</td></tr></tbody></table><hr><p><em>Note: Default ranges. Specific features can alter these values.</em></p>",
-    "header_image": "Cutting_Words.png"
-  },
-  {
-    "name": "Social Combat: Core Actions 2",
-    "type": [
-      "rule",
-      "Social Combat"
-    ],
-    "description": "<h3>Core Actions 2: Tactical & Defensive</h3><p>These actions focus on controlling the social battlefield. Each requires one <strong>Action</strong>.</p><hr><table><thead><tr><th>Action</th><th>Roll</th><th>High Hit (16+)</th><th>Medium Hit (9-15)</th><th>Low Hit (1-8)</th></tr></thead><tbody><tr><td><strong>Steel Self</strong></td><td>+WIS</td><td>Hold 3.</td><td>Hold 2.</td><td>Hold 1, but you also become <strong>Weakened</strong>.</td></tr><tr><td><strong>Discredit</strong><br><em>(Range 1)</em></td><td>+CAR</td><td>Choose: <strong>Push 3</strong> the target, OR they become <strong>Stunned</strong> for 1 round.</td><td><strong>Push 2</strong> the target.</td><td><strong>Push 1</strong> the target, but you are also knocked prone from the social blow.</td></tr><tr><td><strong>Corner</strong><br><em>(Range 1)</em></td><td>+INT</td><td>Target is <strong>Immobilized</strong> and can only target you with social actions.</td><td>Target is <strong>Immobilized</strong> until your next turn.</td><td>Target is <strong>Weakened</strong> for 1 round.</td></tr><tr><td><strong>Expose Flaw</strong><br><em>(Range 1)</em></td><td>+INT</td><td>Target cannot use a specific social feature for the rest of the scene.</td><td>Target has disadvantage on their next social roll.</td><td>Target gains +3 forward on their next social roll.</td></tr></tbody></table><hr><p><em><strong>Steel Self Hold:</strong> Spend hold 1-for-1 to: redirect a social attack on an adjacent ally to yourself; halve SD against yourself or an adjacent ally; or grant an adjacent ally +3 forward.<br><strong>Disengage (Action):</strong> Move up to half your SPEED. This does not provoke Attacks of Opportunity.</em></p>",
-    "header_image": "Social_CombatCoreActions2.png"
   }
 ]

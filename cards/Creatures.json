@@ -27474,5 +27474,400 @@
       }
     ],
     "header_image": "Primal_Larva.png"
+  },
+  {
+    "name": "Head of the Forbidden One",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "cerulean",
+        "purple",
+        "cerulean"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Construct",
+      "Undead",
+      "God-Fragment"
+    ],
+    "description": "<p><em>The golden funerary mask of a forgotten god, its sapphire eyes burning with immense psychic power. It floats silently, its gaze capable of unmaking the mind. It is the vessel of the Forbidden One's consciousness.</em></p><hr><table><tbody><tr><td>Mind Crush</td><td><strong>(Active, Costs 3 MP)</strong> Targets one character within 8 squares. The player must Defy Danger (WIS). On 1-8: You take x2MD psychic damage and are <strong>Confused</strong> for 1 round. On 9-15: You take MD psychic damage. On 16+: You take half damage.</td></tr><tr><td>Unification Protocol</td><td><strong>(Passive)</strong> If all five 'Forbidden One' creatures are on the battlefield under your control at the start of your turn, you are declared the victor.</td></tr></tbody></table>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 20
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 25
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 20
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d10"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 2
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": -2
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 4
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "🦶",
+        "ability_value": 5
+      }
+    ],
+    "header_image": "Head_of_the_Forbidden_One.png"
+  },
+  {
+    "name": "Right Arm of the Forbidden One",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "red",
+        "red",
+        "red"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Construct",
+      "Undead",
+      "God-Fragment"
+    ],
+    "description": "<p><em>A colossal arm clad in obsidian and gold, wielding the Scepter of Judgment. Each swing holds the power to unmake the laws of creation and shatter any defense.</em></p><hr><table><tbody><tr><td>Sunder Strike</td><td><strong>(Active, Costs 2 HP)</strong> Make a roll for a melee attack. On 1-8: The attack deals HD damage. On 9-15: The attack deals HD damage and the target's armor is reduced by 1 for the encounter. On 16+: The attack deals HD damage and the target's armor is permanently reduced by 2.</td></tr><tr><td>Unification Protocol</td><td><strong>(Passive)</strong> If all five 'Forbidden One' creatures are on the battlefield under your control at the start of your turn, you are declared the victor.</td></tr></tbody></table>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 30
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 10
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d12"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 3
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 4
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -2
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "🦶",
+        "ability_value": 4
+      }
+    ],
+    "header_image": "Right_Arm_of_the_Forbidden_One.png"
+  },
+  {
+    "name": "Left Arm of the Forbidden One",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "black",
+        "blue",
+        "black"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Construct",
+      "Undead",
+      "God-Fragment"
+    ],
+    "description": "<p><em>Bound in ethereal chains of solidified shadow, this arm can extend its grasp across the battlefield to ensnare and restrain its master's enemies.</em></p><hr><table><tbody><tr><td>Chain of Oblivion</td><td><strong>(Active, Costs 2 MP)</strong> The arm targets a character within 6 squares. The player must Defy Danger (DEX). On 1-8: The target is <strong>Immobilized</strong> for 2 rounds and <strong>Pulled 2</strong> squares. On 9-15: The target is <strong>Slowed</strong> for 2 rounds and <strong>Pulled 1</strong> square. On 16+: The character avoids the chains.</td></tr><tr><td>Unification Protocol</td><td><strong>(Passive)</strong> If all five 'Forbidden One' creatures are on the battlefield under your control at the start of your turn, you are declared the victor.</td></tr></tbody></table>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 28
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 10
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 10
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 2
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "🦶",
+        "ability_value": 4
+      }
+    ],
+    "header_image": "Left_Arm_of_the_Forbidden_One.png"
+  },
+  {
+    "name": "Right Leg of the Forbidden One",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "orange",
+        "red",
+        "orange"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Construct",
+      "Undead",
+      "God-Fragment"
+    ],
+    "description": "<p><em>A massive leg shod in enchanted bronze. A single stomp can crack the foundations of the earth, creating chasms that swallow armies.</em></p><hr><table><tbody><tr><td>Earthshaker Stomp</td><td><strong>(Active, Costs 2 HP)</strong> All characters on the ground within a 3-square radius must Defy Danger (DEX). On 1-8: They take HD damage and are knocked prone. On 9-15: They take half HD damage. On 16+: They maintain their footing and take no damage. The area becomes difficult terrain.</td></tr><tr><td>Unification Protocol</td><td><strong>(Passive)</strong> If all five 'Forbidden One' creatures are on the battlefield under your control at the start of your turn, you are declared the victor.</td></tr></tbody></table>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 35
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 4
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 4
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": -2
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 4
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -3
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -3
+      },
+      {
+        "ability_name": "🦶",
+        "ability_value": 3
+      }
+    ],
+    "header_image": "Right_Leg_of_the_Forbidden_One.png"
+  },
+  {
+    "name": "Left Leg of the Forbidden One",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "blue",
+        "orange",
+        "blue"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Construct",
+      "Undead",
+      "God-Fragment"
+    ],
+    "description": "<p><em>Armored in impenetrable gold blessed by ancient sun gods, this leg grants unstoppable momentum. No barrier can halt its inexorable advance.</em></p><hr><table><tbody><tr><td>Unfettered March</td><td><strong>(Passive)</strong> This creature is immune to being <strong>Immobilized</strong>, <strong>Slowed</strong>, or unwillingly moved by any means. It ignores difficult terrain.</td></tr><tr><td>Trample</td><td><strong>(Active)</strong> The creature moves up to its speed in a straight line. It can move through enemy spaces. Each enemy it moves through takes 1d8 HD and is knocked prone.</td></tr><tr><td>Unification Protocol</td><td><strong>(Passive)</strong> If all five 'Forbidden One' creatures are on the battlefield under your control at the start of your turn, you are declared the victor.</td></tr></tbody></table>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 35
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 4
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 4
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": -2
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 4
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -3
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -3
+      },
+      {
+        "ability_name": "🦶",
+        "ability_value": 3
+      }
+    ],
+    "header_image": "Left_Leg_of_the_Forbidden_One.png"
   }
 ]

@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Save my Family",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>Your family is in danger. Defeat the villain who threatens them to complete this destiny.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you make a decision that demonstrably prioritizes your family's safety over personal gain or party objectives.</p><p><strong>Timed Scenes:</strong> When you use the 'Defend' action on a family member, or an ally if no family is present.</p>",
+    "header_image": "Save my Family.png"
+  },
+  {
+    "name": "Become a Hero",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You dream of being admired by all. Perform a great heroic act that earns you the public title of 'Hero' from a community leader or settlement.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you refuse a material reward for a good deed.</p><p><strong>Timed Scenes:</strong> When your hero reduces a creature with the 'Boss' or 'Elite' tag to 0 HP.</p>",
+    "header_image": "Become a Hero.png"
+  },
+  {
+    "name": "Learn from Your Mistakes",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You are determined to learn from past failures. Confront the source or person related to your greatest mistake and successfully make amends.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you admit a tactical error to the party and suggest a better course of action.</p><p><strong>Timed Scenes:</strong> After an enemy's attack reduces your HP by half or more, you use an action to heal another character.</p>",
+    "header_image": "Learn from Your Mistakes.png"
+  },
+  {
+    "name": "Learn About the World",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You are curious about the world. Discover a new, uncharted location on the world map and survive its challenges.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you ask an NPC a question about their culture or history that reveals a new, useful fact.</p><p><strong>Timed Scenes:</strong> When you are the first hero to enter a previously hidden or sealed area of the map.</p>",
+    "header_image": "Learn About the World.png"
+  },
+  {
+    "name": "Champion of the People",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You desire to help those in need. Liberate a settlement or a group of people from the control of an oppressive force.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you give 50 Gold or a valuable item to a civilian NPC in need.</p><p><strong>Timed Scenes:</strong> When you defeat an enemy that is adjacent to and directly threatening a friendly NPC.</p>",
+    "header_image": "Champion of the People.png"
+  },
+  {
+    "name": "Master of the Craft",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You long to achieve the highest level of skill. Create a unique item or achieve a unique result with a non-combat skill that becomes pivotal to winning a major adventure.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you use a tool or skill to create a useful item for another party member.</p><p><strong>Timed Scenes:</strong> When you successfully use the 'Disarm / Expose Flaw' action on an enemy.</p>",
+    "header_image": "Master of the Craft.png"
+  },
+  {
+    "name": "Fated Savior",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You have been chosen to save a people. Defeat the great evil that is foretold to destroy the civilization you are destined to protect.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you follow a lead related to a prophecy, even if it is clearly dangerous.</p><p><strong>Timed Scenes:</strong> When you deal the final damage that reduces a Scenario's main boss to 0 HP.</p>",
+    "header_image": "Fated Savior.png"
+  },
+  {
+    "name": "Cursed Seeker",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You must break the curse that afflicts you. Perform the ritual, find the artifact, or defeat the being that is the source of your curse.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you willingly accept a narrative complication related to your curse without trying to avoid it.</p><p><strong>Timed Scenes:</strong> After an enemy applies a Condition to you, defeat that enemy on your next turn.</p>",
+    "header_image": "Cursed Seeker.png"
+  },
+  {
+    "name": "Ambitious Usurper",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You dream of power and glory. Overthrow a powerful ruler and take their place as the recognized leader of a faction, city, or territory.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you successfully use blackmail, bribery, or intimidation to make an NPC of authority do what you want.</p><p><strong>Timed Scenes:</strong> When you use 'Parley' or 'Cutting Words' to successfully apply a Condition to a 'Leader' type enemy.</p>",
+    "header_image": "Ambitious Usurper.png"
+  },
+  {
+    "name": "Eternal Wanderer",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You long to explore the world. You must travel to the three most remote and dangerous locations marked on the world map.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When the party is deciding where to go next, you convince them to travel to a completely new location.</p><p><strong>Timed Scenes:</strong> When you end your turn farther away from your starting position than any other character.</p>",
+    "header_image": "Eternal Wanderer.png"
+  },
+  {
+    "name": "Party Bonding",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You want to strengthen your bond with your party. Complete a major adventure where every party member was reduced to below half HP, but no one reached 0 HP.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you initiate a downtime scene focused on sharing stories or relaxing with the group.</p><p><strong>Timed Scenes:</strong> When you use an action that grants another hero a bonus on their roll or restores one of their resources (HP, MP, SP).</p>",
+    "header_image": "Party Bonding.png"
+  },
+  {
+    "name": "Cool Action",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You want to be awesome. Defeat a 'Boss' creature in a completely unexpected or theatrical way, as agreed upon by the other players.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you propose a risky but creative plan that the rest of the party agrees to follow.</p><p><strong>Timed Scenes:</strong> When you defeat an enemy using damage from an environmental hazard (e.g., pushing them off a cliff).</p>",
+    "header_image": "Cool Action.png"
+  },
+  {
+    "name": "I Found a Friend",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You long to connect with others. Convince a recurring NPC to become a permanent, trusted ally of the party.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you give a personalized gift to an NPC that improves their attitude toward the party.</p><p><strong>Timed Scenes:</strong> When you use an action to heal or give a bonus to a friendly NPC ally.</p>",
+    "header_image": "I Found a Friend.png"
+  },
+  {
+    "name": "Revenge Seeker",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You will not rest until you have exacted revenge. Confront the enemy who wronged you and defeat them personally.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you uncover a new, significant clue about your enemy's location, plans, or weakness.</p><p><strong>Timed Scenes:</strong> When you personally reduce your specified rival (from an 'Enemies' card) to 0 HP or 0 SP.</p>",
+    "header_image": "Revenge Seeker.png"
+  },
+  {
+    "name": "Lost Heir",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You seek to reclaim your birthright. Rally allies, defeat your rivals, and be formally recognized as the rightful ruler of your domain.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you use your lineage or family name to gain access to a place or information.</p><p><strong>Timed Scenes:</strong> When you defeat an enemy who also has a claim to your title or is a known agent of your rival.</p>",
+    "header_image": "Lost Heir.png"
+  },
+  {
+    "name": "Haunted Survivor",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You seek to overcome your past. Confront the source of your trauma (a place, person, or creature) and emerge victorious, thus finding peace.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When faced with a situation similar to your trauma, you choose to act bravely rather than flee.</p><p><strong>Timed Scenes:</strong> When you successfully make a roll to resist or remove the 'Frightened' condition from yourself.</p>",
+    "header_image": "Haunted Survivor.png"
+  },
+  {
+    "name": "Legacy Keeper",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You seek to carry on your family's legacy. Find and restore a lost family artifact, stronghold, or piece of historical knowledge to prominence.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you recount a piece of your family's history that provides the party with a clue or advantage.</p><p><strong>Timed Scenes:</strong> When you use a family heirloom (an Item card from your starting deck) to succeed on a roll.</p>",
+    "header_image": "Legacy Keeper.png"
+  },
+  {
+    "name": "Wanderer",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You seek new experiences. You must visit every distinct region shown on the world map.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you successfully forage, hunt, or find shelter in a new and hostile environment.</p><p><strong>Timed Scenes:</strong> When you use the Movement action twice in the same turn to cover a large distance.</p>",
+    "header_image": "Wanderer.png"
+  },
+  {
+    "name": "Where is Love?",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You are searching for a true connection. Solidify a romantic relationship with another character, marked by a significant mutual sacrifice or declaration.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you succeed on a roll to flirt with, impress, or support a potential romantic partner.</p><p><strong>Timed Scenes:</strong> When you deliberately place your character between your love interest and an enemy.</p>",
+    "header_image": "Where is Love.png"
+  },
+  {
+    "name": "Redeem Yourself",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You are seeking redemption for past misdeeds. Save or restore the person, family, or community that you previously wronged.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you publicly accept blame for a past mistake and accept the consequences without protest.</p><p><strong>Timed Scenes:</strong> When you use a Reaction to take damage that was originally targeting another hero.</p>",
+    "header_image": "Redeem Yourself.png"
+  },
+  {
+    "name": "Treasure Finder",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You seek a legendary treasure. Following a map or a series of clues, you must find and claim the specific, named treasure your quest is about.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you successfully decipher a riddle or a piece of a map related to the treasure.</p><p><strong>Timed Scenes:</strong> When you are the character who opens a treasure chest or loots a key item from a fallen foe.</p>",
+    "header_image": "Treasure Finder.png"
+  },
+  {
+    "name": "Lore Seeker",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You seek to uncover forgotten knowledge. Discover a secret that fundamentally changes the understanding of the campaign's central mystery or conflict.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you spend a downtime phase researching in a library or interrogating an NPC for historical information.</p><p><strong>Timed Scenes:</strong> When you succeed on a roll to identify a creature's weakness, resistance, or special ability.</p>",
+    "header_image": "Lore Seeker.png"
+  },
+  {
+    "name": "Beast Slayer",
+    "type": "destiny",
+    "description": "<h3>Goal</h3><p>You hunt dangerous beasts. Track down and defeat the legendary monster that has been terrorizing the region and bring back proof of your kill.</p><p><strong>Reward:</strong> Your party gains 10 XP.</p><hr><h3>Earning XP (Gain 1 XP)</h3><p><strong>GM-Mode:</strong> When you successfully identify monster tracks or other signs, leading the party to its lair.</p><p><strong>Timed Scenes:</strong> When you are the first character to successfully hit a monster with an attack that exploits one of its known weaknesses.</p>",
+    "header_image": "Beast Slayer.png"
+  }
+]

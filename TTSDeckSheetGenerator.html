@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS Deck Sheet Generator</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        :root {
+            --card-text: #f0f0f0;
+            --card-border: #555;
+            --title-bg: rgba(0, 0, 0, 0.4);
+            --page-bg: #222;
+            
+            --color-blue: #3498db;
+            --color-red: #e74c3c;
+            --color-gold: #f1c40f;
+            --color-green: #27ae60;
+            --color-emerald: #1abc9c;
+            --color-cerulean: #00a8ff;
+            --color-purple: #9b59b6;
+            --color-black: #34495e;
+            --color-white: #ecf0f1;
+            --color-orange: #f39c12;
+            --color-default-bg: #333;
+            --color-light-blue: #85C1E9;
+        }
+
+        @import url('https://fonts.cdnfonts.com/css/averia-serif-libre');
+
+        body {
+            font-family: 'Averia Serif Libre', sans-serif;
+            background-color: var(--page-bg);
+            color: var(--card-text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .controls {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            text-align: center;
+            margin-bottom: 30px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .instructions {
+            text-align: left;
+            max-width: 700px;
+            margin: 1em auto;
+            background-color: rgba(0,0,0,0.2);
+            padding: 1em;
+            border-radius: 8px;
+        }
+        .instructions code {
+            background-color: #111;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+
+        h1, h2, h3 { font-family: 'Averia Serif Libre', sans-serif; }
+        
+        button {
+            background-color: #5a8;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            margin: 10px;
+        }
+        
+        button:hover:not(:disabled) { background-color: #497; transform: translateY(-2px); }
+        button:disabled { background-color: #555; cursor: not-allowed; }
+        
+        input[type="file"]::file-selector-button {
+            background-color: #444;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="file"]::file-selector-button:hover {
+             background-color: #555;
+        }
+
+        #folderInput {
+            display: block;
+            margin: 20px auto;
+            border: 2px dashed #777;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: border-color 0.3s;
+            max-width: 80%;
+        }
+        #folderInput:hover { border-color: #5a8; }
+
+        #json-selection-container {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: rgba(0,0,0,0.2);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        #json-selection-container h3 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .selection-controls {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .utility-button {
+            padding: 6px 12px;
+            font-size: 13px;
+            margin: 0 5px;
+            background-color: #4a5568;
+            font-weight: normal;
+        }
+        .utility-button:hover {
+            background-color: #2d3748;
+        }
+        .json-checkbox-list {
+            list-style: none;
+            padding: 0;
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+        .json-checkbox-list label {
+            display: block;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .json-checkbox-list label:hover {
+            color: #5a8;
+        }
+         .json-checkbox-list input {
+            margin-right: 10px;
+        }
+
+
+        #card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        #status { margin-top: 20px; font-size: 16px; min-height: 20px; }
+        
+        #download-controls {
+            margin-top: 20px;
+        }
+        #download-controls button {
+            background-color: #3498db;
+            font-size: 14px;
+            padding: 10px 18px;
+        }
+         #download-controls button:hover:not(:disabled) {
+            background-color: #2980b9;
+         }
+
+
+        .card {
+            width: 350px;
+            height: 500px;
+            border: 1px solid black;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-image: url('https://i.ibb.co/8Z4NHGj/safwan-thottoli-Ygm-NICHdss-unsplash.jpg'); 
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+            border-radius: 15px;
+            pointer-events: none; 
+            z-index: 1;
+            mix-blend-mode: hard-light;
+        }
+
+        .card, .card h2, .card div, .card table, .card th, .card td {
+            color: white !important;
+            text-shadow: 0 0 5px black, 0 0 3px black;
+        }
+        hr { border-color: rgba(255,255,255,0.2); margin: 4px 0; }
+
+        .card-header, .card-image-container, .card-type-line, .card-text-box {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            background: var(--title-bg);
+            flex-shrink: 0;
+            gap: 8px;
+        }
+        .card-header .requires, .card-header .provides {
+            display: flex;
+            align-items: center;
+            flex-basis: 15%;
+        }
+        .card-header .requires { justify-content: flex-start; }
+        .card-header .provides { justify-content: flex-end; }
+        .card-title {
+            flex-grow: 1;
+            text-align: center;
+            font-size: 12px;
+            margin: 0;
+        }
+        .card-title.uncommon-style { color: var(--color-emerald) !important; }
+        .card-title.rare-style { color: var(--color-light-blue) !important; }
+        
+        .crystals { display: flex; gap: 4px; }
+        
+        .crystal-icon {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+
+        .crystal-icon i {
+            text-shadow: 0 0 5px black, 0 0 3px black;
+        }
+
+        .crystal-icon.blue i { color: var(--color-blue); }
+        .crystal-icon.red i { color: var(--color-red); }
+        .crystal-icon.gold i { color: var(--color-gold); }
+        .crystal-icon.green i { color: var(--color-green); }
+        .crystal-icon.emerald i { color: var(--color-emerald); }
+        .crystal-icon.cerulean i { color: var(--color-cerulean); }
+        .crystal-icon.purple i { color: var(--color-purple); }
+        .crystal-icon.black i { color: var(--color-black); }
+        .crystal-icon.white i { color: var(--color-white); }
+        .crystal-icon.orange i { color: var(--color-orange); }
+
+        .description .crystal-icon {
+            font-size: 12px;
+            width: 14px;
+            height: 14px;
+        }
+        
+        .card-image-container {
+            height: 190px;
+            width: calc(100% - 24px);
+            margin: 0 auto;
+            margin-top: 10px;
+            background-color: #111;
+            border: 2px solid #333;
+        }
+        .card-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-type-line {
+            padding: 5px 12px;
+            background: var(--title-bg);
+            margin: 10px 12px 0 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 13px;
+            text-transform: capitalize;
+        }
+        
+        .character-stats-table {
+            padding: 0 8px;
+            margin-top: 4px;
+        }
+        .character-stats-table table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(0,0,0,0.2);
+        }
+        .character-stats-table th, .character-stats-table td {
+            text-align: center;
+            padding: 2px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .character-stats-table th {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .character-stats-table td {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .card-text-box {
+            flex-grow: 1;
+            padding: 5px 15px 15px 15px;
+            margin: 4px 12px 12px 12px;
+            border: 1px solid rgba(0,0,0,0.2);
+            background: rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            font-size: 11.5px;
+            line-height: 1.35;
+        }
+
+        .description-content { flex-grow: 1; overflow-y: auto; }
+        .description ul { padding-left: 15px; margin: 5px 0; }
+        .description h3 { margin: 8px 0 4px 0; }
+        .description p { margin: 5px 0; }
+
+        .stats-box {
+            align-self: flex-end;
+            background: var(--title-bg);
+            padding: 6px 10px;
+            border-radius: 8px;
+            margin-top: auto;
+            z-index: 3;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+        .stat-line {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="controls">
+            <h1>TTS Deck Sheet Generator</h1>
+            <p>Select your project folder to load card data and images.</p>
+            <div class="instructions">
+                <strong>Folder Structure:</strong>
+                <ol>
+                    <li>Create a project folder.</li>
+                    <li>Inside, place one or more JSON data files (e.g., <code>Characters.json</code>, <code>Items.json</code>).</li>
+                    <li>Inside the same project folder, create a subfolder named exactly <code>images</code>.</li>
+                    <li>Place all your card artwork inside the <code>images</code> folder.</li>
+                    <li>In your JSON files, ensure each card's <code>header_image</code> property matches the image filename (e.g., <code>"header_image": "my_card_art.png"</code>).</li>
+                </ol>
+            </div>
+            <input type="file" id="folderInput" webkitdirectory directory>
+            
+            <div id="json-selection-container" style="display: none;">
+                <h3>Select JSON files to render:</h3>
+                <div class="selection-controls">
+                    <button id="selectAllButton" class="utility-button">Select All</button>
+                    <button id="deselectAllButton" class="utility-button">Deselect All</button>
+                </div>
+                <ul id="json-checkbox-list" class="json-checkbox-list"></ul>
+            </div>
+
+            <button id="renderButton" disabled>Render Selected Cards</button>
+            <button id="downloadButton" style="display: none;">Download</button> <!-- This button is now hidden and unused -->
+            
+            <div id="download-controls"></div>
+            
+            <div id="status"></div>
+        </div>
+
+        <div id="card-container"></div>
+    </main>
+
+    <script>
+        const folderInput = document.getElementById('folderInput');
+        const renderButton = document.getElementById('renderButton');
+        const cardContainer = document.getElementById('card-container');
+        const statusDiv = document.getElementById('status');
+        const jsonSelectionContainer = document.getElementById('json-selection-container');
+        const jsonCheckboxList = document.getElementById('json-checkbox-list');
+        const selectAllButton = document.getElementById('selectAllButton');
+        const deselectAllButton = document.getElementById('deselectAllButton');
+        const downloadControlsContainer = document.getElementById('download-controls');
+        
+        let allCardsWithOrigin = [];
+        let imageObjectURLs = [];
+        let projectFiles = [];
+
+        const colorMap = {
+            blue: '#3498db', red: '#e74c3c', gold: '#f1c40f',
+            green: '#27ae60', emerald: '#1abc9c', cerulean: '#00a8ff',
+            purple: '#9b59b6', black: '#34495e', white: '#ecf0f1',
+            orange: '#f39c12', 'default-bg': '#333'
+        };
+        
+        const CORE_STATS = ['hp', 'mp', 'sp', 'armor', 'speed', 'hd', 'md', 'sd'];
+        const ABILITY_SCORES = ['str', 'dex', 'cos', 'int', 'wis', 'car'];
+
+        const statIconMap = {
+            'hp': 'fas fa-heart', 'mp': 'fas fa-star', 'sp': 'fas fa-comments',
+            'armor': 'fas fa-shield-halved', 'speed': 'fas fa-person-running',
+            'hd': 'fas fa-gavel', 'md': 'fas fa-wand-magic-sparkles', 'sd': 'fas fa-bullhorn',
+            'str': 'fas fa-dumbbell', 'dex': 'fas fa-feather', 'cos': 'fas fa-heart-pulse',
+            'int': 'fas fa-brain', 'wis': 'fas fa-eye', 'car': 'fas fa-masks-theater'
+        };
+        
+        const crystalIconMap = {
+            red: 'fas fa-gavel', green: 'fas fa-paw', emerald: 'fas fa-leaf', 
+            orange: 'fas fa-bolt-lightning', cerulean: 'fas fa-wand-sparkles', purple: 'fas fa-brain', 
+            white: 'fas fa-hands-praying', blue: 'fas fa-shield-halved', black: 'fas fa-skull', gold: 'fas fa-coins'
+        };
+
+        folderInput.addEventListener('change', handleFolderSelect);
+        renderButton.addEventListener('click', handleRender);
+        selectAllButton.addEventListener('click', () => toggleAllCheckboxes(true));
+        deselectAllButton.addEventListener('click', () => toggleAllCheckboxes(false));
+
+        function handleFolderSelect(event) {
+            projectFiles = Array.from(event.target.files);
+            if (projectFiles.length === 0) return;
+
+            jsonCheckboxList.innerHTML = '';
+            const jsonFiles = projectFiles.filter(file => file.name.endsWith('.json') && file.webkitRelativePath.split('/').length === 2);
+            
+            if (jsonFiles.length > 0) {
+                jsonFiles.forEach(file => {
+                    const li = document.createElement('li');
+                    const label = document.createElement('label');
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.value = file.name;
+                    checkbox.checked = false;
+                    
+                    label.appendChild(checkbox);
+                    label.appendChild(document.createTextNode(file.name));
+                    li.appendChild(label);
+                    jsonCheckboxList.appendChild(li);
+                });
+                jsonSelectionContainer.style.display = 'block';
+                renderButton.disabled = false;
+                statusDiv.textContent = `Project folder loaded. ${jsonFiles.length} JSON file(s) found.`;
+            } else {
+                jsonSelectionContainer.style.display = 'none';
+                renderButton.disabled = true;
+                statusDiv.textContent = 'Error: No .json files found in the root of the selected folder.';
+                statusDiv.style.color = '#e74c3c';
+            }
+            cardContainer.innerHTML = '';
+            downloadControlsContainer.innerHTML = '';
+        }
+
+        function toggleAllCheckboxes(checkedState) {
+            const checkboxes = jsonCheckboxList.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(cb => {
+                cb.checked = checkedState;
+            });
+        }
+
+        async function handleRender() {
+            const checkedJsonFiles = Array.from(jsonCheckboxList.querySelectorAll('input:checked')).map(cb => cb.value);
+
+            if (checkedJsonFiles.length === 0) {
+                statusDiv.textContent = 'Please select at least one JSON file to render.';
+                return;
+            }
+
+            cardContainer.innerHTML = '';
+            downloadControlsContainer.innerHTML = '';
+            imageObjectURLs.forEach(URL.revokeObjectURL);
+            imageObjectURLs = [];
+            allCardsWithOrigin = []; 
+            renderButton.disabled = true;
+            folderInput.disabled = true;
+
+            try {
+                statusDiv.textContent = 'Loading images...';
+                const imageFiles = projectFiles.filter(file => file.webkitRelativePath.includes('images/'));
+                const imageMap = await createImageUrls(imageFiles);
+
+                statusDiv.textContent = 'Parsing selected JSON files...';
+                const jsonFileObjects = projectFiles.filter(file => checkedJsonFiles.includes(file.name));
+
+                for (const jsonFile of jsonFileObjects) {
+                    const jsonContent = await jsonFile.text();
+                    const parsedData = JSON.parse(jsonContent);
+                    
+                    if (Array.isArray(parsedData)) {
+                       const cardsFromFile = parsedData.map(card => ({...card, originFile: jsonFile.name}));
+                       allCardsWithOrigin.push(...cardsFromFile);
+                    }
+                }
+                
+                if (allCardsWithOrigin.length === 0) {
+                    throw new Error("No valid card arrays found in the selected JSON file(s).");
+                }
+                
+                renderAllCards(allCardsWithOrigin, imageMap);
+
+                statusDiv.textContent = `${allCardsWithOrigin.length} cards rendered. Ready to generate deck sheets.`;
+                populateDownloadControls();
+
+            } catch (error) {
+                statusDiv.textContent = `Error: ${error.message}`;
+                statusDiv.style.color = '#e74c3c';
+            } finally {
+                renderButton.disabled = false;
+                folderInput.disabled = false;
+            }
+        }
+
+        async function createImageUrls(imageFiles) {
+            const imageMap = {};
+            const imagePromises = imageFiles.map(file => {
+                return new Promise((resolve) => {
+                    const imageName = file.webkitRelativePath.split('/').pop();
+                    const url = URL.createObjectURL(file);
+                    imageMap[imageName] = url;
+                    imageObjectURLs.push(url);
+                    resolve();
+                });
+            });
+            await Promise.all(imagePromises);
+            return imageMap;
+        }
+        
+        function adjustFontSize(element) {
+            let currentSize = parseFloat(window.getComputedStyle(element).fontSize);
+            const minSize = 5; 
+            const decrementStep = 0.25; 
+            element.style.fontSize = `${currentSize}px`;
+            while (element.scrollHeight > element.clientHeight && currentSize > minSize) {
+                currentSize -= decrementStep;
+                element.style.fontSize = `${currentSize}px`;
+            }
+        }
+
+        function renderAllCards(cards, imageMap) {
+            cardContainer.innerHTML = '';
+            cards.forEach(card => {
+                const cardElement = createCardElement(card, imageMap);
+                cardContainer.appendChild(cardElement);
+                const descContent = cardElement.querySelector('.description-content');
+                if (descContent) {
+                    adjustFontSize(descContent);
+                }
+            });
+        }
+        
+        function getCardColorIdentity(card) {
+            const colorSet = new Set();
+            (card.crystals?.requires || []).forEach(c => colorSet.add(c));
+            (card.crystals?.provides || []).forEach(c => colorSet.add(c));
+            return Array.from(colorSet);
+        }
+
+        function createIconHtml(color) {
+            const lowerColor = color.toLowerCase(); 
+            const iconClass = crystalIconMap[lowerColor] || 'fas fa-question-circle'; 
+            const title = color.charAt(0).toUpperCase() + color.slice(1);
+            return `<div class="crystal-icon ${lowerColor}"><i class="${iconClass}" title="${title}"></i></div>`;
+        }
+
+        function createCardElement(card, imageMap) {
+            const cardDiv = document.createElement('div');
+            cardDiv.className = 'card';
+            const cardName = card.name || 'untitled';
+            cardDiv.dataset.cardName = cardName;
+            cardDiv.dataset.originFile = card.originFile || 'Unknown.json';
+
+            const colorIdentity = getCardColorIdentity(card);
+            if (colorIdentity.length === 1) {
+                cardDiv.style.background = colorMap[colorIdentity[0].toLowerCase()] || colorMap['default-bg'];
+            } else if (colorIdentity.length > 1) {
+                const gradientColors = colorIdentity.map(c => colorMap[c.toLowerCase()] || colorMap['default-bg']);
+                cardDiv.style.background = `linear-gradient(135deg, ${gradientColors.join(', ')})`;
+            } else {
+                cardDiv.style.background = colorMap['default-bg'];
+            }
+
+            const providesHtml = (card.crystals?.provides || []).map(createIconHtml).join('');
+            const requiresHtml = (card.crystals?.requires || []).map(createIconHtml).join('');
+
+            let cardType = card.type || 'N/A';
+            if (Array.isArray(cardType)) cardType = cardType.join(' - ');
+            
+            let titleClass = '';
+            if (Array.isArray(card.type)) {
+                if (card.type.includes('uncommon')) titleClass = 'uncommon-style';
+                else if (card.type.includes('rare')) titleClass = 'rare-style';
+            }
+            
+            const ARMOR_KEYS = ['armor', '🛡️'];
+            const SPEED_KEYS = ['speed', '🦶'];
+            const EXCLUDED_KEYS = [...ARMOR_KEYS, ...SPEED_KEYS];
+
+            const allSourceStats = [
+                ...(card.stats || []).map(s => ({ name: s.stat_name, value: s.stat_value })), 
+                ...(card.abilities || []).map(a => ({ name: a.ability_name, value: a.ability_value }))
+            ];
+
+            const armorStat = allSourceStats.find(s => s.name && ARMOR_KEYS.includes(s.name.toLowerCase()));
+            const speedStat = allSourceStats.find(s => s.name && SPEED_KEYS.includes(s.name.toLowerCase()));
+
+            const allStats = [];
+            const processedStatKeys = new Set();
+            
+            allSourceStats.forEach(stat => {
+                if (stat.name) {
+                    const lowerKey = stat.name.toLowerCase();
+                    if (!EXCLUDED_KEYS.includes(lowerKey) && !processedStatKeys.has(lowerKey)) {
+                        allStats.push({ name: stat.name.toUpperCase(), value: stat.value, key: lowerKey });
+                        processedStatKeys.add(lowerKey);
+                    }
+                }
+            });
+
+            if (armorStat) {
+                allStats.push({ name: 'ARMOR', value: armorStat.value, key: 'armor' });
+            }
+            if (speedStat) {
+                allStats.push({ name: 'SPEED', value: speedStat.value, key: 'speed' });
+            }
+
+            const tableStats = [
+                ...allStats.filter(s => CORE_STATS.includes(s.key)),
+                ...ABILITY_SCORES.map(key => allStats.find(s => s.key === key)).filter(Boolean)
+            ];
+            const genericStatsForBox = allStats.filter(s => !CORE_STATS.includes(s.key) && !ABILITY_SCORES.includes(s.key));
+            
+            let characterStatsTableHtml = '';
+            if (tableStats.length > 0) {
+                const headers = tableStats.map(s => {
+                    const iconClass = statIconMap[s.key] || 'fas fa-question-circle';
+                    return `<th><i class="${iconClass}" title="${s.name}"></i></th>`;
+                }).join('');
+                const values = tableStats.map(s => `<td>${s.value}</td>`).join('');
+                characterStatsTableHtml = `
+                    <div class="character-stats-table">
+                        <table>
+                            <tbody>
+                                <tr>${headers}</tr>
+                                <tr>${values}</tr>
+                            </tbody>
+                        </table>
+                    </div>`;
+            }
+
+            let statsBoxHtml = '';
+            if (genericStatsForBox.length > 0) {
+                statsBoxHtml = '<div class="stats-box">';
+                genericStatsForBox.forEach(stat => {
+                    statsBoxHtml += `<div class="stat-line">${stat.value} ${stat.name}</div>`;
+                });
+                statsBoxHtml += '</div>';
+            }
+
+            const imageUrl = card.header_image ? imageMap[card.header_image] : '';
+            const imageContainerHtml = imageUrl 
+                ? `<div class="card-image-container"><img src="${imageUrl}" alt="Card Artwork for ${cardName}"></div>` 
+                : `<div class="card-image-container"></div>`;
+
+            let description = card.description || '';
+            const allColors = [...new Set(Object.keys(colorMap))];
+            allColors.forEach(color => {
+                const regex = new RegExp(`<span class="crystal ${color}"></span>`, "g");
+                description = description.replace(regex, createIconHtml(color));
+            });
+
+            cardDiv.innerHTML = `
+                <div class="card-header">
+                    <div class="requires"><div class="crystals">${requiresHtml}</div></div>
+                    <h2 class="card-title ${titleClass}">${cardName}</h2>
+                    <div class="provides"><div class="crystals">${providesHtml}</div></div>
+                </div>
+                ${imageContainerHtml}
+                <div class="card-type-line">${cardType}</div>
+                ${characterStatsTableHtml}
+                <div class="card-text-box">
+                    <div class="description-content"><div class="description">${description}</div></div>
+                    ${statsBoxHtml}
+                </div>
+            `;
+            return cardDiv;
+        }
+
+        // --- NEW DECK SHEET GENERATION LOGIC ---
+
+        function populateDownloadControls() {
+            downloadControlsContainer.innerHTML = '';
+            const allRenderedCards = Array.from(document.querySelectorAll('.card'));
+            if (allRenderedCards.length === 0) return;
+
+            const CARDS_PER_SHEET = 69;
+            const groupedCards = allRenderedCards.reduce((acc, card) => {
+                const origin = card.dataset.originFile;
+                if (!acc[origin]) acc[origin] = [];
+                acc[origin].push(card);
+                return acc;
+            }, {});
+
+            const heading = document.createElement('h3');
+            heading.textContent = 'Generate Deck Sheets';
+            downloadControlsContainer.appendChild(heading);
+
+            for (const originFile in groupedCards) {
+                const cardsInGroup = groupedCards[originFile];
+                const baseName = originFile.replace(/\.json$/i, '');
+                const totalSheets = Math.ceil(cardsInGroup.length / CARDS_PER_SHEET);
+
+                for (let i = 1; i <= totalSheets; i++) {
+                    const btn = document.createElement('button');
+                    btn.textContent = `Download ${baseName} Sheet ${i}`;
+                    btn.dataset.originFile = originFile;
+                    btn.dataset.sheetIndex = i;
+                    btn.addEventListener('click', (e) => {
+                        const target = e.currentTarget;
+                        generateAndDownloadSingleSheet(target.dataset.originFile, parseInt(target.dataset.sheetIndex, 10), target);
+                    });
+                    downloadControlsContainer.appendChild(btn);
+                }
+            }
+        }
+        
+        function createPlaceholderElement(width, height) {
+            const el = document.createElement('div');
+            el.style.width = `${width}px`;
+            el.style.height = `${height}px`;
+            el.style.boxSizing = 'border-box';
+            el.style.backgroundColor = 'white';
+            el.style.color = 'black';
+            el.style.display = 'flex';
+            el.style.alignItems = 'center';
+            el.style.justifyContent = 'center';
+            el.style.border = '1px solid black';
+            el.style.textAlign = 'center';
+            el.style.fontFamily = `'Averia Serif Libre', sans-serif`;
+            el.style.fontSize = '24px';
+            el.style.padding = '10px';
+            el.innerHTML = '<strong style="text-shadow: none;">Hidden Card<br>To Other<br>Players</strong>';
+            document.body.appendChild(el);
+            return el;
+        }
+
+        async function generateAndDownloadSingleSheet(originFile, sheetIndex, buttonElement) {
+            buttonElement.disabled = true;
+            statusDiv.textContent = `Generating ${originFile.replace('.json', '')} sheet ${sheetIndex}... please wait.`;
+            
+            const CARDS_PER_SHEET = 69;
+            const COLUMNS = 10;
+            const ROWS = 7;
+            const scale = 2; // Render at 2x for better quality
+
+            try {
+                // Get the specific chunk of cards for this sheet
+                const allCardsForOrigin = Array.from(document.querySelectorAll(`.card[data-origin-file="${originFile}"]`));
+                const startIndex = (sheetIndex - 1) * CARDS_PER_SHEET;
+                const endIndex = startIndex + CARDS_PER_SHEET;
+                const cardChunk = allCardsForOrigin.slice(startIndex, endIndex);
+
+                if (cardChunk.length === 0) throw new Error("Could not find cards for this sheet.");
+
+                const cardWidth = cardChunk[0].offsetWidth;
+                const cardHeight = cardChunk[0].offsetHeight;
+                
+                // Create placeholder canvas
+                const placeholderElement = createPlaceholderElement(cardWidth, cardHeight);
+                const placeholderCanvas = await html2canvas(placeholderElement, { backgroundColor: null, scale: scale });
+                document.body.removeChild(placeholderElement);
+
+                // Create the main sheet canvas
+                const sheetCanvas = document.createElement('canvas');
+                sheetCanvas.width = cardWidth * COLUMNS * scale;
+                sheetCanvas.height = cardHeight * ROWS * scale;
+                const ctx = sheetCanvas.getContext('2d');
+                ctx.imageSmoothingEnabled = false;
+
+                // Draw each card onto the sheet
+                for (let i = 0; i < cardChunk.length; i++) {
+                    const cardElement = cardChunk[i];
+                    const row = Math.floor(i / COLUMNS);
+                    const col = i % COLUMNS;
+
+                    const cardCanvas = await html2canvas(cardElement, { 
+                        useCORS: true, 
+                        backgroundColor: null, 
+                        scale: scale 
+                    });
+                    ctx.drawImage(cardCanvas, col * cardWidth * scale, row * cardHeight * scale);
+                }
+
+                // Add the hidden card placeholder
+                const placeholderRow = Math.floor(69 / COLUMNS);
+                const placeholderCol = 69 % COLUMNS;
+                ctx.drawImage(placeholderCanvas, placeholderCol * cardWidth * scale, placeholderRow * cardHeight * scale);
+
+                // Trigger download
+                const sheetBlob = await new Promise(resolve => sheetCanvas.toBlob(resolve, 'image/png'));
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(sheetBlob);
+                link.download = `${originFile.replace(/\.json$/i, '')}_sheet_${sheetIndex}.png`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(link.href);
+
+                statusDiv.textContent = `Successfully downloaded ${link.download}.`;
+
+            } catch (error) {
+                console.error("Error generating single sheet:", error);
+                statusDiv.textContent = `Error: ${error.message}`;
+                statusDiv.style.color = '#e74c3c';
+            } finally {
+                buttonElement.disabled = false;
+            }
+        }
+    </script>
+
+</body>
+</html>

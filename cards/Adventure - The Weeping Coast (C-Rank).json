@@ -1,0 +1,267 @@
+[
+  {
+    "name": "The Weeping Coast (C-Rank)",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Scenario",
+    "difficulty": "C-Rank",
+    "description": "<p><em>A desolate, fog-shrouded coastline dominated by a tall, silent lighthouse. The air is thick with the smell of salt and sorrow. Locals speak of a ghostly light and a wailing sound that carries on the wind at night.</em></p><hr><h4>Progression</h4><p>Draw the next card from this Region Deck: <strong>'The Ghost of the Lighthouse'</strong>.</p>",
+    "header_image": "Weeping_Coast.png"
+  },
+  {
+    "name": "The Ghost of the Lighthouse",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>The source of the wailing seems to be the old lighthouse that stands on a rocky outcrop just off the coast. You must make your way to its base to investigate further.</em></p><hr><h4>Objective</h4><p>Travel to the lighthouse.</p><hr><h4>Journey</h4><p>Make a <strong>Journey Roll</strong> to cross the treacherous, tide-swept causeway. Your destination is the <strong>'Lighthouse Shore'</strong> Location Card.</p><hr><h4>Progression</h4><p>Upon arriving, begin a Timed Scene using the 'Lighthouse Shore' card for setup.</p>",
+    "header_image": "Ghost_of_the_Lighthouse.png"
+  },
+  {
+    "name": "Lighthouse Shore",
+    "crystals": {
+      "provides": [
+        "black",
+        "red"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>You arrive on the rocky island. The base of the lighthouse looms above. The skeletal remains of drowned sailors, animated by a restless spirit, claw their way from the surf!</em></p><hr><h4>Setup</h4><ul><li>**Map:** 10x10 grid (A-J columns, 1-10 rows).</li><li>**Terrain:** Squares A1 to A10 are **Deep Water** (Hazard: 1d6 MD water damage and Slowed for 1 round). All other squares are **Difficult Terrain** (jagged rock).</li><li>**Enemies:** Place 3 <strong>'Skeletal Pirate'</strong> creatures at A5, B4, and B6.</li><li>**Players:** Start on any square in column J.</li></ul><hr><h4>Objective</h4><p>Defeat all enemies.</p><hr><h4>Progression</h4><p>Once all enemies are defeated, draw the next card from this Region Deck: <strong>'Climbing the Spire'</strong>.</p>",
+    "header_image": "Lighthouse_Shore.png"
+  },
+  {
+    "name": "Skeletal Pirate",
+    "crystals": {
+      "provides": [
+        "black",
+        "red"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Undead"
+    ],
+    "description": "<p><em>A reanimated skeleton in tattered pirate garb, wielding a rusty cutlass.</em></p><hr><table><tbody><tr><td>Rusted Cutlass</td><td>**Active** (Melee) Melee attack that deals HD damage.</td></tr><tr><td>Undying</td><td>**Passive** When this creature is defeated, roll a d6. On a 6, it reassembles at the start of its next turn with 1 HP.</td></tr></tbody></table><hr><h3>Combat AI (Very Low INT)</h3><p>The pirate is a mindless automaton, driven only by the closest living target.</p><ol><li>**Step 1: Determine Target:** The **closest enemy**.</li><li>**Step 2: Determine Action:** Use **Rusted Cutlass**.</li><li>**Step 3: Movement:** Moves up to its SPEED (4) to achieve **melee adjacency** to the target. Follows the **INT -1 or lower** General Movement AI rule (moves through Difficult Terrain/water hazards without care).</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 15
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 1
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": -2
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "🦶", "ability_value":  4
+      }
+    ],
+    "header_image": "Skeletal_Pirate.png"
+  },
+  {
+    "name": "Climbing the Spire",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>The entrance to the lighthouse is a heavy, iron door, rusted shut by decades of salt spray. The wailing from within grows louder.</em></p><hr><h4>Objective</h4><p>Find a way inside the lighthouse.</p><hr><h4>Progression</h4><p>Begin a Timed Scene. Use the <strong>'Lighthouse Entrance'</strong> Location Card for setup.</p>",
+    "header_image": "Climbing_the_Spire.png"
+  },
+  {
+    "name": "Lighthouse Entrance",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "red",
+        "cerulean"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A small, 10x5 landing at the base of the lighthouse. The only feature is a massive, rusted iron door (🔍 at A3). There are no enemies here.</em></p><hr><h4><i class='fas fa-search'></i> Investigate the Door</h4><p>A character adjacent to the door (A2, A3, A4) can use their Action to attempt to open it. Choose one of the following actions:</p><ul><li>**Force the Door (Hack & Slash):** Make a Hack & Slash attack against the door (HP: 20, Armor: 3).</li><li>**Pick the Lock (Disarm):** Attempt to pick the lock. Roll+DEX. On a 16+, the door opens silently. On a 9-15, it opens with a loud groan, and the party is **Weakened** for the first round of the next combat. On a 1-8, your tools break.</li></ul><hr><h4>Progression</h4><p>Once the door is open, discard this card and draw the next card: <strong>'The Lantern Room'</strong>.</p>",
+    "header_image": "Lighthouse_Door.png"
+  },
+  {
+    "name": "The Lantern Room",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>You ascend the winding stairs to the top of the lighthouse. In the center of the room, a spectral figure weeps over the unlit lantern. It is the ghost of the lighthouse keeper, Captain Eva. She turns, her face a mask of sorrow and rage. \"You will not extinguish my memory!\"</em></p><hr><h4>Objective</h4><p>Confront the spirit of the Weeping Captain.</p><hr><h4>Progression</h4><p>Begin a Timed Scene. Use the <strong>'Lantern Room'</strong> Location Card for setup.</p>",
+    "header_image": "Lantern_Room_Quest.png"
+  },
+  {
+    "name": "Lantern Room",
+    "crystals": {
+      "provides": [
+        "purple",
+        "blue"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>The circular 8x8 room at the peak of the lighthouse. A massive, unlit crystal lantern (🔍) dominates the center four squares (D4, E4, D5, E5).</em></p><hr><h4>Setup</h4><ul><li>**Map:** 8x8 grid.</li><li>**Enemies:** Place the <strong>'Weeping Captain'</strong> at E4.</li><li>**Players:** Start on any square in row 8.</li></ul><hr><h4><i class='fas fa-search'></i> Light the Lantern</h4><p>An adjacent character can use their action to try and relight the lantern. Roll+WIS.<br>**On a 16+:** The lantern flares to life, making the Captain **Stunned** for 1 round.<br>**On a 9-15:** It sputters, making the Captain **Weakened** for 1 round.<br>**Peril (1-8):** It fails.</p><hr><h4>Progression</h4><p>When the 'Weeping Captain' is defeated, draw the final card: <strong>'Peace for the Captain'</strong>.</p>",
+    "header_image": "Lantern_Room_Location.png"
+  },
+  {
+    "name": "The Weeping Captain",
+    "crystals": {
+      "provides": [
+        "purple",
+        "black",
+        "blue"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Undead",
+      "Spirit"
+    ],
+    "description": "<p><em>The sorrowful spirit of a lighthouse keeper, bound to her post and enraged by her fading memory.</em></p><hr><table><tbody><tr><td>Sorrowful Wail</td><td>**Active** (Area) All characters must Defy Danger (WIS). On a 1-8, you take 1d6 SD and are **Frightened** for 1 round. On a 9-15, you take 1d4 SD.</td></tr><tr><td>Ethereal Lash</td><td>**Active** (Melee) Deals SD damage.</td></tr><tr><td>Incorporeal</td><td>**Passive** Takes half damage from non-magical physical sources (HD).</td></tr></tbody></table><hr><h3>Combat AI (High INT)</h3><p>The Captain is a tragic figure who seeks to cause distress (SD) while protecting her objective (the unlit lantern).</p><ol><li>**Step 1: Determine Target:** The enemy who has dealt the **most total damage (HP+SP)** to her in the previous turn. If a player is adjacent to the **Unlit Lantern**, that player is the priority.</li><li>**Step 2: Determine Action:**<ul><li>If 3 or more enemies are within 5 squares: Use **Sorrowful Wail** (Area SD).</li><li>If an enemy is adjacent to the Unlit Lantern: Use **Ethereal Lash** on that enemy.</li><li>Otherwise: Use **Sorrowful Wail** (Area SD).</li></ul></li><li>**Step 3: Movement:** Moves up to her SPEED (5). Follows the **INT +1 or higher** General Movement AI rule (avoids hazards). She attempts to place herself in the **Unlit Lantern** squares (D4, E4, D5, E5) to defend it, or moves to a position that allows her **Sorrowful Wail** to hit the maximum number of enemies.</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 25
+      },
+      {
+        "stat_name": "mp",
+        "stat_value": 0
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 20
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d8"
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 1
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "🦶", "ability_value":  5
+      }
+    ],
+    "header_image": "Weeping_Captain.png"
+  },
+  {
+    "name": "Peace for the Captain",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Event",
+    "description": "<p><em>With the spirit defeated, a sense of peace settles over the lighthouse. The lantern, now lit, casts a warm, steady glow across the sea. You have put the captain's spirit to rest.</em></p><hr><h4>Reward</h4><p>The party receives 100 gold each. You find the <strong>'Captain's Spyglass'</strong> rare item resting on the railing.</p><hr><h4>Scenario Complete</h4><p>You have completed this region's story. If this Region Deck had a <strong>Key Token</strong> on it, you now claim it. Discard all remaining cards in this deck. The session ends. Proceed to the Post-Session Phase (Downtime & Progression).</p>",
+    "header_image": "Quest_Complete.png"
+  },
+  {
+    "name": "Captain's Spyglass",
+    "crystals": {
+      "requires": [
+        "blue",
+        "cerulean"
+      ]
+    },
+    "type": [
+      "item",
+      "gear",
+      "rare",
+      "magic"
+    ],
+    "description": "<p><em>An ornate brass spyglass that feels strangely cold. Looking through it, you can see not just ships, but the ghostly echoes of where they have been.</em></p><hr><h3>Ghostly Wake</h3><p>When you use the **Explore New Region** action in a Campaign, you may look through the spyglass. If you do, you have advantage on the Journey Roll to travel to that region for the first time.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "300"
+      }
+    ],
+    "header_image": "Spyglass.png"
+  }
+]

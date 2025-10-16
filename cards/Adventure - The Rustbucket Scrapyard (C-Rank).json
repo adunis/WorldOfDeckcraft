@@ -1,0 +1,331 @@
+[
+  {
+    "name": "The Rustbucket Scrapyard (C-Rank)",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Scenario",
+    "difficulty": "C-Rank",
+    "description": "<p><em>A canyon filled with the rusted detritus of an ancient war machine graveyard. The air is filled with the sound of clanging metal and manic, high-pitched laughter. A goblin clan has taken up residence and is building something dangerous. Your objective is to neutralize the threat and investigate the purpose of their construction.</em></p><hr><h4>Progression</h4><p>Draw the next card from this Region Deck: <strong>'Scouting the Perimeter'</strong>.</p>",
+    "header_image": "Rustbucket_Scrapyard.png"
+  },
+  {
+    "name": "Scouting the Perimeter",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>Goblin patrols are guarding the entrance to the main junk piles. You need to clear a path before you can venture deeper.</em></p><hr><h4>Objective</h4><p>Defeat the goblin patrol to secure an entrance.</p><hr><h4>Journey</h4><p>Make a <strong>Journey Roll</strong> to navigate the razor-sharp scrap metal surrounding the camp. Your destination is the <strong>'Scrap Heap Ambush'</strong> Location Card.</p><hr><h4>Progression</h4><p>Upon arriving, begin a Timed Scene using the 'Scrap Heap Ambush' card for setup.</p>",
+    "header_image": "Scouting_Perimeter.png"
+  },
+  {
+    "name": "Scrap Heap Ambush",
+    "crystals": {
+      "provides": [
+        "red",
+        "black"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A narrow, 8x12 path winds through towering piles of unstable, rusted metal. Goblins lie in wait among the junk.</em></p><hr><h4>Setup</h4><ul><li>**Map:** 8x12 grid (A-H columns, 1-12 rows).</li><li>**Terrain:** All squares in columns 1, 2, 7, and 8 are **Junk Piles** (Difficult Terrain & Cover).</li><li>**Enemies:** Place 2 <strong>'Goblin Stabber'</strong> creatures at C8 and F8. Place 1 <strong>'Goblin Net-Trapper'</strong> at D10.</li><li>**Players:** Start on any square in row 1.</li></ul><hr><h4>Objective</h4><p>Defeat all enemies.</p><hr><h4>Progression</h4><p>Once all enemies are defeated, draw the next card: <strong>'The Boom Gate'</strong>.</p>",
+    "header_image": "Scrap_Heap.png"
+  },
+  {
+    "name": "Goblin Stabber",
+    "crystals": {
+      "provides": [
+        "black"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Humanoid",
+      "Goblin"
+    ],
+    "description": "<p><em>A scrawny goblin with a rusty shank and a nasty grin.</em></p><hr><table><tbody><tr><td>Shank</td><td>**Active** (Melee) Deals HD damage. If the target is adjacent to another goblin, deals +2 damage.</td></tr></tbody></table><hr><h3>Combat AI (Medium INT)</h3><ol><li>**Step 1: Determine Target:** The enemy with the **lowest current HP**.</li><li>**Step 2: Determine Action:**<ul><li>If the Stabber is adjacent to the Target AND the Target is adjacent to another ally: Use **Shank** (for +2 damage).</li><li>Otherwise: Use a basic melee attack.</li></ul></li><li>**Step 3: Movement:** Moves up to its SPEED (6). Follows the **INT 0** General Movement AI rule. It prioritizes moving to a square adjacent to the Target AND adjacent to another ally if possible.</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 10
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 0
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "🦶", "ability_value":  6
+      }
+    ],
+    "header_image": "Goblin_Stabber.png"
+  },
+  {
+    "name": "Goblin Net-Trapper",
+    "crystals": {
+      "provides": [
+        "green"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Humanoid",
+      "Goblin"
+    ],
+    "description": "<p><em>Stays at range, trying to entangle foes with weighted nets.</em></p><hr><table><tbody><tr><td>Throw Net</td><td>**Active** (Range 6) Ranged attack. Target must Defy Danger (DEX) or become **Immobilized** for 1 round.</td></tr></tbody></table><hr><h3>Combat AI (High INT)</h3><ol><li>**Step 1: Determine Target:** The enemy with the **highest HD** (most immediate physical threat).</li><li>**Step 2: Determine Action:**<ul><li>If the Target is within **Throw Net range (6)** and **NOT** already Immobilized: Use **Throw Net**.</li><li>Otherwise: Use a basic melee attack.</li></ul></li><li>**Step 3: Movement:** Moves up to its SPEED (5). Follows the **INT +1 or higher** General Movement AI rule (avoids Difficult Terrain, seeks Cover). It prioritizes moving to a square that places the Target within **Throw Net range (6)** while maintaining at least 3 squares of distance from the closest enemy.</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 8
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 0
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": 0
+      },
+      {
+        "ability_name": "🦶", "ability_value":  5
+      }
+    ],
+    "header_image": "Goblin_Net-Trapper.png"
+  },
+  {
+    "name": "The Boom Gate",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>You've reached the entrance to the main workshop, but it's blocked by a reinforced gate rigged with erratic gnomish explosives the goblins scavenged.</em></p><hr><h4>Objective</h4><p>Bypass the trapped gate.</p><hr><h4>Progression</h4><p>Begin a Timed Scene. Use the <strong>'Rigged Entrance'</strong> Location Card for setup.</p>",
+    "header_image": "Boom_Gate.png"
+  },
+  {
+    "name": "Rigged Entrance",
+    "crystals": {
+      "requires": [],
+      "provides": [
+        "red",
+        "gold"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A 6x6 area in front of a large metal gate (Wall along row 6). A complex, ticking explosive device is strapped to the center (🔍 at C6, D6). No enemies present.</em></p><hr><h4><i class='fas fa-search'></i> Disarm the Bomb</h4><p>An adjacent character (A5, B5, C5, D5, E5, F5, A7, B7, C7, D7, E7, F7) can use an Action to <strong>Investigate</strong>.<br><strong>Roll+INT (to disarm) or Roll+DEX (to pry it off quickly).</strong><br><strong>On a 16+:</strong> You disarm the device and the gate swings open.</p><p><strong>On a 9-15:</strong> You trigger a small charge. You take 1d6 fire damage, but the gate blows open.</p><p><strong>Peril (1-8):</strong> Massive explosion! All characters in the scene take 2d6 fire damage. The gate is destroyed.</p><hr><h4>Progression</h4><p>Once the gate is open (by disarming or explosion), draw the next card: <strong>'Boss: The Scrap Titan'</strong>.</p>",
+    "header_image": "Rigged_Entrance.png"
+  },
+  {
+    "name": "Boss: The Scrap Titan",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Quest",
+    "description": "<p><em>Inside the workshop, Chief Sparkfizzle sits atop a massive, hulking construct made of welded scrap metal, boiler plates, and spinning gears. \"You're just in time to test my masterpiece!\" he cackles.</em></p><hr><h4>Objective</h4><p>Defeat Chief Sparkfizzle and his Scrap Titan.</p><hr><h4>Progression</h4><p>Begin a Timed Scene. Use the <strong>'Main Assembly Floor'</strong> Location Card for setup.</p>",
+    "header_image": "Boss_Scrap_Titan.png"
+  },
+  {
+    "name": "Main Assembly Floor",
+    "crystals": {
+      "provides": [
+        "red",
+        "gold",
+        "black"
+      ]
+    },
+    "type": "Location",
+    "description": "<p><em>A large, open 12x12 workshop littered with tools and oil stains.</em></p><hr><h4>Setup</h4><ul><li>**Map:** 12x12 grid (A-L columns, 1-12 rows).</li><li>**Enemies:** Place <strong>'The Scrap Titan'</strong> (Boss) at G6 (it occupies a 2x2 space: G6, H6, G7, H7). Place 2 <strong>'Goblin Stabbers'</strong> at C4 and J4.</li><li>**Players:** Start on any square in row 12.</li></ul><hr><h4>Progression</h4><p>When 'The Scrap Titan' is defeated, draw the final card: <strong>'Scrapyard Salvage'</strong>.</p>",
+    "header_image": "Assembly_Floor.png"
+  },
+  {
+    "name": "The Scrap Titan",
+    "crystals": {
+      "provides": [
+        "gold",
+        "red",
+        "gold"
+      ]
+    },
+    "type": [
+      "Creature",
+      "Construct",
+      "Boss"
+    ],
+    "description": "<p><em>A towering, piloted mech made of rusted iron, venting steam and oil.</em><hr><strong>Boss Creature:</strong> Draw 1 random Gold and 1 random Red Feature card and attach them.</p><hr><table><tbody><tr><td>Heavy Plating</td><td>**Passive** Reduces all incoming physical damage (HD) by 2.</td></tr><tr><td>Steam Vent</td><td>**Active** (Adjacent) All adjacent characters must Defy Danger (DEX) or take 1d6 MD fire damage and be **Pushed 1**.</td></tr><tr><td>Crushing Claw</td><td>**Active** (Melee) Deals HD damage. On a critical hit, the target is **Stunned** for 1 round.</td></tr></tbody></table><hr><h3>Combat AI (High INT)</h3><ol><li>**Step 1: Determine Target:** The enemy with the **highest total damage output (HD+MD)** in the previous turn.</li><li>**Step 2: Determine Action:**<ul><li>If three or more enemies are adjacent to the Titan's 2x2 area: Use **Steam Vent**.</li><li>If the Target is adjacent: Use **Crushing Claw** on them.</li><li>Otherwise: Use a basic ranged attack (MD) on the closest enemy within range (6).</li></ul></li><li>**Step 3: Movement:** Moves up to its SPEED (4). Follows the **INT +1 or higher** General Movement AI rule (actively avoids all hazards/Difficult Terrain). It prioritizes moving to a square that places a high number of enemies adjacent to its large 2x2 frame.</li></ol>",
+    "stats": [
+      {
+        "stat_name": "hp",
+        "stat_value": 45
+      },
+      {
+        "stat_name": "hd",
+        "stat_value": "1d10"
+      },
+      {
+        "stat_name": "md",
+        "stat_value": "1d6"
+      },
+      {
+        "stat_name": "sd",
+        "stat_value": "1d4"
+      },
+      {
+        "stat_name": "sp",
+        "stat_value": 5
+      },
+      {
+        "stat_name": "🛡️",
+        "stat_value": 3
+      }
+    ],
+    "abilities": [
+      {
+        "ability_name": "STR",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "DEX",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "COS",
+        "ability_value": 3
+      },
+      {
+        "ability_name": "INT",
+        "ability_value": 2
+      },
+      {
+        "ability_name": "WIS",
+        "ability_value": 1
+      },
+      {
+        "ability_name": "CAR",
+        "ability_value": -1
+      },
+      {
+        "ability_name": "🦶", "ability_value":  4
+      }
+    ],
+    "header_image": "Scrap_Titan.png"
+  },
+  {
+    "name": "Scrapyard Salvage",
+    "crystals": {
+      "requires": [],
+      "provides": []
+    },
+    "type": "Event",
+    "description": "<p><em>With the Titan destroyed and Chief Sparkfizzle fleeing, the remaining goblins scatter. You rifle through the workshop, finding a stash of stolen coins and a peculiar piece of technology.</em></p><hr><h4>Reward</h4><p>The party receives 200 gold total. You find the <strong>'Overclocked Goggles'</strong> rare item.</p><hr><h4>Scenario Complete</h4><p>You have completed this region's story. If this Region Deck had a <strong>Key Token</strong> on it, you now claim it. Discard all remaining cards in this deck. The session ends. Proceed to the Post-Session Phase (Downtime & Progression).</p>",
+    "header_image": "Loot_Chest.png"
+  },
+  {
+    "name": "Overclocked Goggles",
+    "crystals": {
+      "requires": [
+        "gold",
+        "cerulean"
+      ],
+      "provides": []
+    },
+    "type": [
+      "item",
+      "gear",
+      "rare",
+      "magic"
+    ],
+    "description": "<p><em>Brass goggles with multiple spinning lenses that whir softly. They analyze weaknesses in real-time.</em></p><hr><h3>Target Analysis</h3><p>When you use the <strong>Volley</strong> action, you can spend 1 MP. If you do, roll with advantage. If the attack is a High Hit (16+), it ignores 2 points of the target's Armor.</p>",
+    "stats": [
+      {
+        "stat_name": "kg",
+        "stat_value": "0.5"
+      },
+      {
+        "stat_name": "$",
+        "stat_value": "350"
+      }
+    ],
+    "header_image": "Overclocked_Goggles.png"
+  }
+]
